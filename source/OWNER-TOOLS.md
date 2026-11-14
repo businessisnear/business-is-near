@@ -145,3 +145,15 @@ static Nightly company service. Recurrence, real hiring, Cloud and mainnet remai
 outside its verified scope.
 
 
+The public company workspace also includes a read-only saved-action metadata
+inspector. It projects nine allowlisted public fields, keeps every outcome
+UNKNOWN, and does not clear, reconcile, retry or sign. Missing hashes do not
+prove unsigned actions. It never displays raw task args, encrypted scope,
+capabilities, keys, recovery material or signing wires. Its 25 fake-record/DOM
+checks are separate from the company83/proxy7 profiles. From this source root,
+run `node --test web-chain/tests/business-pending-metadata.test.mjs`.
+Native disclosure open state survives ordinary refresh; stale rows are replaced.
+This does not validate a live pending record, repair wallet recovery, authenticate
+an owner, or prove transaction finality. Only the exact source and fake preview
+scope described in current verification evidence may be claimed.
+

@@ -1313,8 +1313,8 @@
     },
     {
       "path": "scripts/owner_tools_source.py",
-      "bytes": 20292,
-      "sha256": "86d9facb80d0258e062ad4236a4e0841969d6bfc19ded99314c2645bf2ed839e"
+      "bytes": 21292,
+      "sha256": "c92b61b4e656d3a194320ea5ac3d8554b15956da979e8dc004d6f18f6f3b8c8b"
     },
     {
       "path": "scripts/private-rehearsal-path.mjs",
@@ -1368,8 +1368,8 @@
     },
     {
       "path": "web-chain/business.html",
-      "bytes": 28706,
-      "sha256": "a95fb25dad328ebaf1bf4dbf3470ac032992dd5bf9e1f8e16769953797070e0c"
+      "bytes": 28847,
+      "sha256": "6ca15f014818a1c1f09b4dedbdb65f209b710b7cf3bff1e1664d80d979e0a450"
     },
     {
       "path": "web-chain/factory.html",
@@ -1577,14 +1577,24 @@
       "sha256": "9ede25bf9f586f12afa0fe840a9a2cabf5dae3a9f7e7ec021b5fc16f4ad1541a"
     },
     {
+      "path": "web-chain/src/business-pending-metadata.css",
+      "bytes": 919,
+      "sha256": "10f96df6d05c25ee1a510c71a99f25f0d4ccbc2e99f2a7383c119ee029978912"
+    },
+    {
+      "path": "web-chain/src/business-pending-metadata.js",
+      "bytes": 5602,
+      "sha256": "c11392b5cd9c9eaa5cb77f6282a7c5fac4747cb965e2ea1bcdc49cdb30816605"
+    },
+    {
       "path": "web-chain/src/business-presentation.js",
       "bytes": 8044,
       "sha256": "4d63b03041ae33bb18e8bf83738557b2f1be683f168028582667c667fc891540"
     },
     {
       "path": "web-chain/src/business-ui.js",
-      "bytes": 86671,
-      "sha256": "6aa127759d4b697cb54e3e0a47cfbdd53ec2c264a919e18d56624ebef534ab57"
+      "bytes": 87813,
+      "sha256": "042f1d300a0f9704216efcdbe33018b85c65ef622891df3b85c6e76fe829b6cc"
     },
     {
       "path": "web-chain/src/business.css",
@@ -2132,6 +2142,11 @@
       "sha256": "aa1a5d4cd258260f8f7ec2be679ab4f0e3a51477d9327d803e2d8a61ad33c00e"
     },
     {
+      "path": "web-chain/tests/business-pending-metadata.test.mjs",
+      "bytes": 16171,
+      "sha256": "2eae3e35984f7bc3a47a0e7e607daa4216da90de8cbbcca0f808f0e74b1b7ea6"
+    },
+    {
       "path": "web-chain/tests/founder-next-actions.test.mjs",
       "bytes": 27911,
       "sha256": "5d13159c201a46006456145d708ecd4595336422d12440197a2d27a1d0fc01f3"
@@ -2168,8 +2183,8 @@
     },
     {
       "path": "OWNER-TOOLS.md",
-      "bytes": 9542,
-      "sha256": "d042265600c8c05a29ed17b579241a8437d6844182b581e5030ad29bbc60ac4e"
+      "bytes": 10383,
+      "sha256": "0f1631d071f6e7860c547ab7e95f33c7fb02f4f7645266e7ab84464ebfe8c91c"
     }
   ],
   "dependency_installation_required": true,

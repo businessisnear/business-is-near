@@ -1,6 +1,6 @@
 {
   "format": 2,
-  "prepared_at": "2026-11-14T19:33:34.114460+00:00",
+  "prepared_at": "2026-11-14T22:05:04.185560+00:00",
   "target_repository": "businessisnear/business-is-near",
   "pages_source": {
     "branch": "main",
@@ -10,27 +10,27 @@
     "name": "Business is NEAR Automation",
     "email": "356015766+businessisnear@users.noreply.github.com"
   },
-  "scope": "Clean public static showcase and reproducible source, repaired local company workflow with qualified single-task local trial, and narrated videoV2 with labelled historical Nightly footage and local trial2 stills. The general public worker, durable recurring company loop and production recovery remain unfinished. No Cloud, TEE, mainnet, actual human hire, parity or ten successful full-run claim.",
+  "scope": "Reviewed static/source release with read-only saved-action metadata and existing wallet-owner company discovery links. Existing transaction/UNKNOWN/recovery lifecycle unchanged. Local company procurement and narrated video remain separately qualified. Managed recovery vault is separate private work, not a deployed public service. Recurrence, production recovery, Cloud/TEE, mainnet, actual human hire, parity and ten full runs are unverified.",
   "files": {
     ".gitignore": {
       "bytes": 229,
       "sha256": "2ff5b1dfb56ef0be42dbd273d1e81e2abd5987e3548823b725550462f34a7cf3"
     },
     "DEPLOYMENT.md": {
-      "bytes": 5942,
-      "sha256": "6d813d3379249a46813655ffd3a303bd3965a5058315d76430ca3a68d4ea6e0f"
+      "bytes": 6249,
+      "sha256": "1d286e0aa65b35224ea0e683d4385500f118cff4ca5fceb7aa4797042235c4f0"
     },
     "LICENSE": {
       "bytes": 430,
       "sha256": "9a967d585c4e2096196a98fb9250590dc45bc05b21e4eff4b7dcc5bfd48a3bbc"
     },
     "README.md": {
-      "bytes": 7912,
-      "sha256": "06d413038f15c368de71070ea6aef5ca61033703f7e21f00fb6daf3aa7eb0116"
+      "bytes": 8219,
+      "sha256": "c74e39c0b8e2e2925426bd671797009c9609799cf4d7cccccc4e0aa01ec436c8"
     },
     "SETUP.md": {
-      "bytes": 4702,
-      "sha256": "de244229830b4fcaf22cdf64f2d1c036c5463a2226dac88b7d61e3b81dcf3f7f"
+      "bytes": 5009,
+      "sha256": "fd78797695f80bb0f2b78f64154b5fff0d1a68af874baec2219bb874d8e871bb"
     },
     "THIRD-PARTY-NOTICES.md": {
       "bytes": 311316,
@@ -48,6 +48,10 @@
       "bytes": 311316,
       "sha256": "268e76e4cf954b69d275cf02e7960b20f4ad0d6b716b8649bfdf37c13f1f09a6"
     },
+    "docs/app/assets/business-Bary8xOH.js": {
+      "bytes": 451532,
+      "sha256": "30268fcc2cc6405ef6f642b09fa1f66170065f358ad061b5ffd867a0435843fd"
+    },
     "docs/app/assets/business-BkGoZ5ac.css": {
       "bytes": 34926,
       "sha256": "f8fc05be6a41ba5abed5c45ae44f567ef9804568cfd82d39dd1daef9ac7aff57"
@@ -59,6 +63,10 @@
     "docs/app/assets/business-Dfsjs-xs.css": {
       "bytes": 37359,
       "sha256": "6071850f96dabb8e7c9300c502f8a118bc27b25ce71ce033c9b561f51e8c9918"
+    },
+    "docs/app/assets/business-DwDwUT0F.css": {
+      "bytes": 38245,
+      "sha256": "b78848ac23f876a4c685df70127895861c5294566ba3db2c08905c3fdd707f99"
     },
     "docs/app/assets/business-Ue_OIHn8.js": {
       "bytes": 446816,
@@ -237,8 +245,8 @@
       "sha256": "9d65ea6c0278b400672b273e29697e06c495bc95db10e7531fabc4c93db5fbac"
     },
     "docs/app/business.html": {
-      "bytes": 30757,
-      "sha256": "fdf6ca9f6626179f6840ca8146d6b07e2c4bc6493acbe3622ccead9b26210841"
+      "bytes": 30898,
+      "sha256": "fe1a867fb9ab88eebae42be7c08da175b4ae3f6cbc9c02c7d73f6b1940dc8ac0"
     },
     "docs/app/example-result.json": {
       "bytes": 2701,
@@ -297,8 +305,8 @@
       "sha256": "a232de59104ccbbc48c5acb6fe4bf05d1626ff5d7e60580120fb6fee0b5c826a"
     },
     "docs/downloads/business-is-near-reproducible-source.zip": {
-      "bytes": 6124366,
-      "sha256": "e76e6961626e9e126784cc88229bdf4385f73bd11a5bbebba5bcc762bfb44fa1"
+      "bytes": 6162491,
+      "sha256": "bd3eb0c87024254f69b34f2c9313acfa6eb584dc9fa489413e4959fb397bea1c"
     },
     "docs/evidence/company-loop-v5-repaired/PUBLIC-PROOF-MANIFEST.json": {
       "bytes": 8092,
@@ -613,8 +621,8 @@
       "sha256": "5c817313415fe61ce450eb76165861eb86fe701dc0838d4e006189a29b810b00"
     },
     "docs/evidence/current-source-verification.json": {
-      "bytes": 11013,
-      "sha256": "a2994d42befc24fb9f8586c3f922fdd9eeebc370366feb5e08ecae70b02c539a"
+      "bytes": 15273,
+      "sha256": "f5bd3370e934fbd717226612cb7ddead40371dd25d03b917f1efb2ed82a59fba"
     },
     "docs/evidence/local-initial-smoke/AFTER-CANCEL-UI.json": {
       "bytes": 6545,
@@ -637,8 +645,8 @@
       "sha256": "e292347b1b1778161c1e911cd13fb218fb7aba3d78cdf70c564a94088fc127df"
     },
     "docs/index.html": {
-      "bytes": 22287,
-      "sha256": "7b919f9e06adaedd5c1783e467ecd61d85cef9de7b1f06fdfb30d6ffba482945"
+      "bytes": 22285,
+      "sha256": "1da27bf10da6a382ac83cfd53aa22f5b1c12b916338ddb75305cf365a807fb90"
     },
     "docs/styles.css": {
       "bytes": 23947,
@@ -653,12 +661,12 @@
       "sha256": "56031c4db820ba499190129b451b8ed71de701579c02e19f9dd825771bbfa61e"
     },
     "source/OWNER-TOOLS-SOURCE.json": {
-      "bytes": 74213,
-      "sha256": "33da27d3d6c1a05ebdb94d33b136ef72d6823c20eaaf2fc220c7fed7369c4c59"
+      "bytes": 74754,
+      "sha256": "c0399959fdcb599d3e1b1d6f988cf51bea17846a3b8001bc7ab7541c02937cf8"
     },
     "source/OWNER-TOOLS.md": {
-      "bytes": 9542,
-      "sha256": "d042265600c8c05a29ed17b579241a8437d6844182b581e5030ad29bbc60ac4e"
+      "bytes": 10383,
+      "sha256": "0f1631d071f6e7860c547ab7e95f33c7fb02f4f7645266e7ab84464ebfe8c91c"
     },
     "source/THIRD-PARTY-NOTICES.md": {
       "bytes": 311316,
@@ -1701,8 +1709,8 @@
       "sha256": "d33850676e348d625b19f1da5627d8f5dc4fe86a413d3755f7a2239e9d562fa5"
     },
     "source/scripts/owner_tools_source.py": {
-      "bytes": 20292,
-      "sha256": "86d9facb80d0258e062ad4236a4e0841969d6bfc19ded99314c2645bf2ed839e"
+      "bytes": 21292,
+      "sha256": "c92b61b4e656d3a194320ea5ac3d8554b15956da979e8dc004d6f18f6f3b8c8b"
     },
     "source/scripts/private-rehearsal-path.mjs": {
       "bytes": 1060,
@@ -1745,8 +1753,8 @@
       "sha256": "6cddd363bd1080d0300cb47647c71990a7b619e6a5809cd7cbf6219ab646ff90"
     },
     "source/web-chain/business.html": {
-      "bytes": 28706,
-      "sha256": "a95fb25dad328ebaf1bf4dbf3470ac032992dd5bf9e1f8e16769953797070e0c"
+      "bytes": 28847,
+      "sha256": "6ca15f014818a1c1f09b4dedbdb65f209b710b7cf3bff1e1664d80d979e0a450"
     },
     "source/web-chain/factory.html": {
       "bytes": 341,
@@ -1912,13 +1920,21 @@
       "bytes": 8987,
       "sha256": "9ede25bf9f586f12afa0fe840a9a2cabf5dae3a9f7e7ec021b5fc16f4ad1541a"
     },
+    "source/web-chain/src/business-pending-metadata.css": {
+      "bytes": 919,
+      "sha256": "10f96df6d05c25ee1a510c71a99f25f0d4ccbc2e99f2a7383c119ee029978912"
+    },
+    "source/web-chain/src/business-pending-metadata.js": {
+      "bytes": 5602,
+      "sha256": "c11392b5cd9c9eaa5cb77f6282a7c5fac4747cb965e2ea1bcdc49cdb30816605"
+    },
     "source/web-chain/src/business-presentation.js": {
       "bytes": 8044,
       "sha256": "4d63b03041ae33bb18e8bf83738557b2f1be683f168028582667c667fc891540"
     },
     "source/web-chain/src/business-ui.js": {
-      "bytes": 86671,
-      "sha256": "6aa127759d4b697cb54e3e0a47cfbdd53ec2c264a919e18d56624ebef534ab57"
+      "bytes": 87813,
+      "sha256": "042f1d300a0f9704216efcdbe33018b85c65ef622891df3b85c6e76fe829b6cc"
     },
     "source/web-chain/src/business.css": {
       "bytes": 37605,
@@ -2356,6 +2372,10 @@
       "bytes": 17291,
       "sha256": "aa1a5d4cd258260f8f7ec2be679ab4f0e3a51477d9327d803e2d8a61ad33c00e"
     },
+    "source/web-chain/tests/business-pending-metadata.test.mjs": {
+      "bytes": 16171,
+      "sha256": "2eae3e35984f7bc3a47a0e7e607daa4216da90de8cbbcca0f808f0e74b1b7ea6"
+    },
     "source/web-chain/tests/founder-next-actions.test.mjs": {
       "bytes": 27911,
       "sha256": "5d13159c201a46006456145d708ecd4595336422d12440197a2d27a1d0fc01f3"
@@ -2386,11 +2406,14 @@
     }
   },
   "manifest_excludes_itself": true,
-  "reproducible_source_zip_sha256": "e76e6961626e9e126784cc88229bdf4385f73bd11a5bbebba5bcc762bfb44fa1",
+  "reproducible_source_zip_sha256": "bd3eb0c87024254f69b34f2c9313acfa6eb584dc9fa489413e4959fb397bea1c",
   "project_source_license": "All rights reserved for original project materials; no project-wide license grant. Third-party licenses and notices remain applicable.",
   "clean_root_commit": "f0df3120f7b0c37963fcf585e73c625ed0eb0fc7",
-  "current_source_files": 434,
-  "current_source_relative_imports": 514,
+  "current_source_files": 437,
+  "current_source_relative_imports": 517,
   "video_sha256": "cbbe97ebd853192da59805fe6403903a25ca6d6a9b900b24763101e34a721b72",
-  "verification_route": "Current owner-source434/import514 verifier and current83 + separateproxy7; preserved module40 verifier is historical, not a current command."
+  "verification_route": "Current owner-source434/import514 verifier and current83 + separateproxy7; preserved module40 verifier is historical, not a current command.",
+  "read_only_pending_component_source_freeze_sha256": "aa29e142aaa86ecec00914a360ef99b4029d5a66d95bde521dfaebb82b9e626d",
+  "owner_discovery_navigation_merge_sha256": "ee64f1cc1d9557b15e5884e0e0c523ca3fafff2571565842e6c0f7df8d8e093a",
+  "current_frontend_tests": 71
 }

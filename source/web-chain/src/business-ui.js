@@ -1,6 +1,8 @@
 import {founderNightlyModule,createFounderWalletConnection} from './founder-wallet-connectors.js';
 import {inspectWalletCandidate,refreshAfterKnownFinal} from './founder-reconcile.js';
 import './business.css';
+import './business-pending-metadata.css';
+import {readPendingOriginalMetadata,renderPendingOriginalMetadata} from './business-pending-metadata.js';
 import {PUBLIC_TESTNET, PUBLIC_OPERATIONS, createPublicTestnetRPC, verifiedDemo, assertPublicOperation} from './public-testnet.js';
 import demoConfig from './public-testnet-config.json';
 import founderConfig from './founder-config.json';
@@ -55,7 +57,15 @@ const PENDING='proofwork-business-pending-v1';
 const labels={queued:'Queued',awaiting_evidence:'In progress',attested:'Result ready',archived:'Archived',cancelled:'Cancelled',pending_review:'Awaiting review',blocked:'Blocked',reserved:'Reserved',confirmed:'Confirmed',refunding:'Refund pending',refunded:'Refunded',refund_failed:'Refund needs review',settled:'Customer settled'};
 const names={strategy_plan:'Strategy',research_summary:'Research',website_build:'Website',content_draft:'Content',support_draft:'Support',outreach_draft:'Outreach',social_draft:'Social',ads_draft:'Advertising',analytics_report:'Analytics',engineering_patch:'Code repair'};
 function node(tag,attrs={},...children){const value=document.createElement(tag);for(const [name,item] of Object.entries(attrs)){if(name.startsWith('on'))value.addEventListener(name.slice(2),item);else if(name==='class')value.className=item;else if(name==='disabled')value.disabled=!!item;else value.setAttribute(name,item);}for(const child of children.flat()){if(child!==null&&child!==undefined)value.append(child instanceof Node?child:document.createTextNode(String(child)));}lockControl(value);return value;}
-function notice(message,bad=false){const target=$('#notice');target.replaceChildren(document.createTextNode(message));target.className='notice'+(bad?' error':'');target.hidden=false;}
+function renderSavedActionMetadata(){
+ const mount=$('#pending-original-metadata');if(!mount)return;
+ try{
+  const context={network:state.rehearsal?'sandbox':'testnet',company:state.company?.contract??null,appContract:state.app??null,account:state.account??null};
+  const view=readPendingOriginalMetadata({context,read:()=>{const key=pendingKey();return key?localStorage.getItem(key):null;}});
+  renderPendingOriginalMetadata(mount,view);
+ }catch{mount.replaceChildren(document.createTextNode('Outcome UNKNOWN. Saved metadata could not be displayed. Keep the original saved request.'));mount.hidden=false;}
+}
+function notice(message,bad=false){const target=$('#notice');target.replaceChildren(document.createTextNode(message));target.className='notice'+(bad?' error':'');target.hidden=false;renderSavedActionMetadata();}
 function showTab(name){if(PUBLIC_TESTNET&&!['overview','work','settings','tools'].includes(name))return;document.querySelectorAll('[data-panel]').forEach(p=>p.hidden=p.dataset.panel!==name);document.querySelectorAll('[data-tab]').forEach(p=>p.classList.toggle('active',p.dataset.tab===name));}
 const libraryUI=createLibraryUI({getState:()=>state,fixture,notice,showTab,lockControl,setBusy,setControlDisabled,reviewImage:reviewImageAsset,reviewAudio:reviewAudioAsset,prepareMediaTransfer:downloadMediaTransfer,getPrivateClient:()=>privateOwnerClient,getDocumentRef:()=>documentUI.selectedRef(),authenticatePrivate:()=>authenticatePrivateLibrary(false),restorePrivate:()=>authenticatePrivateLibrary(true),logoutPrivate:logoutPrivateLibrary});
 const conversationUI=createConversationUI({getState:()=>state,stage,notice,requireCompany,invalidateDraft,lockControl});
@@ -117,7 +127,7 @@ async function fixture(path,body,session=state.rehearsal){if(PUBLIC_TESTNET)thro
 async function finalBlock(){return state.rpc.finalBlock();}
 async function accountHash(contract,block){const account=await state.rpc.request('query',{request_type:'view_account',account_id:contract,block_id:block.hash});if(typeof account.code_hash!=='string')throw Error('Contract code identity is unavailable.');return account.code_hash;}
 async function read(method,args={},contract=state.company.contract,block=state.company.block){return state.rpc.view(contract,method,args,block.hash);}
-function signedIn(){if(state.account){const id=state.selector?.store?.getState().selectedWalletId;const label=state.founderBinding&&id==='nightly'?'Connected Nightly · ':'';text('#connect-wallet',label+state.account);}else fixedText('#connect-wallet','Connect wallet');const disconnect=$('#disconnect-founder-workspace-wallet');if(disconnect)disconnect.hidden=!state.account;renderLanguageControls();}
+function signedIn(){if(state.account){const id=state.selector?.store?.getState().selectedWalletId;const label=state.founderBinding&&id==='nightly'?'Connected Nightly · ':'';text('#connect-wallet',label+state.account);}else fixedText('#connect-wallet','Connect wallet');const disconnect=$('#disconnect-founder-workspace-wallet');if(disconnect)disconnect.hidden=!state.account;renderLanguageControls();renderSavedActionMetadata();}
 function observeWalletAccount(account){if(account!==state.account){state.account=account;state.epoch++;clearPrepared();clearResult();clearPrivateForms();signedIn();refresh().catch(()=>{});if(publicationUI&&state.founderBinding?.owner===account)publicationUI.refresh().catch(error=>notice(error.message,true));}}
 async function initializeWallet(){
  if(walletAdapter){const value=walletAdapter.getState();if(!value?.selector||typeof value.selector.wallet!=='function')throw Error('A wallet selector adapter is required.');state.selector=value.selector;if(!walletAdapterSubscribed&&typeof walletAdapter.subscribe==='function'){walletAdapterSubscribed=true;walletAdapter.subscribe(()=>{const next=walletAdapter.getState();if(next.selector!==state.selector)state.selector=next.selector;observeWalletAccount(next.account||null);});}observeWalletAccount(value.account||null);signedIn();return;}
@@ -172,6 +182,7 @@ async function refreshState(){
  if(state.app){if(await accountHash(state.app,block)!==state.appPin)throw Error('Appointments code hash differs from the reviewed app.');const [appState,slots,bookings]=await Promise.all([read('state',{},state.app,block),read('slots',{limit:20},state.app,block),read('bookings',{limit:20},state.app,block)]);if(epoch!==state.epoch)return;state.appState=appState;renderAppointments(appState,slots.items,bookings.items);}
  analyticsUI.update();if(state.rehearsal){const health=await fixture('health');if(epoch!==state.epoch)return;fixedText('#worker-title',health.worker.running?'Your worker is running':'Worker needs your review');text('#worker-description',health.worker.status?.status?human(health.worker.status.status):tr('Polling approved work; no model calls while idle.'));text('#worker-detail',tr('Local Gemma substitute')+' · '+tr(health.model.available?'pinned model available':'model unavailable'));$('#restart-worker').hidden=health.worker.running||state.account!==company.treasury.owner;}else{fixedText('#worker-title',PUBLIC_TESTNET&&state.demoBinding?'Recorded worker · retired':'Delegated business worker');fixedText('#worker-description',PUBLIC_TESTNET&&state.demoBinding?'This completed run is archived. Its scoped signing key was revoked; the model and worker are stopped.':'The worker processes approved on-chain tasks independently of this browser.');fixedText('#worker-detail',PUBLIC_TESTNET?'Local Gemma 4 mock · Cloud billing and TEE unverified · no uptime guarantee.':'A task status is not a hosted uptime guarantee.');}
  if(state.founderBinding){text('#worker-title',state.founderReadiness?.ready?'Worker available for approved tasks':'Worker needs attention');text('#worker-description',state.founderReadiness?.ready?'A recent service heartbeat and this company’s restricted signing permission are verified.':state.founderReadiness?.reason||'Read current worker availability before approving a task.');text('#worker-detail','Local Gemma 4 pilot · Cloud billing and TEE unverified. '+founderServiceTiming(state.founderReadiness)+ ' Each task still needs owner approval.');renderFounderProgress();}
+ renderSavedActionMetadata();
 }
 function human(value){return tr(String(value).replaceAll('_',' ').replace(/^./,c=>c.toUpperCase()));}
 function renderActivity(events){const container=$('#activity');container.replaceChildren();container.className='';for(const event of [...events].reverse().slice(0,8))container.append(node('div',{class:'activity-row'},node('span',{class:'event-icon'},'↗'),node('div',{},human(event.type),node('small',{},event.task_id?' · '+event.task_id:'')),node('small',{},'#'+event.seq)));if(!events.length)container.append(node('p',{class:'empty-state'},tr('No company events yet.')));}
@@ -300,6 +311,9 @@ $('#withdraw-form').addEventListener('submit',guarded(async()=>{
 async function start(){
  if(PUBLIC_TESTNET){
   configurePublicWorkspace({config:demoConfig,notice});
+  // Reuse the reviewed owner-discovery journey; never carry wallet callbacks.
+  const resumeURL=new URL('./founder.html',location.href);resumeURL.search='';resumeURL.hash='';
+  $('#connect-wallet').before(node('a',{id:'find-my-company',class:'text-button',href:resumeURL.href},'Find my company'));
   const founderId=new URLSearchParams(location.search).get('founder');if(founderId)await connectFounderWorkspace(founderId);
   if(new URLSearchParams(location.search).get('demo')==='1'){
    if(!verifiedDemo(demoConfig))throw Error('The public demonstration deployment has not been verified yet. Explore the workspace or connect your own reviewed company.');

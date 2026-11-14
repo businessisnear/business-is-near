@@ -10,19 +10,23 @@ Use Node 22. The owner-source verifier only reads source bytes and imports. The 
 node source/scripts/verify_owner_tools_source.mjs
 npm --prefix source/labs/procurement/candidate-v4-delivery/local-app-v5 test
 npm --prefix source/labs/procurement/candidate-v4-delivery/local-app-v5 run test:proxy
+node --test source/web-chain/tests/business-pending-metadata.test.mjs
 ```
 
 The preserved `MODULE-SOURCE-MANIFEST.json` has 40 historical module rows. Its
 `verify-source.mjs` checks those older bytes and is not the current verification
-command. The current unchanged owner-source verifier checks the entire 434-file
+command. The current unchanged owner-source verifier checks the entire 437-file
 closure, including all 58 current module files and their shared imports. Current
 company tests are 30 repair + 28 company/duration + 25 base guard checks (83 total,
 a different suite from the historical financial/V2 83); seven proxy checks are
 separate. Follow the [current V5 guide](source/labs/procurement/candidate-v4-delivery/local-app-v5/README.md)
 for the bounded local run and the generation-specific proof limits.
+The separate saved-action metadata inspector has 25 fake-record/DOM checks.
+It displays public fields with outcome UNKNOWN and cannot clear, retry or sign.
+Missing hashes do not prove unsigned actions; this display is no finality check.
 
 
-`SOURCE-DOWNLOAD-MANIFEST.json` binds every other file in the archive. `source/OWNER-TOOLS-SOURCE.json` binds the current 434-file editable source inventory and shared dependencies. The preserved module manifest pins an earlier generation, not the current controller. Manifests identify bytes, not correctness or restored authority.
+`SOURCE-DOWNLOAD-MANIFEST.json` binds every other file in the archive. `source/OWNER-TOOLS-SOURCE.json` binds the current 437-file editable source inventory and shared dependencies. The preserved module manifest pins an earlier generation, not the current controller. Manifests identify bytes, not correctness or restored authority.
 
 ## Run the complete local work-review workflow
 

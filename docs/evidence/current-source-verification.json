@@ -1,15 +1,15 @@
 {
   "schema": "business-is-near-current-source-checks-v1",
-  "prepared_utc": "2026-11-14T19:32:04.299039+00:00",
-  "scope": "Current source composition with separately qualified repaired local V5 positive path; old proofs/test profiles remain generation-specific.",
+  "prepared_utc": "2026-11-14T21:45:29.624127+00:00",
+  "scope": "Current source closure with separate read-only pending metadata UI qualification; all original local financial/controller proof stays generation-specific.",
   "current_source": {
     "manifest": "source/OWNER-TOOLS-SOURCE.json",
-    "bytes": 74213,
-    "sha256": "33da27d3d6c1a05ebdb94d33b136ef72d6823c20eaaf2fc220c7fed7369c4c59",
-    "files": 434,
-    "relative_imports_verified": 514,
+    "bytes": 74754,
+    "sha256": "c0399959fdcb599d3e1b1d6f988cf51bea17846a3b8001bc7ab7541c02937cf8",
+    "files": 437,
+    "relative_imports_verified": 517,
     "vite_input_declarations_verified": 27,
-    "verification_basis": "Official unchanged owner-source verifier executed on assembled release:434 exact source rows,514 local imports,27 Vite entry declarations; output log pinned below."
+    "verification_basis": "Exact virtual byte/import composition; Root must run the unchanged official verifier on assembled successor before publication."
   },
   "local_module": {
     "path": "source/labs/procurement/candidate-v4-delivery",
@@ -161,7 +161,7 @@
     ]
   },
   "historical40_old83_current_claimed": false,
-  "current_verification_route": {
+  "prior_d61_release_verification_route": {
     "command": "node source/scripts/verify_owner_tools_source.mjs",
     "authoritative": "Current OWNER-TOOLS-SOURCE exact-byte/shared-import closure",
     "current_source_files": 434,
@@ -197,6 +197,80 @@
       "active_current_command": false,
       "reason": "Preserved old manifest/verifier describe historical bytes. Changed controller/README bytes are intentionally checked by current owner inventory, not relabelled into old receipt."
     },
-    "documentation_successor": "README/SETUP/DEPLOYMENT now prescribe this current route; source434 unchanged."
+    "documentation_successor": "README/SETUP/DEPLOYMENT now prescribe this current route; source434 unchanged.",
+    "current_successor_acceptance": false
+  },
+  "current_verification_route": {
+    "command": "node source/scripts/verify_owner_tools_source.mjs",
+    "source_files": 437,
+    "relative_imports": 517,
+    "current_module_files": 58,
+    "company_profile_unchanged": 83,
+    "proxy_profile_unchanged": 7,
+    "separate_pending_UI_command": "node --test source/web-chain/tests/business-pending-metadata.test.mjs",
+    "separate_pending_UI_tests": 25,
+    "basis": "Virtual closure; final assembled official verifier/build are Root release checks, no new core/model/native execution inferred."
+  },
+  "read_only_pending_metadata_UI": {
+    "source_freeze_sha256": "aa29e142aaa86ecec00914a360ef99b4029d5a66d95bde521dfaebb82b9e626d",
+    "source_paths": {
+      "source/web-chain/src/business-ui.js": {
+        "bytes": 87514,
+        "sha256": "aa653978f357d66e0da37a245b338f7bb53ea4e8e23702f7ed0acf28475de043"
+      },
+      "source/web-chain/business.html": {
+        "bytes": 28847,
+        "sha256": "6ca15f014818a1c1f09b4dedbdb65f209b710b7cf3bff1e1664d80d979e0a450"
+      },
+      "source/web-chain/src/business-pending-metadata.js": {
+        "bytes": 5602,
+        "sha256": "c11392b5cd9c9eaa5cb77f6282a7c5fac4747cb965e2ea1bcdc49cdb30816605"
+      },
+      "source/web-chain/src/business-pending-metadata.css": {
+        "bytes": 919,
+        "sha256": "10f96df6d05c25ee1a510c71a99f25f0d4ccbc2e99f2a7383c119ee029978912"
+      },
+      "source/web-chain/tests/business-pending-metadata.test.mjs": {
+        "bytes": 16171,
+        "sha256": "2eae3e35984f7bc3a47a0e7e607daa4216da90de8cbbcca0f808f0e74b1b7ea6"
+      }
+    },
+    "scope": "Read-only9-field projection; all outcomesUNKNOWN. No new handler/clear/reconcile/retry/reset/sign/network/storage-write capability. Transaction/pending/recovery/callback boundary code unchanged.",
+    "fake_checks": {
+      "author": 25,
+      "independent_probes": 10,
+      "result": "PASS",
+      "no_actual_user_browser_or_pending_record": true
+    },
+    "configured_Claude_review": {
+      "generation": "EarlierV1 frozen source snapshot, tools disabled",
+      "verdict": "FINDINGS",
+      "findings": "Two P3: fingerprint qualifier and missing display-branch coverage",
+      "successor_adjudication": "Explicit unverified/not-recomputed label and expanded fake branch checks separately qualified inV2/V3. No repeated paid review and no Claude CLEAN claim.",
+      "raw_review_kept_private": true
+    },
+    "disclosure": "Native DOM open boolean preserved; rows refreshed; hidden/error state resets disclosure. No stored or authority state added.",
+    "fake_visual_preview": {
+      "status": "ROOT_REPORTED_PASS",
+      "basis": "Root explicitly reported synthetic visual PASS to packager; separate Root receipt will be retained outside this packet.",
+      "environment": "Synthetic preview only; no actual user pending storage, recovery file or wallet behavior is qualified.",
+      "child_browser_observation": false,
+      "separate_receipt_bundled": false,
+      "separate_Root_receipt_sha256": "54ec0ceca95bbb479c3adff83829d104b92c309574437d9e8a9b1c26991525dd"
+    },
+    "limits": [
+      "Metadata is not authentication, intent-integrity validation, unsigned classification or FINAL proof.",
+      "No actual user pending/storage, recovery file, wallet signing or public company full-cycle verification.",
+      "Existing automatic callback/reconciliation behavior is unchanged; use a clean URL to inspect without clearing."
+    ]
+  },
+  "wallet_company_rediscovery_navigation": {
+    "scope": "Same-origin link only to existing owner-discovery path; no new lookup, storage or transaction authority",
+    "existing_read_path": "founder.html -> verified factory owner lookup/chooser -> clean business.html?founder=ID",
+    "composed_business_ui_sha256": "042f1d300a0f9704216efcdbe33018b85c65ef622891df3b85c6e76fe829b6cc",
+    "landing_sha256": "1da27bf10da6a382ac83cfd53aa22f5b1c12b916338ddb75305cf365a807fb90",
+    "merge_insertion_sha256": "ee64f1cc1d9557b15e5884e0e0c523ca3fafff2571565842e6c0f7df8d8e093a",
+    "focused_fake_checks": 10,
+    "limits": "This restores company discovery, not private recovery keys or storage inside Nightly. Managed-vault work is separate and not deployed by this component."
   }
 }
