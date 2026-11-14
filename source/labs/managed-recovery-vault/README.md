@@ -20,9 +20,10 @@ coordinator API is included without granting it live financial authority.
   and tests. 17 author checks plus 6 independent probes passed. Real generated
   NEP-413 signatures, actual newly created fixture files/fsync/restart and AES-GCM
   were tested; chain authority was synthetic. No listener was needed by those tests.
-- `web/`: exact qualified UI V2 and explicit public-validator closure. 14 author
-  checks plus 2 independent interface probes passed. Tests use real mission
-  encryption and synthetic service/DOM ports. The nine prebuilt static files are
+- `web/`: qualified UI V3 and the unchanged explicit public-validator closure.
+  17 author checks and an independent V3 replay passed, including the original
+  app task-download shape, wrong-network rejection, and real generated task
+  decryption/import/restore with synthetic service ports. The nine prebuilt static files are
   included with exact hashes for local use, not as a new actual-wallet result.
 - `node/`: exact qualified V2 reference vault/coordinator. 30 author checks plus
   6 independent probes passed. AES-GCM is real; effect/auth/store ports are fake.
@@ -57,7 +58,7 @@ python -B -m unittest -v test_vault_service
 ```
 
 From `node/`, run `node --test recovery-vault.test.mjs recovery-coordinator.test.mjs`.
-From `web/`, run `node --test vault.test.mjs` with a current Node runtime providing
+From `web/`, run `node --test vault.test.mjs task-download.test.mjs` with a current Node runtime providing
 WebCrypto. These tests generate their own synthetic material; they do not use
 wallets, live RPC, existing configuration, recovery files or service runtime.
 

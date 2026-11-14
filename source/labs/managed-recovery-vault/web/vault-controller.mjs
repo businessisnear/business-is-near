@@ -23,8 +23,10 @@ export async function recoveryIdentity(recovery,company){
   if(recovery.network!=='testnet'||recovery.company_id!==company||!SHA.test(recovery.idea_hash)||!SHA.test(recovery.goal_hash)||!KEY.test(recovery.record_key))throw Error('Mission recovery mismatch');
   return{kind:'mission',actual_id:company,record_id:await recordId('mission',company),commitment:await digest('mission-commit-v1\0'+recovery.idea_hash+'\0'+recovery.goal_hash)};
  }
- const names=['version','task_id','scope_hash','record_key',...(Object.hasOwn(recovery,'contract')?['contract']:[])];exact(recovery,names);
- if(recovery.version!==1||typeof recovery.task_id!=='string'||!/^[A-Za-z0-9_-]{1,64}$/.test(recovery.task_id)||!SHA.test(recovery.scope_hash)||!KEY.test(recovery.record_key)||Object.hasOwn(recovery,'contract')&&recovery.contract!==company)throw Error('Task recovery mismatch');
+ // Original app downloads add network and contract to the task recovery.
+ // Admit only that optional testnet metadata; retain exact-field rejection.
+ const names=['version','task_id','scope_hash','record_key',...(Object.hasOwn(recovery,'network')?['network']:[]),...(Object.hasOwn(recovery,'contract')?['contract']:[])];exact(recovery,names);
+ if(recovery.version!==1||typeof recovery.task_id!=='string'||!/^[A-Za-z0-9_-]{1,64}$/.test(recovery.task_id)||!SHA.test(recovery.scope_hash)||!KEY.test(recovery.record_key)||Object.hasOwn(recovery,'network')&&recovery.network!=='testnet'||Object.hasOwn(recovery,'contract')&&recovery.contract!==company)throw Error('Task recovery mismatch');
  return{kind:'task',actual_id:recovery.task_id,record_id:await recordId('task',recovery.task_id),commitment:recovery.scope_hash};
 }
 export function createVaultController({auth,onChange=()=>{},openTask=recoverTask,openMission=recoverFounderBrief}){

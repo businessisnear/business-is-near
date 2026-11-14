@@ -1,15 +1,15 @@
 {
   "ui_dir": "web/dist",
   "static_files": {
-    "/__vault/": "index.html",
-    "/wallet-auth-callback.html": "wallet-auth-callback.html",
     "/__vault/assets/app-CKJ_gqhn.css": "assets/app-CKJ_gqhn.css",
     "/__vault/assets/app-Du3iVrX3.js": "assets/app-Du3iVrX3.js",
     "/__vault/assets/callback-XVhcY4dh.js": "assets/callback-XVhcY4dh.js",
     "/__vault/assets/core-C1MiA2W-.js": "assets/core-C1MiA2W-.js",
-    "/__vault/assets/main-Dqtpzzo_.js": "assets/main-Dqtpzzo_.js",
+    "/__vault/assets/main-DY2djmIA.js": "assets/main-DY2djmIA.js",
     "/__vault/assets/nightly-DBV74NJj.js": "assets/nightly-DBV74NJj.js",
-    "/__vault/assets/sha256-CnAzM5Gj.js": "assets/sha256-CnAzM5Gj.js"
+    "/__vault/assets/sha256-CnAzM5Gj.js": "assets/sha256-CnAzM5Gj.js",
+    "/__vault/": "index.html",
+    "/wallet-auth-callback.html": "wallet-auth-callback.html"
   },
   "files": [
     {
@@ -33,9 +33,9 @@
       "sha256": "b99016d23d9425b42b128cc071553f4e116c7383989884964676b04e3fbeb909"
     },
     {
-      "path": "assets/main-Dqtpzzo_.js",
-      "bytes": 241526,
-      "sha256": "1fac06c147299ba6cffe14fcd55e509c885eaacadce5d854559892ffac56d169"
+      "path": "assets/main-DY2djmIA.js",
+      "bytes": 241622,
+      "sha256": "7adad18274d9090c6365e620c1c70e3d6ca11f3d04625c225dde39a30d580b4d"
     },
     {
       "path": "assets/nightly-DBV74NJj.js",
@@ -50,12 +50,13 @@
     {
       "path": "index.html",
       "bytes": 3348,
-      "sha256": "e4675dc0d2e48f2aa4c31c4fe386d6b63e1e137f84a771b2d7588777bb84f140"
+      "sha256": "a87c82e6f5f845dc52f107f3285f73ebf0fc1785e2683991f47f532f55026c72"
     },
     {
       "path": "wallet-auth-callback.html",
       "bytes": 1078,
       "sha256": "1a74a2f831de7102d7920e3bde382ae1fbcb0537ab27819553983ce08f9e2110"
     }
-  ]
+  ],
+  "scope": "PUBLIC local managed vault UI V3; original app testnet task-download compatibility, no actual wallet acceptance claim"
 }

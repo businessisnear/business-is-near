@@ -1,6 +1,6 @@
 {
   "format": 2,
-  "prepared_at": "2026-11-14T23:42:29.766364+00:00",
+  "prepared_at": "2026-11-14T23:56:51.517589+00:00",
   "target_repository": "businessisnear/business-is-near",
   "pages_source": {
     "branch": "main",
@@ -26,7 +26,7 @@
     },
     "README.md": {
       "bytes": 9071,
-      "sha256": "91ba278088d5233517dfdb1d189509b77417dc2be5d802795204b367e05ea3d4"
+      "sha256": "33ecff4c594914dfb0341f3368d7e08aed420074f9bd4c6dcef7f422dddf2f9d"
     },
     "SETUP.md": {
       "bytes": 5700,
@@ -305,8 +305,8 @@
       "sha256": "a232de59104ccbbc48c5acb6fe4bf05d1626ff5d7e60580120fb6fee0b5c826a"
     },
     "docs/downloads/business-is-near-reproducible-source.zip": {
-      "bytes": 6673855,
-      "sha256": "503e0e04ba57067120224e93efaaabfe9ccac4265663a6b7e5a416936444ea66"
+      "bytes": 6648125,
+      "sha256": "7fc1ccbde84a09caad524e1d325f36fc6349930ac6e57f0a5659199b198a682d"
     },
     "docs/evidence/company-loop-v5-repaired/PUBLIC-PROOF-MANIFEST.json": {
       "bytes": 8092,
@@ -621,8 +621,8 @@
       "sha256": "5c817313415fe61ce450eb76165861eb86fe701dc0838d4e006189a29b810b00"
     },
     "docs/evidence/current-source-verification.json": {
-      "bytes": 17248,
-      "sha256": "c69bbfeb48f91184150558a2a1fbbf68365919e193baca7843529caf89a26285"
+      "bytes": 17611,
+      "sha256": "64618d14d827662a51b0a3d5278c38a265bd53366cb66f85489d1aeb5a7b2cb9"
     },
     "docs/evidence/local-initial-smoke/AFTER-CANCEL-UI.json": {
       "bytes": 6545,
@@ -645,8 +645,8 @@
       "sha256": "e292347b1b1778161c1e911cd13fb218fb7aba3d78cdf70c564a94088fc127df"
     },
     "docs/evidence/managed-vault-source-capsule.json": {
-      "bytes": 1731,
-      "sha256": "5effabbffc56b7aa27ffa88c02c0ad5d94019ef2c689860ce7a6c7c48af4cfe6"
+      "bytes": 2076,
+      "sha256": "773527c47e7bbe20b809de29bfa33523eca7e2b367daf989e8a5241a7fb8420f"
     },
     "docs/index.html": {
       "bytes": 21959,
@@ -1377,24 +1377,24 @@
       "sha256": "4219108bc19d973d032094d3ac5160729eb4a482a2c86dcebf27082917e18510"
     },
     "source/labs/managed-recovery-vault/CAPSULE-MANIFEST.json": {
-      "bytes": 12067,
-      "sha256": "60e24b70b55fdd689f574ee6d10633d6f7bec5c3305bd84b13261813582e0682"
+      "bytes": 12228,
+      "sha256": "4fcab506dd9fac35adc83a55f512082b8fb5620599a670a266bc492df694107f"
     },
     "source/labs/managed-recovery-vault/LICENSE": {
       "bytes": 430,
       "sha256": "9a967d585c4e2096196a98fb9250590dc45bc05b21e4eff4b7dcc5bfd48a3bbc"
     },
     "source/labs/managed-recovery-vault/PROVENANCE.json": {
-      "bytes": 14178,
-      "sha256": "a5fe47774fd2666516e072ea083d60ff6d5f6f45b7e611ddbccc864cd1f9e20d"
+      "bytes": 15006,
+      "sha256": "a65a37cc4df3c5d76b80f42eb4b1a1310b95a396267a4ce917c16d8e0bd887d6"
     },
     "source/labs/managed-recovery-vault/README.md": {
-      "bytes": 7967,
-      "sha256": "908f24361887308be7e870ba00eecfddd8e3009279e0d3500e885b8a5ea28318"
+      "bytes": 8079,
+      "sha256": "e87e8fd599c03654c288cb71b59530b3f2f73937eb35c8dcaf6c001cd684a3d0"
     },
     "source/labs/managed-recovery-vault/STATIC-MANIFEST.json": {
-      "bytes": 2072,
-      "sha256": "6487b6b400c1fff82631da547dc016fc9a7bb55b323eefe43f6befa7ccb196b1"
+      "bytes": 2204,
+      "sha256": "488ffc09911723abcb5aa1abc5a950a2dda91019ae1b9598f5844cffcf98c1c4"
     },
     "source/labs/managed-recovery-vault/fixtures/public-pins.example.json": {
       "bytes": 266,
@@ -1492,9 +1492,9 @@
       "bytes": 169336,
       "sha256": "b99016d23d9425b42b128cc071553f4e116c7383989884964676b04e3fbeb909"
     },
-    "source/labs/managed-recovery-vault/web/dist/assets/main-Dqtpzzo_.js": {
-      "bytes": 241526,
-      "sha256": "1fac06c147299ba6cffe14fcd55e509c885eaacadce5d854559892ffac56d169"
+    "source/labs/managed-recovery-vault/web/dist/assets/main-DY2djmIA.js": {
+      "bytes": 241622,
+      "sha256": "7adad18274d9090c6365e620c1c70e3d6ca11f3d04625c225dde39a30d580b4d"
     },
     "source/labs/managed-recovery-vault/web/dist/assets/nightly-DBV74NJj.js": {
       "bytes": 79694,
@@ -1506,7 +1506,7 @@
     },
     "source/labs/managed-recovery-vault/web/dist/index.html": {
       "bytes": 3348,
-      "sha256": "e4675dc0d2e48f2aa4c31c4fe386d6b63e1e137f84a771b2d7588777bb84f140"
+      "sha256": "a87c82e6f5f845dc52f107f3285f73ebf0fc1785e2683991f47f532f55026c72"
     },
     "source/labs/managed-recovery-vault/web/dist/wallet-auth-callback.html": {
       "bytes": 1078,
@@ -1529,8 +1529,8 @@
       "sha256": "3499dc7dbb594affe8bbeba2f290acded5e21806f275cd0d6b3db97347ad3aa0"
     },
     "source/labs/managed-recovery-vault/web/package.json": {
-      "bytes": 205,
-      "sha256": "a3e91d4725c27f6098e84ffe211679a95b20171ff505a6cbcba903eba5cdb652"
+      "bytes": 228,
+      "sha256": "3203b03b1c059f04ec794a4e7a8d0d622b7ea45bd4739291df01bd6327a19be3"
     },
     "source/labs/managed-recovery-vault/web/qualified/source/executor/outcome.mjs": {
       "bytes": 4873,
@@ -1640,9 +1640,13 @@
       "bytes": 17572,
       "sha256": "d65a56c4fa84947a9d66d8d33446feca52ae7430f9806bb193b2fa90e33d6eb0"
     },
+    "source/labs/managed-recovery-vault/web/task-download.test.mjs": {
+      "bytes": 4416,
+      "sha256": "196f55f7c1e89172867875f15cd0ac29ab762548c6c4ed0371c6ad8b324f38be"
+    },
     "source/labs/managed-recovery-vault/web/vault-controller.mjs": {
-      "bytes": 10196,
-      "sha256": "99dfe99c7f6243e2961ab9a39176322bfb3527d3a11fcbfa2e36d6e6d89bf431"
+      "bytes": 10466,
+      "sha256": "04f1329698dc8c24d002732248f34564483c3ba7052fb32afa74de5b5a1304d3"
     },
     "source/labs/managed-recovery-vault/web/vault-ui.mjs": {
       "bytes": 4300,
@@ -2706,8 +2710,8 @@
   "current_frontend_tests": 71,
   "managed_recovery_source_capsule": {
     "path": "source/labs/managed-recovery-vault/CAPSULE-MANIFEST.json",
-    "sha256": "60e24b70b55fdd689f574ee6d10633d6f7bec5c3305bd84b13261813582e0682",
-    "payload_files": 70,
-    "total_files_including_manifest": 71
+    "sha256": "4fcab506dd9fac35adc83a55f512082b8fb5620599a670a266bc492df694107f",
+    "payload_files": 71,
+    "total_files_including_manifest": 72
   }
 }

@@ -9,17 +9,25 @@
       "independent_probes": 6,
       "authority": "synthetic; real Ed25519/AEAD/new-fixture protected fsync/restart"
     },
-    "ui_v2": {
-      "static_manifest_sha256": "25110ba3d746f7ceb454199a7f10b1104672b5c2c714377e6998b494fdbdefd2",
-      "author_tests": 14,
-      "independent_probes": 2,
-      "actual_wallet_import_restore": "PENDING_UNVERIFIED"
-    },
     "node_coordinator_v2": {
       "handoff_sha256": "c1d892ff41824cac4d11fc922421b922c55d4db56da6da6c77c6ea00033024cb",
       "author_tests": 30,
       "independent_probes": 6,
       "effect_ports": "fake, no integrated financial authority"
+    },
+    "ui_v3": {
+      "source_freeze_sha256": "fc436abe7715171e04ad3ee1522bff432d7e7c278ee66d32dc1b463518f1e77d",
+      "static_manifest_sha256": "7b89ee44a5acc18025c2eac7b618323917208ae5bccf872814c310f12883d09f",
+      "predecessor_ui_v2": {
+        "static_manifest_sha256": "25110ba3d746f7ceb454199a7f10b1104672b5c2c714377e6998b494fdbdefd2",
+        "author_tests": 14,
+        "independent_probes": 2,
+        "actual_wallet_import_restore": "PENDING_UNVERIFIED"
+      },
+      "author_tests": 17,
+      "independent_review_sha256": "2a9e806f82a38de3de4034e8cd9eada8eb20bc763de398fc7503f3e9a7dc7da1",
+      "independent_review": "PASS; original generated app download expression, V2 failure reproduced, wrong network/contract/unknown-field denial, 17 test replay and exact source/static closure",
+      "actual_wallet_import_restore": "PENDING_UNVERIFIED"
     }
   },
   "new_portability_helpers": "bootstrap/link-build-deps/verify-capsule are new source, not covered by historical test counts; no live activation by capsule author",
@@ -86,9 +94,9 @@
     },
     {
       "path": "web/vault-controller.mjs",
-      "bytes": 10196,
-      "sha256": "99dfe99c7f6243e2961ab9a39176322bfb3527d3a11fcbfa2e36d6e6d89bf431",
-      "generation": "qualified-ui-v2"
+      "bytes": 10466,
+      "sha256": "04f1329698dc8c24d002732248f34564483c3ba7052fb32afa74de5b5a1304d3",
+      "generation": "qualified-ui-v3"
     },
     {
       "path": "web/vault-ui.mjs",
@@ -307,60 +315,6 @@
       "generation": "qualified-ui-v2"
     },
     {
-      "path": "web/dist/assets/app-CKJ_gqhn.css",
-      "bytes": 2567,
-      "sha256": "bbec44eb71239f98c02bd721bb39b5b5b4428a50699d5c6bf1d2161088c06983",
-      "generation": "qualified-ui-v2"
-    },
-    {
-      "path": "web/dist/assets/app-Du3iVrX3.js",
-      "bytes": 711,
-      "sha256": "d2a32840421496e872ade591618d2fa5c33797605d1aec04301717e5a90757d0",
-      "generation": "qualified-ui-v2"
-    },
-    {
-      "path": "web/dist/assets/callback-XVhcY4dh.js",
-      "bytes": 1028,
-      "sha256": "d591fd7c64654fce0c5ddb70a7a7359b2ce2f5a639fd9dd9797beffb81d0d6eb",
-      "generation": "qualified-ui-v2"
-    },
-    {
-      "path": "web/dist/assets/core-C1MiA2W-.js",
-      "bytes": 169336,
-      "sha256": "b99016d23d9425b42b128cc071553f4e116c7383989884964676b04e3fbeb909",
-      "generation": "qualified-ui-v2"
-    },
-    {
-      "path": "web/dist/assets/main-Dqtpzzo_.js",
-      "bytes": 241526,
-      "sha256": "1fac06c147299ba6cffe14fcd55e509c885eaacadce5d854559892ffac56d169",
-      "generation": "qualified-ui-v2"
-    },
-    {
-      "path": "web/dist/assets/nightly-DBV74NJj.js",
-      "bytes": 79694,
-      "sha256": "771467ea4df2a729a0cfe021739eaadb4efb92c44f659f7e426e27dd119d082f",
-      "generation": "qualified-ui-v2"
-    },
-    {
-      "path": "web/dist/assets/sha256-CnAzM5Gj.js",
-      "bytes": 256673,
-      "sha256": "94d1b0464df6bb5ebf5d2559941192779b614227379889bff89c834301d7b272",
-      "generation": "qualified-ui-v2"
-    },
-    {
-      "path": "web/dist/index.html",
-      "bytes": 3348,
-      "sha256": "e4675dc0d2e48f2aa4c31c4fe386d6b63e1e137f84a771b2d7588777bb84f140",
-      "generation": "qualified-ui-v2"
-    },
-    {
-      "path": "web/dist/wallet-auth-callback.html",
-      "bytes": 1078,
-      "sha256": "1a74a2f831de7102d7920e3bde382ae1fbcb0537ab27819553983ce08f9e2110",
-      "generation": "qualified-ui-v2"
-    },
-    {
       "path": "LICENSE",
       "bytes": 430,
       "sha256": "9a967d585c4e2096196a98fb9250590dc45bc05b21e4eff4b7dcc5bfd48a3bbc",
@@ -383,6 +337,66 @@
       "bytes": 23173,
       "sha256": "56031c4db820ba499190129b451b8ed71de701579c02e19f9dd825771bbfa61e",
       "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/task-download.test.mjs",
+      "bytes": 4416,
+      "sha256": "196f55f7c1e89172867875f15cd0ac29ab762548c6c4ed0371c6ad8b324f38be",
+      "generation": "qualified-ui-v3"
+    },
+    {
+      "path": "web/dist/assets/app-CKJ_gqhn.css",
+      "bytes": 2567,
+      "sha256": "bbec44eb71239f98c02bd721bb39b5b5b4428a50699d5c6bf1d2161088c06983",
+      "generation": "qualified-ui-v3"
+    },
+    {
+      "path": "web/dist/assets/app-Du3iVrX3.js",
+      "bytes": 711,
+      "sha256": "d2a32840421496e872ade591618d2fa5c33797605d1aec04301717e5a90757d0",
+      "generation": "qualified-ui-v3"
+    },
+    {
+      "path": "web/dist/assets/callback-XVhcY4dh.js",
+      "bytes": 1028,
+      "sha256": "d591fd7c64654fce0c5ddb70a7a7359b2ce2f5a639fd9dd9797beffb81d0d6eb",
+      "generation": "qualified-ui-v3"
+    },
+    {
+      "path": "web/dist/assets/core-C1MiA2W-.js",
+      "bytes": 169336,
+      "sha256": "b99016d23d9425b42b128cc071553f4e116c7383989884964676b04e3fbeb909",
+      "generation": "qualified-ui-v3"
+    },
+    {
+      "path": "web/dist/assets/main-DY2djmIA.js",
+      "bytes": 241622,
+      "sha256": "7adad18274d9090c6365e620c1c70e3d6ca11f3d04625c225dde39a30d580b4d",
+      "generation": "qualified-ui-v3"
+    },
+    {
+      "path": "web/dist/assets/nightly-DBV74NJj.js",
+      "bytes": 79694,
+      "sha256": "771467ea4df2a729a0cfe021739eaadb4efb92c44f659f7e426e27dd119d082f",
+      "generation": "qualified-ui-v3"
+    },
+    {
+      "path": "web/dist/assets/sha256-CnAzM5Gj.js",
+      "bytes": 256673,
+      "sha256": "94d1b0464df6bb5ebf5d2559941192779b614227379889bff89c834301d7b272",
+      "generation": "qualified-ui-v3"
+    },
+    {
+      "path": "web/dist/index.html",
+      "bytes": 3348,
+      "sha256": "a87c82e6f5f845dc52f107f3285f73ebf0fc1785e2683991f47f532f55026c72",
+      "generation": "qualified-ui-v3"
+    },
+    {
+      "path": "web/dist/wallet-auth-callback.html",
+      "bytes": 1078,
+      "sha256": "1a74a2f831de7102d7920e3bde382ae1fbcb0537ab27819553983ce08f9e2110",
+      "generation": "qualified-ui-v3"
     }
   ]
 }

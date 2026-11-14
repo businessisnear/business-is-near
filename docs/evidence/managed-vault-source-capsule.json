@@ -1,15 +1,14 @@
 {
   "schema": "business-is-near-managed-recovery-source-capsule-v1",
-  "prepared_utc": "2026-11-14T23:19:32.582230+00:00",
+  "prepared_utc": "2026-11-14T23:56:09.406956+00:00",
   "source_path": "source/labs/managed-recovery-vault",
   "source_readme": "https://github.com/businessisnear/business-is-near/blob/main/source/labs/managed-recovery-vault/README.md",
   "capsule_manifest": {
     "path": "source/labs/managed-recovery-vault/CAPSULE-MANIFEST.json",
-    "sha256": "60e24b70b55fdd689f574ee6d10633d6f7bec5c3305bd84b13261813582e0682",
-    "payload_files": 70,
-    "total_files_including_manifest": 71
+    "sha256": "4fcab506dd9fac35adc83a55f512082b8fb5620599a670a266bc492df694107f",
+    "payload_files": 71,
+    "total_files_including_manifest": 72
   },
-  "copy_allowlist_sha256": "9fe35ba324c16faa9eed32cd410bbf01f4823539174e42783c32d1ed68e04ce5",
   "owner_tools_inventory": {
     "path": "source/OWNER-TOOLS-SOURCE.json",
     "files": 437,
@@ -17,7 +16,7 @@
   },
   "scope": "Portable source and prebuilt local UI for an experimental service-custodied wallet-authenticated recovery prototype; published source is not a hosted service or actual wallet acceptance result.",
   "verification": {
-    "explicit_capsule_byte_verifier": "PASS: 70 explicit source/fixture/static files on the assembled checkout",
+    "explicit_capsule_byte_verifier": "PASS: 71 explicit source/fixture/static files",
     "model_calls": 0,
     "application_transactions": 0,
     "runtime_or_recovery_access": false,
@@ -25,7 +24,12 @@
       "bootstrap": "PASS; argument help only, no configuration created",
       "finite_host": "PASS; argument help only, no service started"
     },
-    "checked_utc": "2026-11-14T23:20:01.277827+00:00"
+    "checked_utc": "2026-11-14T23:56:22.860080+00:00",
+    "v3_public_copy_tests": {
+      "pass": 17,
+      "fail": 0,
+      "synthetic_only": true
+    }
   },
   "not_established": [
     "Actual Nightly unlock, private import or restore",
@@ -33,5 +37,10 @@
     "Hosted persistence, TLS or cross-device availability",
     "Private app storage inside the wallet",
     "Cloud/TEE or mainnet operation"
-  ]
+  ],
+  "v3_compatibility_review": {
+    "source_freeze_sha256": "fc436abe7715171e04ad3ee1522bff432d7e7c278ee66d32dc1b463518f1e77d",
+    "independent_review_sha256": "2a9e806f82a38de3de4034e8cd9eada8eb20bc763de398fc7503f3e9a7dc7da1",
+    "checks": "17 synthetic/offline tests plus original app download shape replay; actual wallet import/restore remains unverified"
+  }
 }

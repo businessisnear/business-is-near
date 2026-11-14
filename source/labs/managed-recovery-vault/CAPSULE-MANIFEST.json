@@ -9,18 +9,18 @@
     },
     {
       "path": "PROVENANCE.json",
-      "bytes": 14178,
-      "sha256": "a5fe47774fd2666516e072ea083d60ff6d5f6f45b7e611ddbccc864cd1f9e20d"
+      "bytes": 15006,
+      "sha256": "a65a37cc4df3c5d76b80f42eb4b1a1310b95a396267a4ce917c16d8e0bd887d6"
     },
     {
       "path": "README.md",
-      "bytes": 7967,
-      "sha256": "908f24361887308be7e870ba00eecfddd8e3009279e0d3500e885b8a5ea28318"
+      "bytes": 8079,
+      "sha256": "e87e8fd599c03654c288cb71b59530b3f2f73937eb35c8dcaf6c001cd684a3d0"
     },
     {
       "path": "STATIC-MANIFEST.json",
-      "bytes": 2072,
-      "sha256": "6487b6b400c1fff82631da547dc016fc9a7bb55b323eefe43f6befa7ccb196b1"
+      "bytes": 2204,
+      "sha256": "488ffc09911723abcb5aa1abc5a950a2dda91019ae1b9598f5844cffcf98c1c4"
     },
     {
       "path": "fixtures/public-pins.example.json",
@@ -143,9 +143,9 @@
       "sha256": "b99016d23d9425b42b128cc071553f4e116c7383989884964676b04e3fbeb909"
     },
     {
-      "path": "web/dist/assets/main-Dqtpzzo_.js",
-      "bytes": 241526,
-      "sha256": "1fac06c147299ba6cffe14fcd55e509c885eaacadce5d854559892ffac56d169"
+      "path": "web/dist/assets/main-DY2djmIA.js",
+      "bytes": 241622,
+      "sha256": "7adad18274d9090c6365e620c1c70e3d6ca11f3d04625c225dde39a30d580b4d"
     },
     {
       "path": "web/dist/assets/nightly-DBV74NJj.js",
@@ -160,7 +160,7 @@
     {
       "path": "web/dist/index.html",
       "bytes": 3348,
-      "sha256": "e4675dc0d2e48f2aa4c31c4fe386d6b63e1e137f84a771b2d7588777bb84f140"
+      "sha256": "a87c82e6f5f845dc52f107f3285f73ebf0fc1785e2683991f47f532f55026c72"
     },
     {
       "path": "web/dist/wallet-auth-callback.html",
@@ -189,8 +189,8 @@
     },
     {
       "path": "web/package.json",
-      "bytes": 205,
-      "sha256": "a3e91d4725c27f6098e84ffe211679a95b20171ff505a6cbcba903eba5cdb652"
+      "bytes": 228,
+      "sha256": "3203b03b1c059f04ec794a4e7a8d0d622b7ea45bd4739291df01bd6327a19be3"
     },
     {
       "path": "web/qualified/source/executor/outcome.mjs",
@@ -328,9 +328,14 @@
       "sha256": "d65a56c4fa84947a9d66d8d33446feca52ae7430f9806bb193b2fa90e33d6eb0"
     },
     {
+      "path": "web/task-download.test.mjs",
+      "bytes": 4416,
+      "sha256": "196f55f7c1e89172867875f15cd0ac29ab762548c6c4ed0371c6ad8b324f38be"
+    },
+    {
       "path": "web/vault-controller.mjs",
-      "bytes": 10196,
-      "sha256": "99dfe99c7f6243e2961ab9a39176322bfb3527d3a11fcbfa2e36d6e6d89bf431"
+      "bytes": 10466,
+      "sha256": "04f1329698dc8c24d002732248f34564483c3ba7052fb32afa74de5b5a1304d3"
     },
     {
       "path": "web/vault-ui.mjs",
