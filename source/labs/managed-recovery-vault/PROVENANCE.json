@@ -1,0 +1,388 @@
+{
+  "schema": 1,
+  "scope": "PUBLIC LOCAL PROTOTYPE source; no existing runtime/config/key/cookie/recovery/proof payload",
+  "baseline_public_commit": "d61aeae6bef234fc60d52376ea5278085dd14d4e",
+  "generations": {
+    "python_v2": {
+      "source_freeze_sha256": "983688cb4ea3d34edc2dd17ddc353b87a228db932c6f17b5de9cce2ecc85a481",
+      "author_tests": 17,
+      "independent_probes": 6,
+      "authority": "synthetic; real Ed25519/AEAD/new-fixture protected fsync/restart"
+    },
+    "ui_v2": {
+      "static_manifest_sha256": "25110ba3d746f7ceb454199a7f10b1104672b5c2c714377e6998b494fdbdefd2",
+      "author_tests": 14,
+      "independent_probes": 2,
+      "actual_wallet_import_restore": "PENDING_UNVERIFIED"
+    },
+    "node_coordinator_v2": {
+      "handoff_sha256": "c1d892ff41824cac4d11fc922421b922c55d4db56da6da6c77c6ea00033024cb",
+      "author_tests": 30,
+      "independent_probes": 6,
+      "effect_ports": "fake, no integrated financial authority"
+    }
+  },
+  "new_portability_helpers": "bootstrap/link-build-deps/verify-capsule are new source, not covered by historical test counts; no live activation by capsule author",
+  "source_asset_rows": [
+    {
+      "path": "service/wallet_auth.py",
+      "bytes": 19424,
+      "sha256": "e89d5ae5c9d220290806f09c7a8f2a856235e5cdea7e0db950fc800cb81e58a1",
+      "generation": "wallet-managed-vault-service-v2-20261114"
+    },
+    {
+      "path": "service/vault_service.py",
+      "bytes": 14177,
+      "sha256": "49c14faf60b1c2ca37f22681e977bced2da8b0aad7b440b7687ff8d74ac23760",
+      "generation": "wallet-managed-vault-service-v2-20261114"
+    },
+    {
+      "path": "service/serve_vault.py",
+      "bytes": 10005,
+      "sha256": "835c1ac66cd98e7eb6563d6f5208d41f8c138205a2045e07c47b06980bdce94a",
+      "generation": "wallet-managed-vault-service-v2-20261114"
+    },
+    {
+      "path": "service/test_vault_service.py",
+      "bytes": 11627,
+      "sha256": "5d94f53862f4191b8b0bc102649c7599bc606806da4078e559ad22fc6713df27",
+      "generation": "wallet-managed-vault-service-v2-20261114"
+    },
+    {
+      "path": "node/recovery-vault.mjs",
+      "bytes": 6368,
+      "sha256": "a9168fd6f48f8c208d4fade9363490ee02293e21d4a1de6a3464c675027b63df",
+      "generation": "wallet-recovery-service-candidate-v2-20261114"
+    },
+    {
+      "path": "node/vault-context.mjs",
+      "bytes": 3999,
+      "sha256": "0870f8054fdacfef293fa222d7f9110b36d72251a51e998c82d62c037cd0178f",
+      "generation": "wallet-recovery-service-candidate-v2-20261114"
+    },
+    {
+      "path": "node/recovery-coordinator.mjs",
+      "bytes": 5066,
+      "sha256": "6415afde6a8be2eb416d322366b19157e2a914bceee65a436bf26ddea473951d",
+      "generation": "wallet-recovery-service-candidate-v2-20261114"
+    },
+    {
+      "path": "node/recovery-vault.test.mjs",
+      "bytes": 8431,
+      "sha256": "708ac4f2238ab1b1a9f09bee3e528e0401157e105c29adf305ac78005d358853",
+      "generation": "wallet-recovery-service-candidate-v2-20261114"
+    },
+    {
+      "path": "node/recovery-coordinator.test.mjs",
+      "bytes": 5476,
+      "sha256": "5d22a8223aa3cd74fd0c9ba4abb31d0d7fdb07e328d82cecb14b3ad60e61b1a5",
+      "generation": "wallet-recovery-service-candidate-v2-20261114"
+    },
+    {
+      "path": "web/managed-owner-client.mjs",
+      "bytes": 8383,
+      "sha256": "08c952d91f12a80b3f48618cb77ad97596b6c82e030cbf16f585207da77a0d34",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/vault-controller.mjs",
+      "bytes": 10196,
+      "sha256": "99dfe99c7f6243e2961ab9a39176322bfb3527d3a11fcbfa2e36d6e6d89bf431",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/vault-ui.mjs",
+      "bytes": 4300,
+      "sha256": "ebce89959f532cd77080262b714d25de342caee54eab2fa4b19a3a527309fbde",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/nightly-message-port.mjs",
+      "bytes": 762,
+      "sha256": "3499dc7dbb594affe8bbeba2f290acded5e21806f275cd0d6b3db97347ad3aa0",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/entry.mjs",
+      "bytes": 1466,
+      "sha256": "dd9813d726339de1904e9287434798409091314bb4abff35830b3a93d84ad2d8",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 3194,
+      "sha256": "5b9cdf6237093466adaa406f55b390d2ffd07f7b2e4a283f617337c223ec064b",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/app.css",
+      "bytes": 2569,
+      "sha256": "65820573d62f788db0227a087f297913e715e8d71a3f3169c7b5bd51eebfe16a",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/callback.mjs",
+      "bytes": 1203,
+      "sha256": "858fd2d202cf7d2098c6e8ae4087d670ee8b61edf86ecd75c9f650c60a12d377",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/wallet-auth-callback.html",
+      "bytes": 923,
+      "sha256": "b0af7469832ed84837ed222d7dfbf2fac5d492f0eccea01ff4f5f3903966ced8",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/vite.config.mjs",
+      "bytes": 333,
+      "sha256": "6aef5f78dbed09d1c9388f34dc70ef1bc37678e723a8b892095ca4259b3e6c2f",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/vault.test.mjs",
+      "bytes": 11682,
+      "sha256": "01931a555db6a370bb2cb460901ecfaf054c40e612e9723791d1c2d205c20d18",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/qualified/source/web-chain/src/founder-journey-core.js",
+      "bytes": 21968,
+      "sha256": "16ea61c73a9c8a4f9dada7143a513e65d3e6a898a047839308c38f8291db853e",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/qualified/source/web-chain/src/founder-service-policy.js",
+      "bytes": 6973,
+      "sha256": "6e951a5756ad467dd9b9661fb13cb65691d25c5c20f83e6fef72192deba7a7c5",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/qualified/source/web-chain/src/crypto.js",
+      "bytes": 3734,
+      "sha256": "2259ef8ce67de2f4c7200bc5b0fa21cb051185e9ebb10b79799af67ca0a8c48e",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/qualified/source/executor/outcome.mjs",
+      "bytes": 4873,
+      "sha256": "e567f612ace84620386a61cba8036f894ce9d58074043cb121a542a6763b04cd",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/qualified/source/web-chain/src/company-factory-actions.js",
+      "bytes": 10012,
+      "sha256": "99801a27a5aefe94173e6b77146dc03b897775805b0c47279d0331e59a442089",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/qualified/source/web-chain/src/company-factory-client.js",
+      "bytes": 6332,
+      "sha256": "4a54385458b4781bc0d04bef7f0db1bb24e6ff45928768ce07b9554554a76768",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/qualified/source/web-chain/src/business-actions.js",
+      "bytes": 37441,
+      "sha256": "8f6891af0f212ffa22bc07ef1bc07ef750b97c0739393e1bc975245c057e9941",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/qualified/source/web-chain/src/app-generation-actions.js",
+      "bytes": 7121,
+      "sha256": "15c26fd83c131a767260850e5983d3e9cb41eaaf164b189449ce14a84ba1f8c2",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/qualified/source/web-chain/src/native-app-actions.js",
+      "bytes": 19866,
+      "sha256": "207b6df2360fb2a104b99caa3a5a81fdf5d1375c7155a9b8864a6b203bd48abc",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/qualified/source/web-chain/src/wallet-sdk.js",
+      "bytes": 186,
+      "sha256": "7e138afcb2a6f989a901391f7a2bf79614292ada593a3ef5293e862159570012",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/qualified/source/web-chain/src/document-input.js",
+      "bytes": 10488,
+      "sha256": "b79f10ea922b056a899811800b35a6a48ba740853eab59ca6bff2a65018d5a22",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/qualified/source/web-chain/src/localization.js",
+      "bytes": 73824,
+      "sha256": "5a208555b003903498bedb0beabeb182c3af26330a9d138ccdfc094327d979f9",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/qualified/source/web-chain/src/document-messages.js",
+      "bytes": 7318,
+      "sha256": "9422263f28a14e8c4135113b3aab499755960b6e5f7b674b6b08743df8787d85",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/qualified/source/web-chain/src/leads-messages.js",
+      "bytes": 6059,
+      "sha256": "329e7a1717fea2810b631556ec7674c427c389ed6fc8caa9c30ea111fdfc148c",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/qualified/source/web-chain/src/goal-plan-messages.js",
+      "bytes": 13222,
+      "sha256": "61caeabb3a72db1f3857c561744ee2005d02e821a1fc8c62b1e7c286f50b7363",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/qualified/source/web-chain/src/workspace-messages.js",
+      "bytes": 17572,
+      "sha256": "d65a56c4fa84947a9d66d8d33446feca52ae7430f9806bb193b2fa90e33d6eb0",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/qualified/source/web-chain/src/claim-review.js",
+      "bytes": 11078,
+      "sha256": "85a7f7b86eaec5df3ff4bc581ff3eafa79f58757dbd6bbcd2472e3b634305f47",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/qualified/source/web-chain/src/cloud-media-results.js",
+      "bytes": 8510,
+      "sha256": "b370d7dce842765614650125aa26f5e4691f724cab15b0ca6f158b7b672ecf76",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/qualified/source/web-chain/src/leads-actions.js",
+      "bytes": 10442,
+      "sha256": "270c6855309f5fdcac269a66bdb10511fb58f74911df24e5f6c159c82bf05d6f",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/qualified/source/web-chain/src/goal-plan-actions.js",
+      "bytes": 19157,
+      "sha256": "c0e37ba101880980c57f485e1fa1059e712919077d9c58010d5923e820f4273c",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/qualified/source/web-chain/src/knowledge-input.js",
+      "bytes": 5433,
+      "sha256": "217761412e9e231c7b3bb1988e469384e76cace509a071b8ea8f4cd2a7320882",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/qualified/source/web-chain/src/knowledge-actions.js",
+      "bytes": 15962,
+      "sha256": "2f7384eb4967cc365e5d42f2ceb9a039136a9c0fa8478330238fa0e5ac61c0aa",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/qualified/source/web-chain/src/conversation-actions.js",
+      "bytes": 15496,
+      "sha256": "f31e4fec7d845c245fdcf308221f763a3cfbf3c12b2358bf99c9e931539dc37b",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/qualified/source/web-chain/src/audio-results.js",
+      "bytes": 4209,
+      "sha256": "3dcfef4d24994fd4b76099666fec5656885e79eb3bcba40ff033b2d9b4ebf809",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/qualified/source/web-chain/src/image-results.js",
+      "bytes": 5148,
+      "sha256": "98bf4d574fe09c5a59d00dc9cea2b0cff7a5a6819e867c62c222184487d03409",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/qualified/source/web-chain/src/static-web-repair-results.js",
+      "bytes": 7092,
+      "sha256": "c5e9a49d6da9638aa5fb30f2cb0ca4a8b78cca8b9d01fbcd1fc9f9c3321d8a57",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/qualified/source/web-chain/package.json",
+      "bytes": 18,
+      "sha256": "1239d4d885dcad42201a27ed9324f8f0f760b78700d8db9ced39a511cffe7eae",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/dist/assets/app-CKJ_gqhn.css",
+      "bytes": 2567,
+      "sha256": "bbec44eb71239f98c02bd721bb39b5b5b4428a50699d5c6bf1d2161088c06983",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/dist/assets/app-Du3iVrX3.js",
+      "bytes": 711,
+      "sha256": "d2a32840421496e872ade591618d2fa5c33797605d1aec04301717e5a90757d0",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/dist/assets/callback-XVhcY4dh.js",
+      "bytes": 1028,
+      "sha256": "d591fd7c64654fce0c5ddb70a7a7359b2ce2f5a639fd9dd9797beffb81d0d6eb",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/dist/assets/core-C1MiA2W-.js",
+      "bytes": 169336,
+      "sha256": "b99016d23d9425b42b128cc071553f4e116c7383989884964676b04e3fbeb909",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/dist/assets/main-Dqtpzzo_.js",
+      "bytes": 241526,
+      "sha256": "1fac06c147299ba6cffe14fcd55e509c885eaacadce5d854559892ffac56d169",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/dist/assets/nightly-DBV74NJj.js",
+      "bytes": 79694,
+      "sha256": "771467ea4df2a729a0cfe021739eaadb4efb92c44f659f7e426e27dd119d082f",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/dist/assets/sha256-CnAzM5Gj.js",
+      "bytes": 256673,
+      "sha256": "94d1b0464df6bb5ebf5d2559941192779b614227379889bff89c834301d7b272",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/dist/index.html",
+      "bytes": 3348,
+      "sha256": "e4675dc0d2e48f2aa4c31c4fe386d6b63e1e137f84a771b2d7588777bb84f140",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "web/dist/wallet-auth-callback.html",
+      "bytes": 1078,
+      "sha256": "1a74a2f831de7102d7920e3bde382ae1fbcb0537ab27819553983ce08f9e2110",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 430,
+      "sha256": "9a967d585c4e2096196a98fb9250590dc45bc05b21e4eff4b7dcc5bfd48a3bbc",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "notices/ROOT-THIRD-PARTY-NOTICES.md",
+      "bytes": 311316,
+      "sha256": "268e76e4cf954b69d275cf02e7960b20f4ad0d6b716b8649bfdf37c13f1f09a6",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "notices/SOURCE-THIRD-PARTY-NOTICES.md",
+      "bytes": 311316,
+      "sha256": "268e76e4cf954b69d275cf02e7960b20f4ad0d6b716b8649bfdf37c13f1f09a6",
+      "generation": "qualified-ui-v2"
+    },
+    {
+      "path": "notices/NIGHTLY-NOTICES-ADDENDUM.md",
+      "bytes": 23173,
+      "sha256": "56031c4db820ba499190129b451b8ed71de701579c02e19f9dd825771bbfa61e",
+      "generation": "qualified-ui-v2"
+    }
+  ]
+}

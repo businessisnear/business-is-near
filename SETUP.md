@@ -1,6 +1,6 @@
 # Run and inspect the source
 
-Use the repository checkout or extract `business-is-near-reproducible-source.zip` into an empty directory. The single archive contains root instructions, licensing/notices, the explicit editable source closure and the new native work-review module. It contains no nested component archives, installed dependencies, model weights, private reports, runtime configuration or credentials. Do not follow extraction instructions from an older delivery.
+Use the repository checkout or extract `business-is-near-reproducible-source.zip` into an empty directory. The single archive contains root instructions, licensing/notices, the explicit editable owner-tools source closure, the native work-review module and a separately inventoried managed-recovery capsule. It contains no nested component archives, installed dependencies, model weights, private reports, runtime configuration or credentials. Do not follow extraction instructions from an older delivery.
 
 ## Verify without installing anything
 
@@ -15,8 +15,8 @@ node --test source/web-chain/tests/business-pending-metadata.test.mjs
 
 The preserved `MODULE-SOURCE-MANIFEST.json` has 40 historical module rows. Its
 `verify-source.mjs` checks those older bytes and is not the current verification
-command. The current unchanged owner-source verifier checks the entire 437-file
-closure, including all 58 current module files and their shared imports. Current
+command. The current unchanged owner-source verifier checks its 437-file
+owner-tools closure, including all 58 current module files and their shared imports. Current
 company tests are 30 repair + 28 company/duration + 25 base guard checks (83 total,
 a different suite from the historical financial/V2 83); seven proxy checks are
 separate. Follow the [current V5 guide](source/labs/procurement/candidate-v4-delivery/local-app-v5/README.md)
@@ -27,6 +27,10 @@ Missing hashes do not prove unsigned actions; this display is no finality check.
 
 
 `SOURCE-DOWNLOAD-MANIFEST.json` binds every other file in the archive. `source/OWNER-TOOLS-SOURCE.json` binds the current 437-file editable source inventory and shared dependencies. The preserved module manifest pins an earlier generation, not the current controller. Manifests identify bytes, not correctness or restored authority.
+
+## Run the separate managed-recovery prototype
+
+Follow [`source/labs/managed-recovery-vault/README.md`](source/labs/managed-recovery-vault/README.md) for source verification, offline tests and explicit finite local startup. Its `CAPSULE-MANIFEST.json` verifies 70 payload files; the manifest itself makes 71 published files. This capsule is outside the unchanged 437-file owner-tools inventory and included in the download inventory. GitHub Pages cannot run its service. Actual Nightly authentication, private import and restore remain pending; routine new-work enrollment and hosted cross-device recovery are not integrated.
 
 ## Run the complete local work-review workflow
 

@@ -1,0 +1,9 @@
+{
+  "network": "testnet",
+  "chain_id": "testnet",
+  "rpc_url": "https://rpc.testnet.near.org",
+  "genesis_height": 0,
+  "genesis_hash": "11111111111111111111111111111111",
+  "companies": {"company.testnet": "11111111111111111111111111111112"},
+  "sandbox": false
+}

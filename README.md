@@ -8,6 +8,8 @@ Business is NEAR explores a company workspace where the owner sets the goal, app
 - [Inspect the recorded website example](https://businessisnear.github.io/business-is-near/app/) without a wallet. Its company is frozen and its worker key is revoked.
 - [Run the complete local work-review workflow](source/labs/procurement/candidate-v4-delivery/README.md) as a technical evaluator. This separate prototype uses seeded local roles: publish a bounded request, reserve native funds, accept a quote, deliver an encrypted result, review it and settle or refund. Its local browser controller keeps signing keys in RAM. It is not the public Nightly app or a real human marketplace.
 
+- [Inspect and run the wallet-authenticated recovery prototype](source/labs/managed-recovery-vault/README.md). This separate local service stores encrypted recovery records after owner authentication. Its 71-file source capsule has its own [70-row byte manifest](source/labs/managed-recovery-vault/CAPSULE-MANIFEST.json); it is not part of the existing 437-file owner-tools inventory. Actual Nightly unlock, private import and restore remain pending, and new work in the public app is not enrolled automatically.
+
 The public frontend is static. NEAR contracts hold permissions and records; a separately operated worker performs approved AI tasks. This pilot uses pinned local `gemma4:e2b-it-q4_K_M` through the NEAR AI-compatible client. Live NEAR AI Cloud billing, hosted TEE execution, mainnet operation and continuous hosted availability are unverified. No model runs on GitHub Pages.
 
 ## What is reproducible
@@ -31,8 +33,8 @@ node --test source/web-chain/tests/business-pending-metadata.test.mjs
 
 The preserved `MODULE-SOURCE-MANIFEST.json` has 40 historical module rows. Its
 `verify-source.mjs` checks those older bytes and is not the current verification
-command. The current unchanged owner-source verifier checks the entire 437-file
-closure, including all 58 current module files and their shared imports. Current
+command. The current unchanged owner-source verifier checks its 437-file
+owner-tools closure, including all 58 current module files and their shared imports. Current
 company tests are 30 repair + 28 company/duration + 25 base guard checks (83 total,
 a different suite from the historical financial/V2 83); seven proxy checks are
 separate. Follow the [current V5 guide](source/labs/procurement/candidate-v4-delivery/local-app-v5/README.md)
@@ -56,7 +58,7 @@ The result is `source/web-chain/dist-public-testnet/`. The normal owner-tools bu
 
 ## Authority and recovery
 
-Account names, owners, funding, permissions, task hashes and transaction history are public on NEAR. Missions, work requests and results use encrypted envelopes until the owner deliberately publishes selected plaintext. Separate private recovery files contain independent decryption keys; wallet login does not replace them. Local application plans and request inventory support same-server reload, but the local page's output-opening keys are lost on reload. Server signing keys and request memory are lost when its process stops. Restoration of a process, owner key, Nightly session or private file is not automatic.
+Account names, owners, funding, permissions, task hashes and transaction history are public on NEAR. Missions, work requests and results use encrypted envelopes until the owner deliberately publishes selected plaintext. The public app still uses separate private recovery files containing independent decryption keys. The separate managed-recovery prototype can retain imported keys in a private service after wallet authentication; it is service-custodied, not storage inside Nightly, and the service operator can access recovered data. It does not remove the one-time private import required for an older record whose key exists only in its recovery file. Local application plans and request inventory support same-server reload, but the local page's output-opening keys are lost on reload. Server signing keys and request memory are lost when its process stops. Restoration of a process, owner key, Nightly session or private file is not automatic.
 
 The public testnet client pauses creation/setup and admits only a narrowly bounded remaining revision for the original company if its service checks and exact operator admission pass. This frontend restriction does not constrain older clients or direct contract calls. A shared recent heartbeat does not establish general fleet availability. Existing records, recovery and published pages can be read independently of the worker. Use test tokens only; mainnet funds do not reopen this pilot.
 

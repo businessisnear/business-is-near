@@ -9,7 +9,8 @@
     "files": 437,
     "relative_imports_verified": 517,
     "vite_input_declarations_verified": 27,
-    "verification_basis": "Exact virtual byte/import composition; Root must run the unchanged official verifier on assembled successor before publication."
+    "verification_basis": "Exact virtual byte/import composition; Root must run the unchanged official verifier on assembled successor before publication.",
+    "inventory_scope": "Unchanged 437-file owner-tools closure; separate managed-recovery capsule uses its own 70-payload manifest."
   },
   "local_module": {
     "path": "source/labs/procurement/candidate-v4-delivery",
@@ -272,5 +273,42 @@
     "merge_insertion_sha256": "ee64f1cc1d9557b15e5884e0e0c523ca3fafff2571565842e6c0f7df8d8e093a",
     "focused_fake_checks": 10,
     "limits": "This restores company discovery, not private recovery keys or storage inside Nightly. Managed-vault work is separate and not deployed by this component."
+  },
+  "managed_recovery_source_capsule": {
+    "schema": "business-is-near-managed-recovery-source-capsule-v1",
+    "prepared_utc": "2026-11-14T23:19:32.582230+00:00",
+    "source_path": "source/labs/managed-recovery-vault",
+    "source_readme": "https://github.com/businessisnear/business-is-near/blob/main/source/labs/managed-recovery-vault/README.md",
+    "capsule_manifest": {
+      "path": "source/labs/managed-recovery-vault/CAPSULE-MANIFEST.json",
+      "sha256": "60e24b70b55fdd689f574ee6d10633d6f7bec5c3305bd84b13261813582e0682",
+      "payload_files": 70,
+      "total_files_including_manifest": 71
+    },
+    "copy_allowlist_sha256": "9fe35ba324c16faa9eed32cd410bbf01f4823539174e42783c32d1ed68e04ce5",
+    "owner_tools_inventory": {
+      "path": "source/OWNER-TOOLS-SOURCE.json",
+      "files": 437,
+      "unchanged": true
+    },
+    "scope": "Portable source and prebuilt local UI for an experimental service-custodied wallet-authenticated recovery prototype; published source is not a hosted service or actual wallet acceptance result.",
+    "verification": {
+      "explicit_capsule_byte_verifier": "PASS: 70 explicit source/fixture/static files on the assembled checkout",
+      "model_calls": 0,
+      "application_transactions": 0,
+      "runtime_or_recovery_access": false,
+      "portable_cli_help": {
+        "bootstrap": "PASS; argument help only, no configuration created",
+        "finite_host": "PASS; argument help only, no service started"
+      },
+      "checked_utc": "2026-11-14T23:20:01.277827+00:00"
+    },
+    "not_established": [
+      "Actual Nightly unlock, private import or restore",
+      "Automatic recovery enrollment for new public-app work",
+      "Hosted persistence, TLS or cross-device availability",
+      "Private app storage inside the wallet",
+      "Cloud/TEE or mainnet operation"
+    ]
   }
 }
