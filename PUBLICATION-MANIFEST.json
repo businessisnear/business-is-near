@@ -1,6 +1,6 @@
 {
   "format": 2,
-  "prepared_at": "2026-11-14T23:19:32.582230+00:00",
+  "prepared_at": "2026-11-14T23:42:29.766364+00:00",
   "target_repository": "businessisnear/business-is-near",
   "pages_source": {
     "branch": "main",
@@ -649,8 +649,8 @@
       "sha256": "5effabbffc56b7aa27ffa88c02c0ad5d94019ef2c689860ce7a6c7c48af4cfe6"
     },
     "docs/index.html": {
-      "bytes": 22285,
-      "sha256": "1da27bf10da6a382ac83cfd53aa22f5b1c12b916338ddb75305cf365a807fb90"
+      "bytes": 21959,
+      "sha256": "029fed6ecdfa516dc2321c83c87a43afe0758030f6786d6ecc6d202b35935680"
     },
     "docs/styles.css": {
       "bytes": 23947,
