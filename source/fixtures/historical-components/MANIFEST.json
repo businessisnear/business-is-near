@@ -1,0 +1,35 @@
+{
+  "schema": "bin-public-immutable-historical-proof-samples-v1",
+  "prepared_utc": "2026-11-14T13:42:50.800198+00:00",
+  "coverage": "Exactly2of43old catalogue component reports are supplied as proof samples. Other required reports are unavailable in this clean source export; main/spanish predecessor reports remain private.",
+  "proof_status": "Original local/synthetic reports, not a new run or production/full-current catalogue acceptance. Exact hashes and bytes are preserved.",
+  "full_catalogue_audit_behavior": "Still requires original declared43artifacts with no fixture fallback; it fails closed on missing evidence.",
+  "portable_test": "Only direct native_mail metadata/check/source-closure test loads this explicit exact-SHA fixture.",
+  "private_key_signed_wire_user_recovery_or_personal_paths_included": false,
+  "files": [
+    {
+      "component": "factory",
+      "filename": "4b64fb487de57513fcf8897674e52bdac6e67b3f0a0d993ef4f4d25161aa3de2.json",
+      "sha256": "4b64fb487de57513fcf8897674e52bdac6e67b3f0a0d993ef4f4d25161aa3de2",
+      "bytes": 718150,
+      "original_artifact": ".artifacts/accepted-components/4b64fb487de57513fcf8897674e52bdac6e67b3f0a0d993ef4f4d25161aa3de2.json",
+      "exact_original_bytes_unredacted": true,
+      "checks": 9,
+      "source_files": 18,
+      "public_deployment": false,
+      "scope": "Historical synthetic local component report; public keys/signatures/FINAL graphs, not wallet secrets, live customer work or current-build acceptance."
+    },
+    {
+      "component": "native_mail",
+      "filename": "6ebb048a5271378f9801eb81bbfd1a14c7303029788d77d3afc575420bd18429.json",
+      "sha256": "6ebb048a5271378f9801eb81bbfd1a14c7303029788d77d3afc575420bd18429",
+      "bytes": 343382,
+      "original_artifact": ".artifacts/accepted-components/6ebb048a5271378f9801eb81bbfd1a14c7303029788d77d3afc575420bd18429.json",
+      "exact_original_bytes_unredacted": true,
+      "checks": 17,
+      "source_files": 23,
+      "public_deployment": false,
+      "scope": "Historical synthetic local component report; public keys/signatures/FINAL graphs, not wallet secrets, live customer work or current-build acceptance."
+    }
+  ]
+}

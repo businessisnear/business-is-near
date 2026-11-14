@@ -1,0 +1,11 @@
+{
+  "name": "business-is-near-local-procurement-v4",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "node typecheck.mjs",
+    "test": "node --test v4-financial.test.mjs v4-real-crypto.test.mjs sdk-v4.test.mjs assignment-client.test.mjs v4-quote.test.mjs ../delivery-envelope.test.mjs ../local-app-v2/once-dispatcher.test.mjs ../local-app-v2/maintenance-and-input.test.mjs ../local-app-v2/availability-regressions.test.mjs"
+  },
+  "license": "UNLICENSED"
+}

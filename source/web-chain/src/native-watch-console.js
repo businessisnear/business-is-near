@@ -1,0 +1,29 @@
+import './native-watch.css';
+import '@near-wallet-selector/modal-ui-js/styles.css';
+import {setupWalletSelector} from '@near-wallet-selector/core';
+import {setupModal} from '@near-wallet-selector/modal-ui-js';
+import {setupMyNearWallet} from '@near-wallet-selector/my-near-wallet';
+import {createPrivateOwnerClient} from './private-owner-client.js';
+import {createNativeWatchClient,mountNativeEditorial,signNativeWatch} from './native-watch-editorial.js';
+let selector=null,recovery=null,busy=false,editorial=null;
+const $=s=>document.querySelector(s),owner=createPrivateOwnerClient({onChange:i=>{recovery=null;editorial?.clear();$('#watch-auth-status').textContent=i?'Authenticated '+i.account_id+' for '+i.company_id:'Owner workspace locked.';}}),client=createNativeWatchClient({owner});
+function notify(text){$('#watch-notice').textContent=text;}
+function guard(fn){return async()=>{if(busy)return;busy=true;try{await fn();}catch(e){notify(e.message);}finally{busy=false;}};}
+function download(value){const raw=JSON.stringify(value,null,2),blob=new Blob([raw],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=value.task_id+'-owner-recovery.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);recovery=value;}
+const getWallet=async()=>{if(!selector)throw Error('Connect the actual owner wallet.');return selector.wallet();};editorial=mountNativeEditorial($('#watch-editorial'),{client,owner,getWallet,onRecovery:download});
+$('#watch-connect').onclick=guard(async()=>{const config=await owner.configure();if(config.network!=='testnet')throw Error('Public wallet setup supports testnet. Use the protected CLI for other configured networks.');selector=await setupWalletSelector({network:'testnet',modules:[setupMyNearWallet()]});const modal=setupModal(selector,{contractId:$('#watch-company').value.trim()});modal.show();notify('Select the actual company owner, then authenticate.');selector.store.observable.subscribe(()=>{owner.clear();recovery=null;});});
+$('#watch-auth').onclick=guard(async()=>{const company=$('#watch-company').value.trim();owner.selectCompany(company);const wallet=await getWallet(),accounts=await wallet.getAccounts(),selected=accounts.find(x=>x.active)||accounts[0];if(!selected)throw Error('Connect the actual owner wallet.');try{await owner.restore(selected.accountId);}catch{await owner.signIn(wallet,selected.accountId);}});
+$('#watch-prepare').onclick=guard(async()=>{const prepared=await client.call('prepare',{watch_id:$('#watch-id').value.trim(),publisher_id:$('#watch-publisher').value.trim(),sources:[{source_id:'competitor',family:$('#watch-family').value,account_id:$('#watch-source').value.trim()}],max_observations:Number($('#watch-budget').value),minimum_interval_seconds:0});$('#watch-policy').textContent=JSON.stringify(prepared.policy,null,2);const signed=await signNativeWatch(await getWallet(),prepared,owner.identity.account_id);await client.call('init',{policy:prepared.policy,signed});await editorial.load(prepared.policy.watch_id);notify('Finite read-only policy signed. No model or publication was approved.');});
+$('#watch-load').onclick=guard(()=>editorial.load($('#watch-id').value.trim()));
+$('#watch-recovery').onchange=guard(async()=>{const f=$('#watch-recovery').files[0];if(!f||f.size>4096)throw Error('Bounded original owner recovery file required.');recovery=JSON.parse(await f.text());$('#watch-recovery').value='';notify('Owner recovery loaded in memory only.');});
+const entry=()=>$('#watch-entry').value.trim(),needRecovery=()=>{if(!recovery)throw Error('Load the original owner recovery.');return recovery;};
+$('#watch-bind').onclick=guard(()=>editorial.bind(entry(),needRecovery()));$('#watch-link').onclick=guard(()=>editorial.link(entry(),needRecovery()));$('#watch-review-publication').onclick=guard(()=>editorial.publication(entry(),needRecovery(),Number($('#watch-version').value)));$('#watch-record-hash').onclick=guard(()=>editorial.markOriginalHash(entry(),$('#watch-original-hash').value.trim()));
+$('#watch-editorial').addEventListener('editorial-publication-review',e=>{$('#watch-entry').value=e.detail.entry.entry_id;notify('Load the original owner recovery, select the new version and review the public revision.');});
+window.addEventListener('pagehide',()=>{recovery=null;owner.clear();});
+// Explicit numeric-loopback rehearsal only. This seeded Node-held wallet is
+// visibly labeled and never enabled by a public deployment or arbitrary URL.
+if(location.hostname==='127.0.0.1'&&new URLSearchParams(location.search).get('rehearsal')==='1'){
+ const response=await fetch('/__native_watch_fixture/config',{cache:'no-store'}),config=await response.json();if(!response.ok||config.fixture!==true||config.network!=='sandbox'||config.model_calls!==0||config.provider_requests!==0)throw Error('Explicit zero-model source-watch fixture required.');
+ const call=async(action,value)=>{const r=await fetch('/__native_watch_fixture/'+action,{method:'POST',headers:{'Content-Type':'application/json','X-Native-Watch-Fixture':config.token},body:JSON.stringify(value,(_,v)=>typeof v==='bigint'?String(v):v),redirect:'error',cache:'no-store'}),out=await r.json();if(!r.ok)throw Error(out.error||'Seeded wallet result unknown');return out;};
+ const wallet={getAccounts:async()=>[{accountId:config.owner_id,active:true}],signMessage:args=>call('sign-message',{...args,nonce:Array.from(args.nonce)}),signAndSendTransaction:transaction=>call('send',{transaction})};selector={wallet:async()=>wallet};$('#watch-company').value=config.company_id;$('#watch-connect').hidden=true;const banner=document.createElement('p');banner.className='boundary';banner.id='watch-fixture-boundary';banner.textContent='SYNTHETIC seeded Node-held owner wallet · actual isolated local NEAR · no real wallet extension or provider/model calls.';document.querySelector('main').prepend(banner);
+}

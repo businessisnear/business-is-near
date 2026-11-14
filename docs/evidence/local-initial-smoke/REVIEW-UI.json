@@ -1,0 +1,53 @@
+{
+  "id": "0d955640-08ec-447e-8f7e-c1a52ba1e661",
+  "ok": true,
+  "result": {
+    "origin": "http://127.0.0.1:62303/",
+    "refs": {
+      "e20": {
+        "name": "Review your exact action.",
+        "role": "heading"
+      },
+      "e21": {
+        "name": "I reviewed this exact action and its costs.",
+        "role": "checkbox"
+      },
+      "e22": {
+        "name": "Go back",
+        "role": "button"
+      },
+      "e23": {
+        "name": "Approve with local test wallet \u2192",
+        "role": "button"
+      }
+    },
+    "removedRefs": [
+      "@e1",
+      "@e2",
+      "@e3",
+      "@e4",
+      "@e5",
+      "@e6",
+      "@e7",
+      "@e8",
+      "@e9",
+      "@e10",
+      "@e11",
+      "@e12",
+      "@e13",
+      "@e14",
+      "@e15",
+      "@e16",
+      "@e17",
+      "@e18",
+      "@e19"
+    ],
+    "snapshot": "- dialog \"Review your exact action.\"\n  - form\n    - paragraph\n      - StaticText \"REVIEW YOUR EXACT ACTION\"\n    - heading \"Review your exact action.\" [level=2, ref=e20]\n    - generic\n      - paragraph\n        - StaticText \"You are approving as company owner. This acts only on the isolated local chain.\"\n      - StaticText \"Attached deposit\"\n      - strong\n        - StaticText \"1.46496 local NEAR\"\n      - StaticText \"Network gas authorization\"\n      - strong\n        - StaticText \"0.015586 local NEAR\"\n      - StaticText \"New storage collateral\"\n      - strong\n        - StaticText \"1.06496 local NEAR\"\n      - StaticText \"Shared code charged again\"\n      - strong\n        - StaticText \"0 local NEAR\"\n      - paragraph\n        - StaticText \"Storage is locked record collateral in this prototype. Business funds and gas are separate. Approval expires in 45 seconds; it grants one original transaction.\"\n    - group\n      - DisclosureTriangle \"Inspect the exact transaction\" [expanded=false]\n        - StaticText \"Inspect the exact transaction\"\n    - checkbox \"I reviewed this exact action and its costs.\" [checked=false, ref=e21]\n    - button \"Go back\" [ref=e22]\n    - button \"Approve with local test wallet \u2192\" [disabled, ref=e23]",
+    "browserPageId": "72992960-6134-4abe-9d06-da793e9af1d7",
+    "url": "http://127.0.0.1:62303/",
+    "title": "Business is NEAR \u00b7 Work together"
+  },
+  "_meta": {
+    "runtimeId": "15d8dec1-6462-46ff-8f24-619f916085fa"
+  }
+}

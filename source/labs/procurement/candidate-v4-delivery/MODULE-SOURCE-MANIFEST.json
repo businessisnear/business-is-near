@@ -1,0 +1,211 @@
+{
+  "profile": "business-is-near-local-procurement-source-v1",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 232,
+      "sha256": "0d49a04423b1ab1daa7a90eec8f23b339b7c7fe06b23fff8254623433385e0b0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6493,
+      "sha256": "6ec1a7fc9a77d80720a4be95080754f57f119ad9f092d8eee05deb233819568a"
+    },
+    {
+      "path": "delivery-envelope.mjs",
+      "bytes": 13165,
+      "sha256": "c7bc80c4752e9d51b8772b20bd628243634f3745502fec031f70edeaa611134e"
+    },
+    {
+      "path": "delivery-envelope.test.mjs",
+      "bytes": 13914,
+      "sha256": "010ff6aafd50cfed81506f9fd25fc0f6faed2b29b8a3cf2a63ab353b266f1da1"
+    },
+    {
+      "path": "financial-fork/assignment-client.mjs",
+      "bytes": 5696,
+      "sha256": "31e0bdfdbf584252d60829609ada13b82fe20e6001a66ab0eff05d55c4ff57b2"
+    },
+    {
+      "path": "financial-fork/assignment-client.test.mjs",
+      "bytes": 4244,
+      "sha256": "339113a9dee3beac637949bac74f15a5d244093e47df55760585f3f71d3890e3"
+    },
+    {
+      "path": "financial-fork/build.mjs",
+      "bytes": 1594,
+      "sha256": "39ee15cce8e4dc4fa2a99abdccb0bc30b011d7265c19346df8de206ad5537cc1"
+    },
+    {
+      "path": "financial-fork/build/shared_procurement_v4.js",
+      "bytes": 167656,
+      "sha256": "ae277c28cfb179d30308f0dc92ae0a3fb67fc5195de802c80cf3151ea1127ed7"
+    },
+    {
+      "path": "financial-fork/build/shared_procurement_v4.wasm",
+      "bytes": 595178,
+      "sha256": "bf13e856506ebfd3e2a532d79e9a3a657436ca299ae34e64654465b00633091d"
+    },
+    {
+      "path": "financial-fork/fixtures/quote-input.json",
+      "bytes": 14372,
+      "sha256": "e982b6189e731dbe9fcf79e7c991af33ff51b126d64d8adc10f519f392345475"
+    },
+    {
+      "path": "financial-fork/package.json",
+      "bytes": 507,
+      "sha256": "147e58f064703f924cc084b9d426af332a6ac76d916a340c267c68b253bf5a12"
+    },
+    {
+      "path": "financial-fork/protocol-readable-work-v4.mjs",
+      "bytes": 12670,
+      "sha256": "9e01342940eb63f78aeef4d2f0b28d0d9d71631e6167995ec5b61c5554959c5f"
+    },
+    {
+      "path": "financial-fork/sdk-v4.test.mjs",
+      "bytes": 2364,
+      "sha256": "c236b49da54d5e6fe125a8461151275916ed7aadee78019024be6862c40a4bf7"
+    },
+    {
+      "path": "financial-fork/shared_procurement_v4.ts",
+      "bytes": 34819,
+      "sha256": "c109b51cceb47fd1c628041bcf8f6df667d9e55816b51db97116764d1dd5941d"
+    },
+    {
+      "path": "financial-fork/transport.ts",
+      "bytes": 9306,
+      "sha256": "5eb6a28411d4574f4a300ad16c3d0434b22b7a4df5f3740d82164be4b83f5818"
+    },
+    {
+      "path": "financial-fork/typecheck.mjs",
+      "bytes": 814,
+      "sha256": "163224333b1f41f173d73dc853b87e6d0f25a1fc36eef5e9b7f0374278c14bd7"
+    },
+    {
+      "path": "financial-fork/v4-financial.test.mjs",
+      "bytes": 10627,
+      "sha256": "92088be5a5af16fb9cddf1070a6237033692f9c9e4a1d59b2c902cc5c8cceed5"
+    },
+    {
+      "path": "financial-fork/v4-host.mjs",
+      "bytes": 12608,
+      "sha256": "173436533c1b11e5ef2893c6321679c8bdcfb8f37c871e66e2f4b7cc13470400"
+    },
+    {
+      "path": "financial-fork/v4-id.mjs",
+      "bytes": 903,
+      "sha256": "6ca0bbf79a49c3ac40e2a7b876f103839185966c9d854d01852d60f86ff01dc7"
+    },
+    {
+      "path": "financial-fork/v4-local-fixture.mjs",
+      "bytes": 11172,
+      "sha256": "4b7b57e79037fe47f78a5033e9092587677e62b29a0a502c05653825b7c2f68c"
+    },
+    {
+      "path": "financial-fork/v4-quote.mjs",
+      "bytes": 25344,
+      "sha256": "56f87f742a7f9e60b54371e2321a11c81514a30f27b4f2dccaca502c6be71224"
+    },
+    {
+      "path": "financial-fork/v4-quote.test.mjs",
+      "bytes": 6998,
+      "sha256": "ec700ff7bcd88f01da7e3ede12cf56a2ec0d38a89967c5928a0208a5168a7583"
+    },
+    {
+      "path": "financial-fork/v4-real-crypto.test.mjs",
+      "bytes": 16893,
+      "sha256": "929f2d2b3adf16cf111066faf363d60d0c452d654bf3d2833ed54c0f7670de7e"
+    },
+    {
+      "path": "local-app-v2/app.css",
+      "bytes": 10465,
+      "sha256": "6071def4a5c705f6f104727600520503db857efae50cb4fb19030fa30c8cb249"
+    },
+    {
+      "path": "local-app-v2/app.mjs",
+      "bytes": 22404,
+      "sha256": "143261b2e41a84bbe79a7a7f3a5786602b0889d314a5b44f3e84295ce4716d9e"
+    },
+    {
+      "path": "local-app-v2/availability-regressions.test.mjs",
+      "bytes": 6720,
+      "sha256": "28ef19844b691c240ce8de889e9ace9247dc703bd21c386209c0cb4bfd88c9ea"
+    },
+    {
+      "path": "local-app-v2/fixtures/final-public-state.json",
+      "bytes": 18372,
+      "sha256": "a95e6c33ef05004ea5944685d39d9c87f798cddb5d56d6e20c20faa16b297d42"
+    },
+    {
+      "path": "local-app-v2/index.html",
+      "bytes": 5111,
+      "sha256": "7645bcd48b7de327d608514c998371f63c52d7bbb1ecc8919539124187256f2c"
+    },
+    {
+      "path": "local-app-v2/maintenance-and-input.test.mjs",
+      "bytes": 10757,
+      "sha256": "e1ab137f3dd9dc91276de6bce23efb3ae428a4a61aea8527d2767d717cf8e5e0"
+    },
+    {
+      "path": "local-app-v2/maintenance.mjs",
+      "bytes": 1837,
+      "sha256": "1a23e01b8d5486ef9826d25f77912422ae6407b1471225327e92e526cc85de04"
+    },
+    {
+      "path": "local-app-v2/once-dispatcher.mjs",
+      "bytes": 18112,
+      "sha256": "83dfe4342b353962a7028abaf9cd1604ce6492a775bfe5b75b0934d31c6c8b90"
+    },
+    {
+      "path": "local-app-v2/once-dispatcher.test.mjs",
+      "bytes": 14949,
+      "sha256": "f44d422ed568db46c10ba5bad9b7024c0fdb3ed1f0fff4817ab5e7c94b19e678"
+    },
+    {
+      "path": "local-app-v2/pending-review.mjs",
+      "bytes": 3227,
+      "sha256": "056e468839ddb287d98f389b7151d9e2a4cfdab8b2fbf8ad828700a960a72d30"
+    },
+    {
+      "path": "local-app-v2/policy-preparation.mjs",
+      "bytes": 2146,
+      "sha256": "f20cbee191511d20d5a1a86879546e25985b406dbce3434b86c628d0394c837c"
+    },
+    {
+      "path": "local-app-v2/public-action-input.mjs",
+      "bytes": 1477,
+      "sha256": "221a3a83eeaa479716ab44c3c4f4f28e01560c88891adde063ae14b528189fd4"
+    },
+    {
+      "path": "local-app-v2/read-invariants.mjs",
+      "bytes": 6562,
+      "sha256": "d0373a6c3c5b25048dc4d3f6ab2fee8a4cbd7ece6392d519cc8df9c9c20d79df"
+    },
+    {
+      "path": "local-app-v2/read-model.mjs",
+      "bytes": 4313,
+      "sha256": "a940644a19606d2256be324820f3b7bf7b35e6401aba1d30e6ae73f4586b2b2c"
+    },
+    {
+      "path": "local-app-v2/server.mjs",
+      "bytes": 23771,
+      "sha256": "20feb7d912b0b06056f928b2cf2c4d72317c0f2bb4ed4ba89cb6d9b1b4c0ea4f"
+    },
+    {
+      "path": "setup-local-dependencies.mjs",
+      "bytes": 1608,
+      "sha256": "61eef16e13ea8f65e71f01f6543ee97ee7e6ad43f9a0344a3e7776989d139394"
+    },
+    {
+      "path": "verify-source.mjs",
+      "bytes": 3197,
+      "sha256": "28e70fb088da354ce23778b06b895fd9507afba076b5c3c61c0795f808d3b2eb"
+    }
+  ],
+  "manifest_excludes_itself": true,
+  "runtime_material_included": false,
+  "source_license": "Original project materials: all rights reserved; dependencies retain their own licenses.",
+  "scope": "Local seeded-role prototype. Financial host tests and pure browser crypto are separate from actual native protocol evidence. Current UI repair is offline-qualified only; no real wallet/hire/public funding/mainnet/AI/whole-business claim.",
+  "financial_source_sha256": "c109b51cceb47fd1c628041bcf8f6df667d9e55816b51db97116764d1dd5941d",
+  "financial_wasm_sha256": "bf13e856506ebfd3e2a532d79e9a3a657436ca299ae34e64654465b00633091d"
+}

@@ -1,0 +1,176 @@
+{
+  "schema": 1,
+  "status": "verified_completed_and_retired_public_testnet_website_demo",
+  "network": "testnet",
+  "endpoint": "https://test.rpc.fastnear.com",
+  "company": "proofwork-owner-0052c4ee85f22ac3.testnet",
+  "operator": "proofwork-operator-2bb872982b4ab779.testnet",
+  "code_hash": "5nPd4tqK33eJZqgkoX8s8m4Fefm2UyrAy1oMxKpbUs4K",
+  "worker_key_id": "13284364b7dee3a531c14c254345b8f26bf7b481e857c25239eca766991d5a07",
+  "execution_profile_version": 1,
+  "task_id": "gemma_website_demo_v2",
+  "operation": "website_build",
+  "scope_hash": "69419291c5d1ff9d1865ade762e029b2f801ae5bf6b140893fb338ff2d44ffca",
+  "task_status": "archived",
+  "owner_approved": true,
+  "active_queue_empty": true,
+  "cancelled_prior_task_archived": true,
+  "block_hash": "8X5Wy9Yzf5tZXSWkVDg9ektp533WMGzUEgvRMN3TcGFR",
+  "block_height": 277497314,
+  "ai_policy_version": 2,
+  "completed_chain_ai_calls": 1,
+  "chain_reserved_nanos": "680000",
+  "encrypted_output_commitment_verified": true,
+  "encrypted_cache_sha256": "0924ff7407210c34fe24537a38a957e2d6bad4c5451656c9bbe87e0bfc1ef47d",
+  "actual_local_model_api_chat_post_200_count": 1,
+  "model": "gemma4:e2b-it-q4_K_M",
+  "model_digest": "b37049369adfe3d2b653af0ab301a062ca5cbe96ace6aa0d3f2559ee9b563fc2",
+  "execution_backend": "local_ollama",
+  "decrypted_artifact_and_provenance_verified": true,
+  "private_export_verification_pending": false,
+  "retained_unknown_local_record_preserved": true,
+  "retained_unknown_local_charge_nanos": 658400,
+  "original_unknown_transaction_preserved_unresolved": true,
+  "known_worker_transaction_count": 6,
+  "known_worker_transactions": [
+    {
+      "method": "company_tick",
+      "job_id": "gemma_launch_demo_v1",
+      "hash": "3TBKW5mDsirEEEuwKjURe69AhnCRzndvwZ7o336ADe9w",
+      "signer": "proofwork-operator-2bb872982b4ab779.testnet",
+      "receiver": "proofwork-owner-0052c4ee85f22ac3.testnet",
+      "gas_burnt": "21091596375479",
+      "tokens_burnt": "2086841381297900000000",
+      "receipts": [
+        "2duDk2FWJsEJHqoXP4pJpjEp9Jqmeue96bsp5ByEErUj",
+        "AKeJSSP9i4jFP7nRKfasbvSw6CqjysmhcTUmDeKoPDkS"
+      ]
+    },
+    {
+      "method": "company_tick",
+      "job_id": "gemma_website_demo_v2",
+      "hash": "HSNeEnhbhzDPJYxwmgBErRJXC3LC1SQiASFmCDB3Jo9F",
+      "signer": "proofwork-operator-2bb872982b4ab779.testnet",
+      "receiver": "proofwork-owner-0052c4ee85f22ac3.testnet",
+      "gas_burnt": "21664242148096",
+      "tokens_burnt": "2144105958559600000000",
+      "receipts": [
+        "D59w2r8AV2wYdyNRfFWXBZBt3rMU4MKC2d1YgVV98eLt",
+        "F7vkR3FbNUtoyKmtaFk3936m3YQiUdQKipKV4FrENq7m"
+      ]
+    },
+    {
+      "method": "ai_reserve_call",
+      "job_id": "b54ba0945f822433fb129467f7fbb08d93d968dd4247827184b37980e038c03b",
+      "hash": "4SRTLEUF9CprSGQzqf8SYCCZ2DtuUEy19AUBWnkPBKiB",
+      "signer": "proofwork-operator-2bb872982b4ab779.testnet",
+      "receiver": "proofwork-owner-0052c4ee85f22ac3.testnet",
+      "gas_burnt": "22918208291287",
+      "tokens_burnt": "2269502572878700000000",
+      "receipts": [
+        "5S7jpabyab9hBPoezZURUfjAwQZxr8G28H7EVbzqLQPc",
+        "Cgdf7fxHxQgpKkYEMMhkezAqC1DcL8f7C3ZePFqfdy3i"
+      ]
+    },
+    {
+      "method": "ai_complete_call",
+      "job_id": "b54ba0945f822433fb129467f7fbb08d93d968dd4247827184b37980e038c03b",
+      "hash": "Ev1cVijxmswjH4hq47EZFzNhq5ottp8qBfCPoHp3hAQ4",
+      "signer": "proofwork-operator-2bb872982b4ab779.testnet",
+      "receiver": "proofwork-owner-0052c4ee85f22ac3.testnet",
+      "gas_burnt": "20981597329897",
+      "tokens_burnt": "2075841476739700000000",
+      "receipts": [
+        "2YTC39zmZFyhx43cxqRZwuV9iFP18KsfouxEo8MbFL6j",
+        "GzZhuVLn2vbDja5x8aKMiT51DzSQkkN5q6gHbkYZEAxu"
+      ]
+    },
+    {
+      "method": "company_attest",
+      "job_id": "gemma_website_demo_v2",
+      "hash": "5MmihUxoJ8Ss2EGx9aEEAr4eYNgFkQRPeoeTY2L8rt6C",
+      "signer": "proofwork-operator-2bb872982b4ab779.testnet",
+      "receiver": "proofwork-owner-0052c4ee85f22ac3.testnet",
+      "gas_burnt": "38385928131796",
+      "tokens_burnt": "3816274556929600000000",
+      "receipts": [
+        "5xuZSuz6XWdaKQFKoHwEqQrE8MxRjLXYYvtLrsCmr9Uv",
+        "eVYfvU2QS6FjKT92hZi4xHcKGbeBUiLJMUmKMAw3kxj"
+      ]
+    },
+    {
+      "method": "company_archive",
+      "job_id": "gemma_website_demo_v2",
+      "hash": "8bd39kdXLNPjsjyqCdfm2HRNPyVkTTgKrBE3eWyEn3eY",
+      "signer": "proofwork-operator-2bb872982b4ab779.testnet",
+      "receiver": "proofwork-owner-0052c4ee85f22ac3.testnet",
+      "gas_burnt": "22815932031451",
+      "tokens_burnt": "2259274946895100000000",
+      "receipts": [
+        "DKWeXCKadRPzNFxLye4WxtnRjcRSqxN6p34Drw4BkCyV",
+        "XKjCPS477qJcGbRqnMH7bZPgnGutwvuDKGEnMjyJWN3"
+      ]
+    }
+  ],
+  "known_worker_fee_subset_yocto": "14651840893300600000000",
+  "whole_project_total": false,
+  "original_unknown_fee_included": false,
+  "original_unknown_fee_assumed_zero": false,
+  "source_sha256": {
+    "executor/testnet_mock.py": "fa9edccc337f2f9b29223a2d2c9c194d99f5efc6e90b402d6ccebab9b8228411",
+    "executor/operations.py": "5deac113676bae4808157bef2380a9170ef570d6d1f1886b22afd2058558036b",
+    "executor/local_model.py": "4451618c048d5f93d37cf8354f7b650a3fc3807d726b1c2c72e6f1e5dbb96284",
+    "executor/rpc_gateway.py": "2cee45d877206550666e1a30430d33e2837010e47326e836b6362c99ab181420",
+    "executor/rpc_bridge.mjs": "a0532c74d624e0dbec7f8e716db6c99bd254a4a4e2fb79a2a09995c05e3fd37c",
+    "executor/crypto.py": "293776f3d4f97534ed64cdcdfbd2cf57e2eb49d96f773d00d7ce76ab6f092047",
+    "app/near_ai_client.py": "37de28ccb003e97f3ba65180d6adade19bf6345a649fd38286427063d007abd6",
+    "app/worker_crypto.py": "00840fee82b7f0698b24949f07acaab351d42e171b25d2c539cbb77b08592696",
+    "app/model_schema.py": "896502f0f1262f2110d207b405ceddf62e933a0e119d241855f069c785b302b3",
+    "app/cloud_media_client.py": "af5df30eb6dc96ff3c007fa9a1dd9bd03dfbeb852bcb31df9fdb678422e3f071"
+  },
+  "source_offline_tests_passed": 29,
+  "source_offline_proof_sha256": "266a43253182a302cdd595a991c31ff55224b3c1e7e3d4be5b303943dccb4c88",
+  "cloud_billing_verified": false,
+  "tee_verified": false,
+  "real_NEAR_used": "0",
+  "continuous_hosting_verified": false,
+  "before_cleanup": false,
+  "company_frozen": true,
+  "scoped_key_still_active": false,
+  "freeze_and_key_revocation_pending": false,
+  "signatures": 0,
+  "broadcasts": 0,
+  "helper_requests": 0,
+  "observer_model_requests": 0,
+  "counts": {
+    "endpoint": "https://test.rpc.fastnear.com",
+    "controller_reads": 19,
+    "controller_broadcasts": 0,
+    "helper_requests": 0
+  },
+  "source_before_cleanup_report_sha256": "8df7b15a34bee52bdc5d916ca0185b609f39b1195299a3f1638083d90f1a4d5e",
+  "source_after_cleanup_observation_sha256": "0b9587e3d9042bdfcc2013a9ce6443277c07dcc749b8ccecae148066262f6dbb",
+  "artifact_sha256": "fc0889d78529dba7d65255763df1dd7b17817343ef42b43c3c758ff2a4cfe9b3",
+  "rendered_website_sha256": "de143a28c573ddf57325305ae1a4e963b33d12c94c133cac608d7a74b0b786df",
+  "recovered_with_model_and_signed_calls_denied": true,
+  "cache_replay_transport_attempts": 0,
+  "cache_replay_write_attempts": 0,
+  "freeze_transaction": "7uubXJnbu4WwFnvXydaxWVqwk2jvJH4boH4Ubp61U5i9",
+  "revoke_transaction": "9A9aNLstyAZidUZiJARg5ei9dn5ioA3Egp59q3FXtui1",
+  "final_cleanup_block": "5sshi28orpV7UT98LWTPna5TytrKUm8P7cc1QSNq9pu7",
+  "all_local_model_services_stopped": true,
+  "logical_local_reservation_records": 2,
+  "completed_local_reservation_records": 1,
+  "retained_unknown_local_reservation_records": 1,
+  "global_production_or_full_competitor_parity_claimed": false,
+  "model_provenance": {
+    "mode": "local_ollama",
+    "model": "gemma4:e2b-it-q4_K_M",
+    "cached": false,
+    "model_digest": "b37049369adfe3d2b653af0ab301a062ca5cbe96ace6aa0d3f2559ee9b563fc2",
+    "authorization_model": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+    "cloud_provider_charge_nanos": 0,
+    "local_compute_cost_unknown": true
+  },
+  "artifact_claim_review_state": "unverified"
+}

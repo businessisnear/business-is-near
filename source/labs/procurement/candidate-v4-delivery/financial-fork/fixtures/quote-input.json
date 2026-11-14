@@ -1,0 +1,190 @@
+{
+  "final_mandate": {
+    "id": "22d425a71c0d66c8781188da9cf3480c03165e4781d6f972a6ef5b08dc80ac0f",
+    "client_id": "businessxxxxxxxxxxxxxxxx",
+    "owner": "02f85eb10eabce60bc7b2ca3be58777d43f99100099cdde15e0b5aec830c152e",
+    "policy": {
+      "company_id": "02f85eb10eabce60bc7b2ca3be58777d43f99100099cdde15e0b5aec830c152e",
+      "goal_id": "harborxxxxxxxxxxxxxxxxxx",
+      "plan_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "operator": "4ec39b39b76cb3c613d15c70a8e8fd32d8fb03a1a9cc4d25c95e11c033475b00",
+      "providers": [
+        "fe50684286fb30cd89a759ea82cc21960c391eb38d993f69e147c2d733f84541"
+      ],
+      "steps": [
+        {
+          "id": "proofreadxxxxxxxxxxxxxxx",
+          "kind": "human_proofreadxxxxxxxxx",
+          "scope_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "criteria_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+        }
+      ],
+      "max_cycles": 1,
+      "per_job": "100000000000000000000000",
+      "daily": "200000000000000000000000",
+      "lifetime": "400000000000000000000000",
+      "max_open": 1,
+      "expires_at": "1794662324",
+      "bid_seconds": 600,
+      "delivery_seconds": 1200,
+      "review_seconds": 600,
+      "acceptance": "owner_award_assignment_delivery_shared_v4",
+      "operator_service_fee": "0",
+      "assignment_mode": "owner_public_text_v1",
+      "network": {
+        "chain_id": "test-chain-ZJOzD",
+        "genesis_hash": "E2ZHAhJYArKNTKhZ5TRXfFsARxdkNiR2V4uiecuHRsex",
+        "registry_code_hash": "DrtUeNNtAtPz9sCLcb9UeUfnAmLg6nx2yDdX8vrKSKPr"
+      },
+      "recipient_policy": {
+        "profile": "near-procurement-delivery-recipients-v4",
+        "owner": {
+          "account_id": "02f85eb10eabce60bc7b2ca3be58777d43f99100099cdde15e0b5aec830c152e",
+          "key_id": "cb319e3237f8513429cbb71cd0b2e9cb50b5f4c4a278fa1ca4269eb53903dd80",
+          "key_version": "4294967295",
+          "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAqfkP94CgtHj06DY6qzBf\nve1jkUT9RUHXxTcWAV6luon3J1eiYSghIrzMxPq+s1kSfIjyWc7yMbcMvHzTJm4U\nnAs+5ZPwaKrglGkvfTAyNeNZGMBZEaZvq0pCX4aA1k70/zJP95D2dKObuY2JsV5/\nCBYL+ZLv9sXSb4QURALmVZ3r/lV2H5/XNyBpOWGHOaukKgGTIZaR1GeUQtI5Xxr1\nA4xV8R2a+SGMsIDaHLn2HTu4Di9S1KeeWOfMZGKQ4OPY8h6Pu627365e0wFMx7rd\nep1RKQYqHVVsgHMOGVG4YiUkz3p82+EKVxhL8V62ncCMxT3vej9k0jkc7znbg9aL\no9edgK5kMAInw32GKrODeRdIf7zcBh0uvim0Bg2BTMPZq4MX7KqhprPPPJJYzSSU\n+Pb1AqzOrW93LeRtxoFB3f9x4MaN2Q71oGVBP5HrZ4E/kDsTFc7/1A2V7MYXbXRt\naRqwzqJTWa9ScarYdYNgNr5Y8sPb4HVc/brlya/MpG5nm78zovXAiDujsKsKySko\nBAre23B197qCQOF0DbXglmpbbs0yLs5ea/zxZkDfPzGK9oJTGgWdLCgrn6qBGiHT\nCHMh5EKDO5afBfIFoIqO8Urhuzl+q+0gcLrAPNTxAR2yIfiNAU/D4VD/pUu3fFU5\nMLgpvyoOOcIfQqzh2auYHlUCAwEAAQ==\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n-----END PUBLIC KEY-----\n"
+        },
+        "worker": {
+          "account_id": "4ec39b39b76cb3c613d15c70a8e8fd32d8fb03a1a9cc4d25c95e11c033475b00",
+          "key_id": "c08a496a02d10bc5179412a8686424e25518e3e14e48ef24520c35cb3a8db59b",
+          "key_version": "4294967295",
+          "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAt21BZolNkAhB6fSTbWYc\n+2FHUHCynTmypShZTcrD8EJvePoFBJZsIKEna5HH6hHj04rPIpxHOc4veoBEh4y1\niobi9IUnwOfsbU9af0ymO2yCnQQGCCc/5SCsDhJuDqE4c2b5SMwOBoVUX+d/qk0i\nhhzUASbVcgqIj2kbYR9IyyoMPliTTwS+RpluyCrY0AYo67GNdPJUzT0IHk3KOzMt\nnWdiyiLTXDHelgIa8uIfDaWBM8Gly2B9a5VvhvQGKyd9HIWUrAlCCPr4Tp7K/jo7\nDzXpoOGX1F4GNB9TkqgvYl1pmVO1lX9VbRCwLUtG8gU5d4hypqq/oPLI03LZmiTe\nsKixfUQ2tlciHR4BwI/hIaNxyoziP+TzB7bVWRo46jkDeLU+AlnfLH7z8S5bhZQ/\nu5MZuMEnSIBQ/pG5dOEGMiEn7/WAcQdmwEFzirzeZRFG78YCMgFH1kAUtkZ0j/N8\nhH19A24A+pJhQkfJpgq7YJjaxrLDgNk0xrd+fqwfPD/5BZOs7gNu7DrnAYIRjXiY\nclqzUVkldIdYe8daGjky8DK79pwCi6UZ/Q2dHB+fa2uAP46PDXh+gTIRDYBjD6JV\nc339OJqKOzYROYowafbQNwJBo9v5WiXI7aL/BymL5fVQswgsYq0UtJn+O23XPXkV\nEtbs2xdkrYOwk8+ARuEQOdcCAwEAAQ==\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n-----END PUBLIC KEY-----\n"
+        }
+      }
+    },
+    "policy_sha256": "60cc4713cbc3b9a575310609342f571382139e06da1dd0d9b32f63b2e09ae782",
+    "frozen": false,
+    "closed": true,
+    "job_count": 1,
+    "open_jobs": 0,
+    "owner_intents": 1,
+    "transfer_count": "2",
+    "funded": "400000000000000000000000",
+    "available": "0",
+    "escrow": "0",
+    "owner_credit": "0",
+    "provider_credit": "0",
+    "transfer_pending": "0",
+    "owner_paid": "300000000000000000000000",
+    "provider_paid": "100000000000000000000000",
+    "lifetime_awarded": "100000000000000000000000",
+    "day": "20771",
+    "day_awarded": "100000000000000000000000",
+    "pending_transfer": "",
+    "storage_collected": "1064960000000000000000000",
+    "storage_allocation_bytes": "106496",
+    "storage_remaining_bytes": "62768",
+    "slot_count": 1,
+    "unassigned_slots": 0,
+    "base_allocation_bytes": "73728",
+    "base_remaining_bytes": "54858",
+    "assignment_allocation_bytes": "12288",
+    "assignment_remaining_bytes": "3954",
+    "delivery_allocation_bytes": "20480",
+    "delivery_remaining_bytes": "3956"
+  },
+  "final_registry": {
+    "profile": "near-shared-procurement-v4",
+    "contract_id": "registry.project.test.near",
+    "admin": "project.test.near",
+    "frozen": true,
+    "mandate_count": 1,
+    "max_mandates": 8,
+    "funded": "400000000000000000000000",
+    "available": "0",
+    "escrow": "0",
+    "owner_credit": "0",
+    "provider_credit": "0",
+    "transfer_pending": "0",
+    "owner_paid": "300000000000000000000000",
+    "provider_paid": "100000000000000000000000",
+    "held": "0",
+    "storage_collected": "1064960000000000000000000",
+    "reserved_unused_bytes": "62768",
+    "allocated_bytes": "106496",
+    "required_retained": "7677280000000000000000000",
+    "account_balance": "7733857630733935500000000",
+    "backed": true,
+    "pending_excluded_from_held": true,
+    "root_cushion_bytes": "65536",
+    "root_initial_reserve_bytes": "4096",
+    "base_mandate_allocation_bytes": "73728",
+    "assignment_slot_bytes": "12288",
+    "delivery_slot_bytes": "20480",
+    "provider_delivery_deposit": "0",
+    "assignment_mode": "owner_public_text_v1",
+    "max_jobs_per_mandate": 8,
+    "extra_record_bytes": "1280",
+    "operator_service_fee": "0",
+    "admin_can_withdraw": false,
+    "assumed_storage_byte_cost": "10000000000000000000",
+    "fresh_external_protocol_price_guard_required": true,
+    "contract_can_detect_protocol_price_change": false,
+    "external_company_dependency_verification": false,
+    "human_identity_verified": false,
+    "observed_at": "1794642405"
+  },
+  "owner_quote": {
+    "profile": "near-shared-procurement-v4",
+    "kind": "OWNER_CREATE_MANDATE",
+    "owner": "02f85eb10eabce60bc7b2ca3be58777d43f99100099cdde15e0b5aec830c152e",
+    "mandate_id": "22d425a71c0d66c8781188da9cf3480c03165e4781d6f972a6ef5b08dc80ac0f",
+    "policy_sha256": "60cc4713cbc3b9a575310609342f571382139e06da1dd0d9b32f63b2e09ae782",
+    "slot_count": 1,
+    "base_storage_bytes": "73728",
+    "assignment_storage_bytes": "12288",
+    "delivery_storage_bytes": "20480",
+    "base_storage_collateral": "737280000000000000000000",
+    "assignment_storage_collateral": "122880000000000000000000",
+    "delivery_storage_collateral": "204800000000000000000000",
+    "provider_delivery_deposit": "0",
+    "record_storage_bytes": "106496",
+    "record_storage_collateral": "1064960000000000000000000",
+    "storage_refundable": false,
+    "business_budget": "400000000000000000000000",
+    "business_budget_is_not_fee": true,
+    "operator_service_fee": "0",
+    "per_mandate_wasm_charge": "0",
+    "attached_deposit": "1464960000000000000000000",
+    "gas": {
+      "fixed_action_receipt_gas": "1616941641070",
+      "attached_execution_gas": "150000000000000",
+      "gas_price": "100000000",
+      "inflation_ratio": [
+        "103",
+        "100"
+      ],
+      "fixed_action_receipt_cost": "161694164107000000000",
+      "execution_authorization": "15450000000000000000000",
+      "total_authorization": "15611694164107000000000",
+      "rows": [
+        {
+          "type": "FunctionCall",
+          "observed_fixed_gas": "1400822641070",
+          "attached_execution_gas": "150000000000000"
+        }
+      ],
+      "scope": "Observed send_not_sir+execution fees and attached execution gas authorization; future protocol/price changes require a fresh quote. Actual fees use original complete FINAL graphs."
+    },
+    "wallet": {
+      "spendable_balance": "99998180000000000000000000",
+      "requirement": "1480571694164107000000000",
+      "shortfall": "0"
+    },
+    "project_deployment": "PREPAID_SHARED_PROJECT_BACKING_CHECKED_SEPARATELY",
+    "provenance": {
+      "chain_id": "test-chain-ZJOzD",
+      "genesis_hash": "E2ZHAhJYArKNTKhZ5TRXfFsARxdkNiR2V4uiecuHRsex",
+      "block_hash": "AQSqVcEkiizUMaNQ2LM1fDHoziLjmYjX5kBr4KgGD8CK",
+      "height": 35,
+      "observed_at": "1794642324",
+      "environment": "ACTUAL_ISOLATED_LOCAL_NEAR",
+      "mainnet_price_claim": false,
+      "observation_is_state_proof": false
+    },
+    "notice": "Exact original wallet creates a record; no owner child account or new owner key. This is not a signature or live funding approval."
+  },
+  "registry_id": "registry.project.test.near",
+  "mandate_id": "22d425a71c0d66c8781188da9cf3480c03165e4781d6f972a6ef5b08dc80ac0f",
+  "fixture_scope": "Public local protocol values for offline synthetic quote tests; not credentials, a live quote, or native receipt proof."
+}

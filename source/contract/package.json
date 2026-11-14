@@ -1,0 +1,32 @@
+{
+  "name": "contract",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "near-sdk-js build src/contract.ts build/contract.wasm",
+    "test:sandbox": "node test/sandbox.mjs",
+    "test:bridge": "node test/bridge.mjs",
+    "test:gas": "node test/gas-accounting.mjs",
+    "build:onchain": "near-sdk-js build onchain/company.ts build/company.wasm",
+    "test:onchain": "node test/onchain_company.mjs",
+    "test:ai": "node test/ai_authority.mjs",
+    "test:ai-upgrade": "near-sdk-js build onchain/upgrade-fixture.ts build/upgrade-fixture.wasm && node persistent/test-upgrade-ai.mjs",
+    "test:customer": "node test/customer_order.mjs",
+    "build:service": "node ../scripts/build_native_service.mjs",
+    "test:service": "node --test test/native_service.mjs"
+  },
+  "license": "UNLICENSED",
+  "type": "module",
+  "dependencies": {
+    "near-sdk-js": "^2.0.0"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^18.19.130",
+    "near-workspaces": "^5.0.0"
+  },
+  "overrides": {
+    "near-sandbox": {
+      "tar": "7.5.22"
+    }
+  }
+}

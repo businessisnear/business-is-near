@@ -1,0 +1,42 @@
+{
+  "at_utc": "2026-11-14T13:19:17.423367+00:00",
+  "passed": true,
+  "scope": "V2 fresh actual browser module load, explicit nonfinancial public recipient prep, ownercostreview open thenGoBack; not a second full business cycle",
+  "source_freeze_sha256": "81ccb7df63ef3fd33b97a2b767a4aaf1dd835ecdbd2d9177583467a3f295c2bb",
+  "app_transaction_records": {
+    "requests": 0,
+    "births": 0,
+    "hashes": 0
+  },
+  "mandate_created": false,
+  "app_signatures_or_broadcasts": 0,
+  "bootstrap": "New isolated seeded node with keyless registry and fixture role activation; setup transactions separate",
+  "external_model_calls": 0,
+  "Chrome_Nightly_touched": false,
+  "user_private_data_or_keys_read": false,
+  "owned_processes_stopped": false,
+  "run": ".artifacts/business-os-integration/candidate-v4-delivery/financial-fork/protocol-runs/browser-owner-reviewer-v4-v2-2026-11-14T13-06-09-116Z-2d0a5ff6",
+  "page": "72992960-6134-4abe-9d06-da793e9af1d7",
+  "origin": "http://127.0.0.1:62303/",
+  "actual_source_modules_loaded": [
+    "http://127.0.0.1:62303/app.css",
+    "http://127.0.0.1:62303/app.mjs",
+    "http://127.0.0.1:62303/policy-preparation.mjs",
+    "http://127.0.0.1:62303/pending-review.mjs",
+    "http://127.0.0.1:62303/delivery-envelope.mjs",
+    "http://127.0.0.1:62303/modules/assignment-client.mjs",
+    "http://127.0.0.1:62303/web-chain/src/crypto.js",
+    "http://127.0.0.1:62303/api/hello",
+    "http://127.0.0.1:62303/api/state",
+    "http://127.0.0.1:62303/api/state",
+    "http://127.0.0.1:62303/api/state",
+    "http://127.0.0.1:62303/api/policy",
+    "http://127.0.0.1:62303/api/state",
+    "http://127.0.0.1:62303/api/prepare"
+  ],
+  "limitations": [
+    "No maintenance browser injection/fundedaction/fullcycle/restart/Nightly/publicfunding proof.",
+    "Independent43tests+16probes cover repaired refusal/maintenance races separately.",
+    "No statement about owner\u2019s pending Nightly request is inferred."
+  ]
+}

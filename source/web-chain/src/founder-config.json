@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "network": "testnet",
+  "deployment_status": "finalized",
+  "factory_id": "bin-factory-986bd42f.testnet",
+  "factory_code_hash": "xYcQtCz1w3uJdBu9eTWQQJsHUXgBAvv2gjqNAYSxdeh",
+  "company_code_hash": "5nPd4tqK33eJZqgkoX8s8m4Fefm2UyrAy1oMxKpbUs4K",
+  "company_template_sha256": "470f7674ad709b295459c031f9d6b4f8b929d45b7edafbf13289c22fc0510a80",
+  "worker_public_key": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtYkcA2tKJn9+kbQAeYzw\ncdsSkXpH2WyKnAqZNFd5t+Youw15v/4piGZ/foxucKl2XNQ34N7YoKPl4bxYys8z\nX0VkBOZDbdvYTBzYNAcdTfbymQTbmGsyIRa+oR+x11kHEhrN0aDr03AoF4AoEtvq\nw76KETdH7X3Uwwesn0Bm15/PjYmyHzoxFooE1dN5jy3AK2NHVtD3hLRW8xbDHhzl\n9y4aCMyGUQlLTpnAlsoFDP3z7k3ZLgKHNK6M51kjU9Ei8jmymUQkygzq2w2NrGSz\nn5jpKHtt1CybfEZ9n/nD6OVoU6xnQsKVzv8SZTn9vLGdvJ3IQCjDr4CP3pH+2aa7\nXr+M2y6jJTP45eTZZ23e2gn+FWpKFxx8QRXHuL+BbizGkag+etbhq8vAUStj/C/3\nSa0bjmyjNch3HF8sH/e8hF0Boi5gswZhh9ZJSlG22ptVXILKA/VEiDJ6iWajR34E\nL1uvSXvuMerfjsMJ1rX6aMfgfr2m44gDn4SoURS6Oa5ODRzFrqExwcNxzxbzopeE\ngBSluO7fTKMXXO/6Bvi2JgTT/zSjZPrHFwMQPNJdwlmt0phXiUMIcLX8k185u+yv\ntOo6mdNzHT2kjTPNn5jgRd70ZxnvSCiQ69mqcwdKu4wkiIaZ0s/sl4jZih7F3qm7\napcfqHnPWPQoxOf+WWq16D8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+  "worker_key_id": "89aafd290406ac5ede95014e9735dcdb2f3743974175ea8873e2abdc02b97997",
+  "operator_id": "bin-operator-fe94da82.testnet",
+  "supplier_id": "bin-operator-fe94da82.testnet",
+  "execution_backend": "local_gemma_mock",
+  "cloud_billing_verified": false,
+  "tee_verified": false
+}

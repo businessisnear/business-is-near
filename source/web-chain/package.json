@@ -1,0 +1,28 @@
+{
+  "name": "proof-work-chain-console",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build --base=./",
+    "test": "node --test tests/*.test.mjs",
+    "test:browser": "node tests/browser/action-boundary.mjs && node tests/browser/smoke.mjs && node tests/browser/refund.mjs",
+    "test:browser:actions": "node tests/browser/action-boundary.mjs",
+    "test:sandbox": "node tests/static_actions_e2e.mjs",
+    "test:catalog:live": "node tests/browser/live-catalog.mjs",
+    "build:public-testnet": "node build-public-testnet.mjs",
+    "test:public-testnet": "node --test public-testnet.test.mjs",
+    "test:founder": "node --test founder-journey.test.mjs"
+  },
+  "dependencies": {
+    "@near-wallet-selector/core": "10.1.4",
+    "@near-wallet-selector/modal-ui-js": "10.1.4",
+    "@near-wallet-selector/my-near-wallet": "10.1.4",
+    "@near-wallet-selector/nightly": "10.1.4",
+    "buffer": "6.0.3"
+  },
+  "devDependencies": {
+    "playwright": "1.65.0",
+    "vite": "7.3.7"
+  }
+}

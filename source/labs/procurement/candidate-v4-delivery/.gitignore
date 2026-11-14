@@ -1,0 +1,7 @@
+financial-fork/protocol-runs/
+financial-fork/build-preserved-*/
+financial-fork/build/tmp/
+financial-fork/build/BUILD.log
+financial-fork/build/BUILD-RESULT.json
+financial-fork/v4-real-crypto-HANDOFF.json
+financial-fork/node_modules/

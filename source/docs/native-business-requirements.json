@@ -1,0 +1,538 @@
+{
+  "schema": 1,
+  "target": "NEAR-native business operations requirements under explicit owner authority",
+  "baseline_date": "2026-11-10",
+  "baseline_revision": 2,
+  "inventory_limit": "Forty-four stable project acceptance areas. Existing status, gaps, acceptance conditions and historical component evidence are retained. This is not a completeness claim or proof of public operation.",
+  "implementation_note": "Progress records distinguish bounded local/sandbox acceptance from live parity. Component evidence is historical and pins its consumed source; later source changes require fresh affected acceptance. No capability is marked fully verified solely from local checks.",
+  "capabilities": [
+    {
+      "id": "company_onboarding",
+      "status": "partial",
+      "implemented": "Bounded NEAR factory embeds the exact company WASM, binds explicit original signer full-access custody and exact storage/backing quote, atomically creates/funds/deploys/initializes companies with the actual user owner. Actual two-company isolation, legacy state equivalence, historical pending guard, bounded retries, restart and original-creator failed-refund recovery passed; standalone wizard then passed eleven actual browser groups including delayed wallet account-switch refusal with one seeded owner signature, lost-response/exact-hash recovery and independent child owner/code/key checks.",
+      "missing": "Hosted worker/private-store provisioning, public wallet/account onboarding and live multi-company operation remain unverified or unimplemented. The accepted standalone browser fixture uses seeded Node-held keys; external-wallet and final frozen-build acceptance remain separate.",
+      "local_component_evidence": {
+        "artifact": ".artifacts/accepted-components/4b64fb487de57513fcf8897674e52bdac6e67b3f0a0d993ef4f4d25161aa3de2.json",
+        "original_artifact": ".artifacts/company-factory-e2e.json",
+        "sha256": "4b64fb487de57513fcf8897674e52bdac6e67b3f0a0d993ef4f4d25161aa3de2",
+        "scope": "Nine actual isolated NEAR acceptance groups: four deployments, two refunds, 66 revalidated FINAL transactions including known failures, real restart and original-wallet failed-refund retry. Test tokens only; original full-access owner custody and factory/code-upgrade trust remain explicit."
+      },
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "strategy_planning",
+      "status": "partial",
+      "implemented": "Owner-authorized bounded goal decomposition produces a dependency DAG of concrete supported requests under exact source/type/inference limits. Actual local Gemma and NEAR component checks exercised separate owner-approved children, No-AI completion, exact-cache restart and authenticated archived-result inputs. Fresh main-browser acceptance passed eight checks with one actual local Gemma call, two separately approved No-AI children, explicit archived-summary selection and later-revision prepare/discard. Its exact historical report is .artifacts/studio-goal-browser/20261110T181008714Z-401e0b25/report.json, SHA-256 2fbafc764e743f88434fd7e31bdb79775f7248d2b44939f485f9d404297e4cd1.",
+      "missing": "General arbitrary business execution, automatic sibling-output dataflow, independent business evaluation, live business outcomes and public operation remain unverified or unimplemented. The fresh main-browser check used seeded local accounts; subsequent worker/main-result recovery changes and the final candidate still require unchanged-source acceptance.",
+      "local_component_evidence": {
+        "artifact": ".artifacts/accepted-components/fc542939a65b2dc44d28a53729b71a1d4f4f3cca4d71c7c50e491ce2d08b0d80.json",
+        "original_artifact": ".artifacts/goal-plan-model-evidence.json",
+        "sha256": "fc542939a65b2dc44d28a53729b71a1d4f4f3cca4d71c7c50e491ce2d08b0d80",
+        "scope": "Historical source-pinned actual NEAR plus exactly one local Gemma DAG; three separate owner approvals and source-extract child artifacts. Dependency order is not silent sibling-source injection; no external action or verified business outcome."
+      },
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "scheduled_operations",
+      "status": "partial",
+      "implemented": "On-chain immutable recurring mandates with start/expiry, intervals, daily/lifetime runs, menu-bound task creation, pause and cancellation. Fresh current-worker acceptance passed eleven local NEAR groups, three actual local Gemma calls, a tested repository repair followed by a no-change cycle, restart, exact inference records and clean owned teardown.",
+      "missing": "Verified hosted runtime and durable long-running multi-business observation remain missing",
+      "local_component_evidence": {
+        "artifact": ".artifacts/accepted-components/89ad3a1a8820bfdef8b2250fdb8f6041ee007f6150adda894b4b57ec464c5a28.json",
+        "original_artifact": ".artifacts/mandates-e2e/20261110T205351670Z-58ab7f398c/report.json",
+        "sha256": "89ad3a1a8820bfdef8b2250fdb8f6041ee007f6150adda894b4b57ec464c5a28",
+        "scope": "Eleven source-pinned isolated NEAR checks with three actual local Gemma calls, 28 known worker FINAL records and 14 successful controller FINAL records. The latter exclude setup/negative-call fees; no hosted uptime, UTC rollover, Cloud inference or public worker completion is established."
+      },
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "software_engineering",
+      "status": "partial",
+      "implemented": "Owner-pinned numeric Python and static HTML/CSS/browser-JS repairs with real isolated immutable acceptance tests, source protections, recoverable local Git commits and no-change detection; fresh NEAR-authorized Gemma static-web task/recovery passed",
+      "missing": "General server/application development, dependency/schema migrations and verified public deployment remain missing; static web uses the documented macOS outer sandbox and no Chromium inner sandbox",
+      "local_component_evidence": {
+        "artifact": ".artifacts/accepted-components/ab371d784e096c81abc897280bcc9a08ac04d7bfd840c85289f10e17ca0d1573.json",
+        "sha256": "ab371d784e096c81abc897280bcc9a08ac04d7bfd840c85289f10e17ca0d1573",
+        "scope": "One fresh NEAR-authorized local Gemma static-web repair, 18 Chrome checks, compact encrypted recovery, restart and local Git commit; no server repair, public deployment or hosted TEE",
+        "original_artifact": ".artifacts/web-engineering-e2e.json"
+      },
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "website_creation",
+      "status": "partial",
+      "implemented": "Static website artifacts from approved source text or bounded local inference support private preview/export. A separate exact owner approval publishes bounded public HTML on NEAR; native web4_get returns hash-checked inline markup under fixed meta CSP and an empty sandbox. Fresh local acceptance exercised maximum-size rendering, five versions, exact bytes, code pins and unknown-wallet recovery.",
+      "missing": "General full-stack/JavaScript applications, broader visual/media/CMS iteration and live public gateway/domain/browser-wallet deployment remain unimplemented or unverified. Static page copy remains unverified; local Web4 compatibility is not live hosting.",
+      "local_component_evidence": {
+        "artifact": ".artifacts/accepted-components/1baf76585682365f991e906288aa81edc8158e378ece12c5b28968fe2426d3d7.json",
+        "original_artifact": ".artifacts/public-page/20261110T210315913Z-5c76b497/report.json",
+        "sha256": "1baf76585682365f991e906288aa81edc8158e378ece12c5b28968fe2426d3d7",
+        "scope": "Fifteen source-pinned actual isolated NEAR/Chrome checks: five public test versions, nineteen FINAL transactions, 53 native Web4 views, sixteen header-free HTTP/browser scenes, maximum-size rendering, real restart and original-hash wallet recovery. Zero model/provider calls; seeded test signing, not public gateway/DNS/TLS or external-wallet acceptance."
+      },
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "hosting_and_domains",
+      "status": "partial",
+      "implemented": "Portable worker/static console plus an owner-approved NEAR static-page publisher, native inline Web4 ABI and independently pinned read-only viewer. Fresh fifteen-group local NEAR/Chrome acceptance passed all current consumed hashes, nineteen FINAL transactions, five versions, 53 native views, sixteen header-free browser scenes, unchanged 16 KiB limits, restart and exact unknown-wallet recovery.",
+      "missing": "Public Web4 HTTPS delivery for this deployment, public wallet acceptance, custom DNS/domain lifecycle and hosted NEAR AI custom-process/private-volume operation remain unverified or unimplemented. The observed gateway mirror/viewer is loopback; scripts, third-party embeds and arbitrary server applications are not hosted by this bounded static component. Gateway/RPC/cache/upgrade-key trust remains.",
+      "local_component_evidence": {
+        "artifact": ".artifacts/accepted-components/1baf76585682365f991e906288aa81edc8158e378ece12c5b28968fe2426d3d7.json",
+        "original_artifact": ".artifacts/public-page/20261110T210315913Z-5c76b497/report.json",
+        "sha256": "1baf76585682365f991e906288aa81edc8158e378ece12c5b28968fe2426d3d7",
+        "scope": "Fifteen source-pinned actual isolated NEAR/Chrome checks: five public test versions, nineteen FINAL transactions, 53 native Web4 views, sixteen header-free HTTP/browser scenes, maximum-size rendering, real restart and original-hash wallet recovery. Zero model/provider calls; seeded test signing, not public gateway/DNS/TLS or external-wallet acceptance."
+      },
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "research",
+      "status": "partial",
+      "implemented": "Owner-approved public HTTPS retrieval with observed byte/text hashes and optional bounded summary",
+      "missing": "Autonomous source discovery, independent fact verification and competitor tracking remain missing",
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "bug_monitoring",
+      "status": "partial",
+      "implemented": "Actual broken-link and image-alt checks on an authorized fixed fixture",
+      "missing": "General app telemetry, incidents, bug diagnosis and repair",
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "support_inbox",
+      "status": "partial",
+      "implemented": "NEAR-native encrypted inbox for owner-approved named customers, immutable policy/quotas, authenticated chain history and browser grant/message/recovery controls; actual local browser workflow passed",
+      "missing": "Live public-company operation, email ingestion, general conversation reasoning and escalation remain unverified",
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "support_responses",
+      "status": "partial",
+      "implemented": "Encrypted NEAR replies to the original customer with actual Gemma browser recovery, wrong-key denial, restart/idempotency, owner-policy bounds and revocation",
+      "missing": "Public-company delivery, email/channel connectors, semantic policy verification and escalation remain unverified",
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "lead_discovery",
+      "status": "partial",
+      "implemented": "Owner-approved literal public-directory contact discovery with exact URL/term/domain/count filters, byte/text provenance, fixed private suppression, no inference/contact authority, durable prefetch intent and no automatic refetch after interruption/failure. Actual local NEAR and a browser component passed using explicitly synthetic directory content.",
+      "missing": "Global lead search, independent business-identity enrichment, contact consent, real directory acceptance, live outreach and integrated prospect-to-customer outcomes remain unimplemented or unverified.",
+      "local_component_evidence": {
+        "artifact": ".artifacts/accepted-components/d34b356aa0c2e29e452e60f57869efc94b85ed3eb40468d6d93009590acb1ceb.json",
+        "original_artifact": ".artifacts/leads-evidence.json",
+        "sha256": "d34b356aa0c2e29e452e60f57869efc94b85ed3eb40468d6d93009590acb1ceb",
+        "scope": "Eleven actual local NEAR checks with synthetic directory responses only; exact cached ciphertext/restart, opt-out filtering, failed-fetch no-repeat, unrelated work, wrong-key/export checks. Zero models, Cloud requests or messages; historical consumed source pins are retained."
+      },
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "cold_outreach",
+      "status": "partial",
+      "implemented": "Private outreach drafts plus an isolated owner-approved encrypted Gmail outbox with exact account/recipient/content commitments, restricted NEAR operator, finite irreversible counters, private journal, suppression and at-most-one SEND reconciliation. Actual NEAR with synthetic provider passed, and real fixed-host HTTPS code is dormant. Standalone owner console passed actual local-chain/Chrome approval, private recovery, lost-response/reload and exact unknown reconciliation; provider transport remained synthetic.",
+      "missing": "Owner OAuth enrollment/refresh, real delivery/bounce/reply ingestion, broader providers and live main-business orchestration remain unimplemented or unverified. The separate delivery console has sandbox browser acceptance; no real email was sent.",
+      "local_component_evidence": {
+        "artifact": ".artifacts/accepted-components/bf30d05cd69f2b565c7d425a9f12c36fc2998f927a5804bc26d5bcd4cb9fc592.json",
+        "original_artifact": ".artifacts/outbox-e2e.json",
+        "sha256": "bf30d05cd69f2b565c7d425a9f12c36fc2998f927a5804bc26d5bcd4cb9fc592",
+        "scope": "Post-marker source-pinned actual NEAR and synthetic Gmail only; immutable bounded intents, durable unknown/no-repeat SEND and suppression. Zero Google HTTP/email; actual OAuth, recipient delivery, replies and bounces remain unverified."
+      },
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "paid_advertising",
+      "status": "partial",
+      "implemented": "Encrypted private advertising draft",
+      "missing": "Campaign provisioning, targeting, creative delivery, provider-enforced spend, performance and reconciliation",
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "social_media",
+      "status": "partial",
+      "implemented": "Private social drafts plus six bounded provider-specific delivery code paths governed by separate encrypted NEAR outboxes, exact account/media/content commitments, finite requests, unknown reconciliation and restart-safe journals. Actual NEAR with synthetic protocols passed; dormant live HTTPS routes are disabled by default. A standalone browser console passed all seven provider forms, real owner approvals and delayed wallet/media/decryption account-switch tests with synthetic transports.",
+      "missing": "Live platform enrollment/OAuth/receipts, Instagram/TikTok prerequisites, broad formats/replies/comment management, product connection/scheduling and public channel operation remain unimplemented or unverified.",
+      "local_component_evidence": {
+        "artifact": ".artifacts/accepted-components/7cf28be45c426aa19e622df7e8687226c8fc45ba11056032cc03f2051f00f8b9.json",
+        "original_artifact": ".artifacts/social-e2e.json",
+        "sha256": "7cf28be45c426aa19e622df7e8687226c8fc45ba11056032cc03f2051f00f8b9",
+        "scope": "Six explicitly bounded routes accepted against synthetic protocols and actual local NEAR only. No real social endpoint was called. Missing formats and account/provider/live prerequisites remain explicit per-channel gaps."
+      },
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "content_production",
+      "status": "partial",
+      "implemented": "Encrypted private copy/source extracts with provenance and unverified claim labels, bounded local inference, separate owner-reviewed NEAR static-page publication and separately approved delivery outboxes for supported formats.",
+      "missing": "Full editorial workflow, SEO, publication and ongoing content maintenance",
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "customer_intake",
+      "status": "partial",
+      "implemented": "Atomic encrypted fixed-QA orders plus named-customer NEAR-native message intake with quotas and encrypted replies",
+      "missing": "General forms, CRM inbox, qualification, service negotiation and authenticated live intake",
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "payments",
+      "status": "partial",
+      "implemented": "NEAR sandbox escrow, settlement, approved supplier payout and refunds",
+      "missing": "Live payment lifecycle, subscriptions, disputes and card/fiat reach or agreed NEAR alternative",
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "financial_reporting",
+      "status": "partial",
+      "implemented": "Exact NEAR accounting, separate storage, fees, commitments and AI reservations",
+      "missing": "Actual provider invoice reconciliation, cross-currency costs and live business reporting",
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "analytics_and_iteration",
+      "status": "partial",
+      "implemented": "Read-only exact BigInt company/appointment reconciliation at one actual FINAL block with code/owner pins, deposit/escrow/settlement/refund and storage separation, unknown invoices/net profit, bounded task history and explicit partial coverage. Fresh main-browser acceptance exported the actual-chain report and bounded source, verified the original-customer refund, and cleared prior snapshots on account changes; analytics added no inference.",
+      "missing": "Live acquisition funnels, retention, experiment attribution, provider invoice reconciliation and autonomous closed-loop improvement remain unimplemented or unverified. Seeded local events and a current-source main workflow do not establish live business outcomes.",
+      "local_component_evidence": {
+        "artifact": ".artifacts/accepted-components/f81830b6deeed2ce4028d8f587118f644773da5a94159327ddc79051f89f9fa9.json",
+        "original_artifact": ".artifacts/studio-browser/20261110T211003900Z-969148fe/report.json",
+        "sha256": "f81830b6deeed2ce4028d8f587118f644773da5a94159327ddc79051f89f9fa9",
+        "scope": "Fresh seeded local NEAR/Chrome main workflow: one actual FINAL company/appointment snapshot, original-customer 0.2 test-NEAR refund, retained storage, exact hashed downloads, bounded source and account-epoch clearing. Four total local Gemma calls belong to the complete workflow; analytics reads add none. No provider invoice or profit claim."
+      },
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "multimodal_apps",
+      "status": "partial",
+      "implemented": "Private content-addressed media and real pinned local Gemma image observations through a NEAR-authorized worker; exact source/model/usage commitments, durable no-repeat intent, independent image decode, encrypted recovery and explicit uncertainty accepted in an isolated sandbox. Private text/CSV and bounded native-PDF excerpts now bind exact Unicode/CRLF bytes, company, extraction/parser identity and offsets to separately approved work. Three actual local-chain formats, no-model cache/restart and raw-drift refusal passed; source import itself makes no model request.",
+      "missing": "Audio/video understanding or generation, image/video/speech generation, OCR/Office documents, larger or arbitrary attachments, live deployment, paid-provider execution and invoice reconciliation remain unverified or unimplemented. Current native-PDF acceptance is on this host with its pinned Poppler binaries; main document UI integration/final frozen acceptance is pending.",
+      "local_component_evidence": {
+        "artifact": ".artifacts/accepted-components/3ac9b71757234040f3757aca8fae6f3c43b9e20b77309a887ad8527ecd2c994e.json",
+        "sha256": "3ac9b71757234040f3757aca8fae6f3c43b9e20b77309a887ad8527ecd2c994e",
+        "scope": "Historical source-pinned standard-worker image sandbox acceptance; one actual local Gemma vision call, no Cloud/provider payment or public deployment.",
+        "original_artifact": ".artifacts/image-operations-e2e.json"
+      },
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "shared_learning",
+      "status": "partial",
+      "implemented": "Consent-based NEAR public-playbook registry and separate wallet UI: exact-version publication/adoption/revocation, bounded retained storage and namespace isolation. Standard company worker consumes the exact whole adopted public note as untrusted input, checks current eligibility/code at FINAL before generation and cached attestation, and retains an independently validated compact receipt.",
+      "missing": "Combined company-UI source selection and public multi-company operation remain unverified; no private-data sharing or training. Published plaintext is permanent.",
+      "local_component_evidence": {
+        "artifact": ".artifacts/accepted-components/196a5a43ff5c7c36cb268376cedc06eb31dc5a4c7498e7c094ff6f02c437e356.json",
+        "sha256": "196a5a43ff5c7c36cb268376cedc06eb31dc5a4c7498e7c094ff6f02c437e356",
+        "scope": "Historical source-pinned registry-to-standard-worker sandbox acceptance, including revocation, opt-out, cached output, unrelated work and ordinary research; zero inference or real-provider requests.",
+        "original_artifact": ".artifacts/knowledge-consumption-e2e.json"
+      },
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "localization",
+      "status": "partial",
+      "implemented": "Owner-only persistent en/es setting, new immutable scope/result language, typed customer reply preference, exact preserved Unicode/source hashes and language-specific generation. Actual Spanish Gemma/cache/restart and a separate actual Chrome+NEAR NoAI UI run passed ten groups, including reload, mobile labels/errors, old-result preservation and privacy clearing.",
+      "missing": "Separate knowledge/native-app/QA interfaces, public-wallet acceptance, complete Spanish claim detection, actual Spanish customer-reply browser acceptance and comprehensive translation/grounding quality remain unverified. A model semantic expansion was observed and output stays unverified.",
+      "local_component_evidence": {
+        "artifact": ".artifacts/accepted-components/dfbb7dda0e05072c2211e6530dcdbfca36a6e5d3de425614596c8a413c21074d.json",
+        "original_artifact": ".artifacts/studio-locale-browser/20261110T154340047Z-cd5f184b/report.json",
+        "sha256": "dfbb7dda0e05072c2211e6530dcdbfca36a6e5d3de425614596c8a413c21074d",
+        "scope": "Historical 137-source-pinned actual Chrome and local NEAR, ten groups/five owner FINAL transactions/zero inference. Customer English preference is prepared and discarded, not a claimed delivered bilingual reply. Native browser file-picker text and literal source quotes retain their own language."
+      },
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "self_maintenance",
+      "status": "partial",
+      "implemented": "Crash-safe journal, finality guards, bounded archives and restart recovery",
+      "missing": "Infrastructure monitoring, incident remediation and general engineering self-repair",
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "live_near_ai_runtime",
+      "status": "blocked",
+      "implemented": "Capped optional NEAR AI client; local synthetic integration evidence",
+      "missing": "Authorized live credentials, paid usage, attestation verification, hosted execution/persistence and global native inference cap",
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "social_x",
+      "status": "partial",
+      "implemented": "Text-only fixed X account/create/known-ID verification, exact author/content and unknown-create-ID manual review. Separate encrypted NEAR approval, finite irreversible request reservations, restricted key, durable journal and dormant HTTPS code are implemented; synthetic provider tests passed.",
+      "missing": "Media, threads/replies/DMs, account OAuth and actual posting/reconciliation remain unimplemented or unverified.",
+      "acceptance": "Publish once to an approved test account; reconcile an ambiguous response without posting twice.",
+      "local_component_evidence": {
+        "artifact": ".artifacts/accepted-components/7cf28be45c426aa19e622df7e8687226c8fc45ba11056032cc03f2051f00f8b9.json",
+        "original_artifact": ".artifacts/social-e2e.json",
+        "sha256": "7cf28be45c426aa19e622df7e8687226c8fc45ba11056032cc03f2051f00f8b9",
+        "scope": "Current post-marker source-pinned six-provider local NEAR/synthetic protocol acceptance: 20 focused tests, 11 groups, 124 FINAL calls and 47 synthetic recorded requests; zero real provider HTTP/posts/uploads/spend. Operator attestations are not independent platform delivery proof."
+      },
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "social_instagram",
+      "status": "partial",
+      "implemented": "JPEG container/status/publish/known-media route, exact professional-account/caption/alt-text/container identity checks. Separate encrypted NEAR approval, finite irreversible request reservations, restricted key, durable journal and dormant HTTPS code are implemented; synthetic provider tests passed.",
+      "missing": "Live activation is blocked pending immutable hosted-image byte binding and owner account prerequisites; actual OAuth, processing/publication and other formats remain unverified.",
+      "acceptance": "Publish an approved image/caption pair and retrieve its platform ID and delivery status.",
+      "local_component_evidence": {
+        "artifact": ".artifacts/accepted-components/7cf28be45c426aa19e622df7e8687226c8fc45ba11056032cc03f2051f00f8b9.json",
+        "original_artifact": ".artifacts/social-e2e.json",
+        "sha256": "7cf28be45c426aa19e622df7e8687226c8fc45ba11056032cc03f2051f00f8b9",
+        "scope": "Current post-marker source-pinned six-provider local NEAR/synthetic protocol acceptance: 20 focused tests, 11 groups, 124 FINAL calls and 47 synthetic recorded requests; zero real provider HTTP/posts/uploads/spend. Operator attestations are not independent platform delivery proof."
+      },
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "social_facebook_pages",
+      "status": "partial",
+      "implemented": "Page text-post route with fixed account identity, exact message/publication status and known-post read verification. Separate encrypted NEAR approval, finite irreversible request reservations, restricted key, durable journal and dormant HTTPS code are implemented; synthetic provider tests passed.",
+      "missing": "Images/video/comments, personal profiles, actual Page authorization and live publishing remain unimplemented or unverified.",
+      "acceptance": "Verify the exact Page identity and recover a delivered post after worker restart.",
+      "local_component_evidence": {
+        "artifact": ".artifacts/accepted-components/7cf28be45c426aa19e622df7e8687226c8fc45ba11056032cc03f2051f00f8b9.json",
+        "original_artifact": ".artifacts/social-e2e.json",
+        "sha256": "7cf28be45c426aa19e622df7e8687226c8fc45ba11056032cc03f2051f00f8b9",
+        "scope": "Current post-marker source-pinned six-provider local NEAR/synthetic protocol acceptance: 20 focused tests, 11 groups, 124 FINAL calls and 47 synthetic recorded requests; zero real provider HTTP/posts/uploads/spend. Operator attestations are not independent platform delivery proof."
+      },
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "social_tiktok",
+      "status": "partial",
+      "implemented": "Bounded MP4 Direct Post upload/status route; processing/inbox handoff never count as publication, ambiguous writes never repeat. Separate encrypted NEAR approval, finite irreversible request reservations, restricted key, durable journal and dormant HTTPS code are implemented; synthetic provider tests passed.",
+      "missing": "Live activation remains blocked pending required creator-facing consent/privacy UX and provider audit/account prerequisites; actual publication and other formats remain unverified.",
+      "acceptance": "Track one approved video from private asset through processing to an actual published post.",
+      "local_component_evidence": {
+        "artifact": ".artifacts/accepted-components/7cf28be45c426aa19e622df7e8687226c8fc45ba11056032cc03f2051f00f8b9.json",
+        "original_artifact": ".artifacts/social-e2e.json",
+        "sha256": "7cf28be45c426aa19e622df7e8687226c8fc45ba11056032cc03f2051f00f8b9",
+        "scope": "Current post-marker source-pinned six-provider local NEAR/synthetic protocol acceptance: 20 focused tests, 11 groups, 124 FINAL calls and 47 synthetic recorded requests; zero real provider HTTP/posts/uploads/spend. Operator attestations are not independent platform delivery proof."
+      },
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "social_youtube_shorts",
+      "status": "partial",
+      "implemented": "Bounded MP4 resumable upload/session reconciliation and known-video processing/visibility verification route. Separate encrypted NEAR approval, finite irreversible request reservations, restricted key, durable journal and dormant HTTPS code are implemented; synthetic provider tests passed.",
+      "missing": "No claim that an MP4 is classified as a Short. Actual channel OAuth, upload/audit/quota acceptance, publication and Shorts classification remain unverified.",
+      "acceptance": "Validate the approved channel, upload once and distinguish processing from publicly available delivery.",
+      "local_component_evidence": {
+        "artifact": ".artifacts/accepted-components/7cf28be45c426aa19e622df7e8687226c8fc45ba11056032cc03f2051f00f8b9.json",
+        "original_artifact": ".artifacts/social-e2e.json",
+        "sha256": "7cf28be45c426aa19e622df7e8687226c8fc45ba11056032cc03f2051f00f8b9",
+        "scope": "Current post-marker source-pinned six-provider local NEAR/synthetic protocol acceptance: 20 focused tests, 11 groups, 124 FINAL calls and 47 synthetic recorded requests; zero real provider HTTP/posts/uploads/spend. Operator attestations are not independent platform delivery proof."
+      },
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "social_pinterest",
+      "status": "partial",
+      "implemented": "One approved PNG/JPEG image-base64 Pin route with exact account/board/content/hash binding and known-ID verification. Separate encrypted NEAR approval, finite irreversible request reservations, restricted key, durable journal and dormant HTTPS code are implemented; synthetic provider tests passed.",
+      "missing": "Video/carousels/ads and actual board/account OAuth, publishing and provider reconciliation remain unimplemented or unverified.",
+      "acceptance": "Publish an approved Pin to the approved board and retain its platform receipt.",
+      "local_component_evidence": {
+        "artifact": ".artifacts/accepted-components/7cf28be45c426aa19e622df7e8687226c8fc45ba11056032cc03f2051f00f8b9.json",
+        "original_artifact": ".artifacts/social-e2e.json",
+        "sha256": "7cf28be45c426aa19e622df7e8687226c8fc45ba11056032cc03f2051f00f8b9",
+        "scope": "Current post-marker source-pinned six-provider local NEAR/synthetic protocol acceptance: 20 focused tests, 11 groups, 124 FINAL calls and 47 synthetic recorded requests; zero real provider HTTP/posts/uploads/spend. Operator attestations are not independent platform delivery proof."
+      },
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "media_library",
+      "status": "partial",
+      "implemented": "Content-addressed private PNG media, owner-reported known/unknown costs, explicit exact task associations and actual local Gemma image observations. Fresh main-browser acceptance reused the same PNG in two approved reference operations plus its image task, restored exact bytes and all three associations, and independently rebuilt/edited the exported source. Original documents/extractions have a separate strict store and explicitly selected transfer.",
+      "missing": "Broad generation/format editing, unified provider upload/hosting, verified live billing and cross-provider asset lifecycle remain unimplemented or unverified. The main image library accepts a narrow decoded PNG profile; generic CLI format headers and private documents have separate limits.",
+      "acceptance": "Generate or import an asset, reuse its exact identity in two authorized operations and export it.",
+      "local_component_evidence": {
+        "artifact": ".artifacts/accepted-components/f81830b6deeed2ce4028d8f587118f644773da5a94159327ddc79051f89f9fa9.json",
+        "original_artifact": ".artifacts/studio-browser/20261110T211003900Z-969148fe/report.json",
+        "sha256": "f81830b6deeed2ce4028d8f587118f644773da5a94159327ddc79051f89f9fa9",
+        "scope": "Fresh seeded local NEAR/Chrome workflow: exact PNG bytes, two imports with distinct known/unknown owner-reported costs, three exact approved task associations, one actual local image observation and independent source/data restore. No new image generation, external upload, provider invoice or general format support."
+      },
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "visual_qa_shipping",
+      "status": "partial",
+      "implemented": "Actual desktop/mobile overflow reproduction, immutable Chrome interaction checks and screenshots before/after an owner-approved source repair; real Gemma and local Git commit verified",
+      "missing": "Reference-driven brand/design review, general autonomous visual diagnosis and served public build acceptance remain unverified; browser metrics and retained screenshots are a bounded fixture",
+      "acceptance": "Introduce a visual defect; detect and fix it before release without changing authentication/configuration files.",
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "domain_dns_transfer",
+      "status": "blocked",
+      "implemented": "No registrar or DNS lifecycle adapter",
+      "missing": "Owner-controlled DNS, renewal/status visibility and verified transfer-out",
+      "acceptance": "Export DNS, validate an approved change and verify a transfer-out without losing ownership or silently redeploying.",
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "booking_calendar",
+      "status": "partial",
+      "implemented": "Separate NEAR-native UTC availability, authenticated reservations, exact deposit/storage quote, overlap guards, original-customer refunds, customer-confirmed settlement and earned-only withdrawals; real sandbox callbacks/retries tested",
+      "missing": "External calendar/meeting integration or agreed native equivalence and public operation remain unverified; seeded native browser booking/overlap/refund acceptance passed",
+      "acceptance": "Run customer booking plus deposit/refund; verify both calendars and a usable meeting location, not an inquiry form.",
+      "local_component_evidence": {
+        "artifact": ".artifacts/accepted-components/9b5a9e9833e9804af51409a66f56a7d459a2e6a0fa5a9063d58d6026af7273e4.json",
+        "sha256": "9b5a9e9833e9804af51409a66f56a7d459a2e6a0fa5a9063d58d6026af7273e4",
+        "scope": "Separate real NEAR sandbox appointment contract, not public deployment or external calendar",
+        "original_artifact": ".artifacts/appointments-e2e.json"
+      },
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "portable_company_exit",
+      "status": "partial",
+      "implemented": "Explicit encrypted task/history/conversation/media/source selection plus optional whole-document transfer. Fresh main-browser acceptance restored eight selected actual records, exact PNG bytes and original document/extraction data; installed pinned dependencies from the existing offline cache, rebuilt all eight frontend entries independently and verified a visible source edit. The archive contained 221 selected source/build files and 233 restored files; no wallet/operator/vault/recovery credentials or external service authority were restored.",
+      "missing": "External provider/domain ownership and authority transfer, public migration, separate factory/outbox/social/public-page/knowledge/native-app chain-state migration and runtime portability across unverified hosts remain unverified. Protected wallet/operator/vault/recovery credentials require separate owner custody; they are intentionally excluded.",
+      "acceptance": "Export code, data, media, conversations and receipts; restore and make a functional edit without the original provider.",
+      "local_component_evidence": {
+        "artifact": ".artifacts/accepted-components/f81830b6deeed2ce4028d8f587118f644773da5a94159327ddc79051f89f9fa9.json",
+        "original_artifact": ".artifacts/studio-browser/20261110T211003900Z-969148fe/report.json",
+        "sha256": "f81830b6deeed2ce4028d8f587118f644773da5a94159327ddc79051f89f9fa9",
+        "scope": "Fresh 223-source-pinned local NEAR/Chrome workflow with four complete local Gemma calls, eight selected encrypted task/conversation records, exact media associations and explicit whole-document plaintext-export consent. Actual fresh restore of 221 selected source/build files and 233 total files, independent offline dependency install/rebuild, functional frontend edit and same approved document scope resolution. Separate external chain/domain/provider migration remains unverified."
+      },
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "repair_cost_control",
+      "status": "partial",
+      "implemented": "Existing AI caps plus one retained repair intent/cache per task; already passing acceptance tests avoid another repair inference",
+      "missing": "Issue-level billing reconciliation across providers and general repair strategies remain missing",
+      "acceptance": "Repeat an ineffective repair; halt at the owner limit and show each charged, refunded or unresolved attempt.",
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "verified_business_completion",
+      "status": "partial",
+      "implemented": "Specific QA findings remain evidence-bound and drafts remain labeled unverified. Fresh main-browser acceptance exercised actual native booking/overlap, a completed original-customer refund with separate storage, encrypted support reply, independently approved owner work, actual-chain analytics and source/data restore; a website draft was not counted as completing those workflows.",
+      "missing": "Deployed acceptance tests for every customer workflow and evidence-backed progress reporting",
+      "acceptance": "Reject a landing page as completion of a booking/payment app; require working acceptance steps and deployed identity.",
+      "local_component_evidence": {
+        "artifact": ".artifacts/accepted-components/f81830b6deeed2ce4028d8f587118f644773da5a94159327ddc79051f89f9fa9.json",
+        "original_artifact": ".artifacts/studio-browser/20261110T211003900Z-969148fe/report.json",
+        "sha256": "f81830b6deeed2ce4028d8f587118f644773da5a94159327ddc79051f89f9fa9",
+        "scope": "Twenty passing fresh main-workflow checks with four actual local Gemma calls, seeded NEAR owner/customer roles, a 0.2 test-NEAR refund, actual FINAL analytics and independent source/document restore. This is bounded local protocol/UI acceptance, not deployed customer or business-outcome evidence."
+      },
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "provisioning_recovery",
+      "status": "partial",
+      "implemented": "NEAR factory persists immutable creation intents before cross-account work, refuses pending/unknown resends, supports at most three original-key known-failure retries and original-creator refund callbacks, and survives actual local node restart. Recorded actual pending state and failed native refund recovery passed.",
+      "missing": "Public provisioning and hosted workers, private persistent stores, external infrastructure/account cleanup and account-specific deployment recovery remain unverified or unimplemented.",
+      "acceptance": "Crash after each provisioning step; resume or roll back once, preserve ownership and avoid duplicate charges/resources.",
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "revocation_and_shutdown",
+      "status": "partial",
+      "implemented": "Global freeze, per-mandate pause/expiry, owner operation cancellation and cancellation archival without success evidence",
+      "missing": "External campaign/channel shutdown and subscription billing cancellation remain missing",
+      "acceptance": "Disable a recurring campaign and credentials; ensure no new actions or top-ups and identify any in-flight obligations.",
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "conversational_company_control",
+      "status": "partial",
+      "implemented": "Persistent encrypted owner questions produce a bounded proposal among exact owner-approved choices; separate owner-signed approval/rejection binds the archived proposal and immutable decision IDs. Fresh main-browser acceptance made one actual local Gemma proposal as part of its four-call workflow, separately completed No-AI approved work, recovered all four proposal/decision records after reload and cleared private menus on account changes.",
+      "missing": "Arbitrary policy/account provisioning from chat, deployed tenant authentication and public operation remain unverified or unimplemented. Finite-menu owner control and separate bounded goal decomposition have source-bound local evidence; the final frozen full run remains separate.",
+      "acceptance": "Steer a running company through chat; preview costs/scope and reject conflicting or injected instructions.",
+      "local_component_evidence": {
+        "artifact": ".artifacts/accepted-components/f81830b6deeed2ce4028d8f587118f644773da5a94159327ddc79051f89f9fa9.json",
+        "original_artifact": ".artifacts/studio-browser/20261110T211003900Z-969148fe/report.json",
+        "sha256": "f81830b6deeed2ce4028d8f587118f644773da5a94159327ddc79051f89f9fa9",
+        "scope": "Fresh main local NEAR/Chrome workflow with one actual local Gemma owner proposal, separately signed No-AI approval/work, linked follow-up/rejection, four encrypted owner records recovered after reload, and account-change clearing. Four total model calls across the whole main run; no external sending, arbitrary account provisioning or public deployment."
+      },
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "generated_app_foundations",
+      "status": "partial",
+      "implemented": "NEAR-native appointment checkout plus a separate public-data app template with wallet namespaces, owner-reviewed typed schemas, persistent bounded rows, journaled additive migrations, crash recovery and a connected browser workspace; actual sandbox migration and browser checks passed.",
+      "missing": "Arbitrary full-stack application generation, private per-tenant server data, broad migrations, public deployment/environment management and actual customer wallet onboarding remain unimplemented or unverified.",
+      "acceptance": "Build a fresh app with isolated customer data, login/admin controls and persisted checkout; then ship a tested migration.",
+      "local_component_evidence": {
+        "artifact": ".artifacts/accepted-components/d0acfd4cb8225599363a09f680dd3db37c06b4e118efad129f974cbfaa3d359b.json",
+        "sha256": "d0acfd4cb8225599363a09f680dd3db37c06b4e118efad129f974cbfaa3d359b",
+        "scope": "Historical source-pinned connected app browser acceptance in an actual local NEAR sandbox; account-isolated public writes, exact storage, persistent migration/restart and wallet uncertainty guards, no public deployment.",
+        "original_artifact": ".artifacts/native-app-browser/20261110T135020425Z-e5667a/evidence.json"
+      },
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "evidence_backed_business_claims",
+      "status": "partial",
+      "implemented": "QA facts verified; drafts carry provenance and no-delivery labels",
+      "missing": "No fabricated testimonials, customer interviews, revenue, outreach or daily progress",
+      "acceptance": "Inject invented testimonials and success metrics into a proposed update; reject or label them without supporting receipts.",
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "beginner_business_ux",
+      "status": "partial",
+      "implemented": "Business owner/customer workspace with actual encrypted request/recovery, recurrence, support and booking/refund browser flow; typed public wallet reviews, visible local/provider limits and busy-state controls",
+      "missing": "Public wallet onboarding/provisioning, nontechnical hosted setup, broad usability study and general ongoing business control remain unverified",
+      "acceptance": "A new user completes setup, sees full cost/scope, inspects delivered work and recovers from a failed task without shell access.",
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    },
+    {
+      "id": "privacy_visibility_controls",
+      "status": "partial",
+      "implemented": "NEP-413 owner challenge/session authentication binds exact origin/company/account/full-access key and FINAL code/genesis/owner pins. Separate company-private library HTTP service and browser client enforce per-action rechecks, CSRF, private cookies, bounded files and revocation. Actual NEAR/browser checks passed with a test-only signer fixture; main public-mode integration exists.",
+      "missing": "Final main public-mode private library acceptance and real browser-wallet/redirect/production HTTPS operation remain pending. Shared-token rehearsal remains a seeded fixture, not tenant authentication. Private generic-app customer rows, hosted multi-tenant isolation and private export service remain unverified or unimplemented.",
+      "acceptance": "Inspect from another account and logged-out browser; ensure private scopes, chats, assets and keys remain inaccessible.",
+      "local_component_evidence": {
+        "artifact": ".artifacts/accepted-components/89a4207d44517a1158ebbe9907c521093917f022a240c35fa74bc8c03e8e4cc2.json",
+        "original_artifact": ".artifacts/private-owner-browser/20261110T154406169Z-58c3674e/report.json",
+        "sha256": "89a4207d44517a1158ebbe9907c521093917f022a240c35fa74bc8c03e8e4cc2",
+        "scope": "Historical actual Chrome + local NEAR + private HTTP/cookies/files, with test-only signer, no actual browser wallet or public deployment; company isolation and actual key revocation. No wallet secret entered the page; token stayed HttpOnly and HMAC-stored."
+      },
+      "source": "docs/BUSINESS_REQUIREMENTS.md",
+      "basis": "project_acceptance_requirement"
+    }
+  ]
+}

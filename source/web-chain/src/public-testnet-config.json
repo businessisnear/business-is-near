@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "network": "testnet",
+  "deployment_status": "finalized",
+  "company_id": "proofwork-owner-0052c4ee85f22ac3.testnet",
+  "code_hash": "5nPd4tqK33eJZqgkoX8s8m4Fefm2UyrAy1oMxKpbUs4K",
+  "worker_key_id": "13284364b7dee3a531c14c254345b8f26bf7b481e857c25239eca766991d5a07",
+  "execution_backend": "local_gemma_mock",
+  "cloud_billing_verified": false,
+  "tee_verified": false,
+  "result_url": "./example-result.json"
+}

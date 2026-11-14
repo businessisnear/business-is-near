@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "experimental": true,
+  "public_deployment": false,
+  "service_profile": "near-founder-worker-service-v1",
+  "company": {
+    "bytes": 634668,
+    "sha256": "470f7674ad709b295459c031f9d6b4f8b929d45b7edafbf13289c22fc0510a80",
+    "code_hash": "5nPd4tqK33eJZqgkoX8s8m4Fefm2UyrAy1oMxKpbUs4K"
+  },
+  "factory": {
+    "bytes": 1220070,
+    "sha256": "0e3aafc8eab4090c3e32ad423cdae57f12b6a2b628c39e7cb5e16f2093af61e2",
+    "code_hash": "xYcQtCz1w3uJdBu9eTWQQJsHUXgBAvv2gjqNAYSxdeh"
+  },
+  "source_sha256": {
+    "contract/onchain/company.ts": "8a09a707b5d304e20031ea5848527b977344685a67965dc4056c93b5b599053e",
+    "contract/build/company.wasm": "470f7674ad709b295459c031f9d6b4f8b929d45b7edafbf13289c22fc0510a80",
+    "contract/onchain/company_factory.ts": "52415f95fae313ec8bd3d06cffe70c1bdf6c06f05f43fc6f97ae1d7553fc0c64",
+    "contract/build/company_factory.wasm": "0e3aafc8eab4090c3e32ad423cdae57f12b6a2b628c39e7cb5e16f2093af61e2",
+    "contract/build_factory.mjs": "9c21da0eb1fdd802a9a8be35beda6c8b79f438c90a18f95da7eb8d2b4e08e93d"
+  }
+}

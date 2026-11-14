@@ -1,0 +1,112 @@
+{
+  "schema": "business-is-near-current-source-checks-v1",
+  "prepared_utc": "2026-11-14T13:55:11.580050+00:00",
+  "scope": "New clean source package and static frontend build. This is a new summary, not an edited historical receipt or a full autonomous-business acceptance.",
+  "current_source": {
+    "manifest": "source/OWNER-TOOLS-SOURCE.json",
+    "bytes": 70776,
+    "sha256": "a67b663899add8e72a662d8dca0f04a135d48eda17d6cfd24bcc771d5467a3d9",
+    "files": 417,
+    "relative_imports_verified": 482,
+    "vite_input_declarations_verified": 27
+  },
+  "local_module": {
+    "path": "source/labs/procurement/candidate-v4-delivery",
+    "manifest": "source/labs/procurement/candidate-v4-delivery/MODULE-SOURCE-MANIFEST.json",
+    "bytes": 7363,
+    "sha256": "46e1630c49ef0df8b0cf0459f9e235c954356738e961cef621d803d014bad0c1",
+    "manifested_files_excluding_itself": 40,
+    "relative_imports_verified": 53,
+    "pinned_financial_wasm": {
+      "bytes": 595178,
+      "sha256": "bf13e856506ebfd3e2a532d79e9a3a657436ca299ae34e64654465b00633091d"
+    },
+    "compiled_js": {
+      "bytes": 167656,
+      "sha256": "ae277c28cfb179d30308f0dc92ae0a3fb67fc5195de802c80cf3151ea1127ed7"
+    }
+  },
+  "fresh_offline_checks": {
+    "local_module": {
+      "passed": 83,
+      "failed": 0,
+      "includes_controller_subset": 43,
+      "command": "npm --prefix source/labs/procurement/candidate-v4-delivery/financial-fork test",
+      "uses_synthetic_hosts_for_some_contract_tests": true,
+      "proves_native_transfers": false
+    },
+    "public_frontend": {
+      "passed": 44,
+      "failed": 0,
+      "command": "node --test source/web-chain/tests/founder-next-actions.test.mjs source/web-chain/tests/founder-service-policy.test.mjs"
+    },
+    "public_owner_tool_links": {
+      "passed": 2,
+      "failed": 0,
+      "command": "node --test source/web-chain/tests/public-tool-links.test.mjs",
+      "scope": "Only 17 unavailable public links point to labeled GitHub source/setup; normal tool pages remain local."
+    },
+    "financial_semantic_typecheck": "PASS",
+    "financial_build": "PASS; compiled JS and WASM match the pinned reviewed outputs byte-for-byte",
+    "frontend_builds": {
+      "public_testnet": "PASS",
+      "normal_owner_tools": "PASS",
+      "dependency_lock_matched_existing_installed_frontend_tree": true,
+      "dependency_installation_during_preparation": false
+    },
+    "native_requirement_structure": "PASS; 44 original IDs and baseline/catalogue links only, no feature-completion inference",
+    "historical_catalogue_unit_tests": {
+      "total": 20,
+      "passed": 19,
+      "errors": 1,
+      "error": "Full 43-report export audit lacks original historical evidence; assertions and original artifact lookup remain intact."
+    },
+    "full_historical_catalogue_audit": {
+      "exit_code": 2,
+      "status": "EXPECTED MISSING HISTORICAL EVIDENCE; NOT A PASS"
+    },
+    "external_model_calls": 0,
+    "near_nodes_started": 0,
+    "application_transactions": 0
+  },
+  "separate_repaired_controller_qualification": {
+    "offline_tests": 43,
+    "independent_focused_probes": 16,
+    "narrow_review": "CLEAN after isolated read-invariant/availability repairs",
+    "browser_smoke": "Initial page, nonfinancial key preparation, open transaction review and Go Back; zero application requests/signatures. Separate operator observation, not a full cycle.",
+    "browser_smoke_report": "docs/evidence/local-initial-smoke/SMOKE-REPORT.json",
+    "browser_smoke_report_sha256": "e292347b1b1778161c1e911cd13fb218fb7aba3d78cdf70c564a94088fc127df",
+    "full_current_controller_browser_cycle_verified": false,
+    "nightly_signing_verified": false
+  },
+  "historical_proof_boundaries": [
+    "Earlier one-slot and two-record local protocol evidence uses the same financial WASM; neither is a fresh execution of this source package.",
+    "An older browser generation completed eleven original FINAL transactions and two native transfers; it does not establish the repaired current controller full cycle.",
+    "The preserved 103-second local video/transcript describe an earlier release, including synthetic Cloud fixtures and held frames.",
+    "The broader 44-area catalogue is historical. Exactly two immutable original component reports are included as bounded test fixtures; the complete historical corpus is absent.",
+    "Metadata cleanup changes source hashes. Historical source commitments and checks remain attached to their original runs and are not promoted to current-source acceptance."
+  ],
+  "notices": {
+    "original_project_license": "All rights reserved; no project-wide license grant",
+    "upstream_body_bytes_and_line_endings_preserved": true,
+    "upstream_body_sha256": "52381062c6fb9004f25d14799a663ff7ff0e666b2b89a165e3a9d03cdc4f54e6",
+    "nightly_addendum": "docs/NIGHTLY-NOTICES-ADDENDUM.md"
+  },
+  "download": {
+    "path": "docs/downloads/business-is-near-reproducible-source.zip",
+    "inventory": "SOURCE-DOWNLOAD-MANIFEST.json inside the archive",
+    "hash_binding": "PUBLICATION-MANIFEST.json binds the completed download; no circular self-hash claim",
+    "nested_archives": false,
+    "installed_dependencies_or_runtime_configuration_included": false
+  },
+  "unverified": [
+    "Real human hiring or a public marketplace",
+    "Integrated planner/recurring operations/procurement loop",
+    "Maximum 8 by 8 capacity",
+    "Real Nightly full-cycle approval and production recovery",
+    "Live NEAR AI Cloud billing or hosted TEE execution",
+    "Mainnet or continuously hosted service",
+    "Commercial demand and human usability validation"
+  ],
+  "publication": "Local preparation does not establish a public deployment or decide the public history transition."
+}

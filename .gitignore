@@ -1,0 +1,15 @@
+.DS_Store
+.artifacts/
+**/.artifacts/
+**/node_modules/
+**/.venv/
+**/__pycache__/
+**/.env
+**/.env.*
+**/*.key
+**/*.vault
+**/browser-profile/
+**/.worker-vault/
+**/vault/
+/source/web-chain/dist/
+/source/web-chain/dist-public-testnet/

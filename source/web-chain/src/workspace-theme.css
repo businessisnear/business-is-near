@@ -1,0 +1,104 @@
+/* Shared presentation for the real native tools. Scope excludes wallet-selector
+   internals and the primary business workspace, and leaves all state hooks intact. */
+body.workspace-tool{color-scheme:light;--ink:#1b352c;--muted:#647268;--line:#dce3d5;--accent:#b7db7b;--paper:#fffef9;--forest:#173c32;font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:14px;line-height:1.7;color:var(--ink);background:#f7f8f2;margin:0;font-synthesis:none}
+body.workspace-tool *,body.workspace-tool *:before,body.workspace-tool *:after{box-sizing:border-box}
+.workspace-tool .tool-masthead{display:flex;align-items:center;justify-content:space-between;gap:25px;background:var(--forest);color:#e6eedc;padding:21px max(30px,calc((100vw - 1140px)/2));min-height:82px;border-bottom:1px solid #3c5a41}
+.workspace-tool .tool-masthead>a{text-decoration:none;display:inline-flex;align-items:center;gap:10px;flex:none;min-height:38px;color:#e6eedc;font-size:11px}
+.workspace-tool .tool-masthead .tool-brand{font-size:17px;letter-spacing:-.6px;font-weight:650;color:#f5f8ea}
+.workspace-tool .tool-brand>span{color:#d1f28b;font:34px/1 Georgia,serif;display:block;margin-right:2px}
+.workspace-tool .tool-masthead>p{margin:0;flex:1;color:#a4bca4;font-size:10px;letter-spacing:.15px}
+.workspace-tool .tool-masthead>p span{display:inline-block;margin:0 9px;color:#728f75}
+.workspace-tool .tool-masthead>p strong{font-weight:450;color:#e1ead3}
+.workspace-tool .tool-masthead .tool-back{color:#cce0b4;font-size:10px;border:1px solid #53704c;border-radius:6px;padding:7px 12px}
+.workspace-tool .tool-masthead .tool-back:hover{background:#2c503d;border-color:#78935e}
+.workspace-tool>main{max-width:1200px;margin:0 auto;padding:28px 30px 70px}
+.workspace-tool>header{max-width:1140px;margin:0 auto;padding:18px 0;min-height:58px;border-bottom:1px solid var(--line);background:transparent;color:var(--ink);display:flex;align-items:center;justify-content:space-between;gap:20px}
+.workspace-tool>header>a:first-child{font-size:11px;font-weight:600;letter-spacing:.1px;color:#5f7b47;text-decoration:none}
+.workspace-tool>header>span,.workspace-tool>header small{font-size:9px;color:#61724e;letter-spacing:1px;line-height:1.7}
+.workspace-tool>header:has(>h1){display:block;padding:43px 0 32px;border-bottom:0}
+.workspace-tool>header:has(>h1) h1{font:400 clamp(40px,5.2vw,64px)/1.08 Georgia,"Times New Roman",serif;letter-spacing:-2.4px;color:var(--ink);margin:12px 0 23px}
+.workspace-tool>header:has(>h1)>p{color:var(--muted);font-size:13px;max-width:790px;line-height:1.8}
+.workspace-tool main>header{display:block;max-width:none;margin:0 0 10px;padding:24px 0 32px;border:0;background:transparent;color:var(--ink)}
+.workspace-tool main>header .eyebrow{color:#61724e;margin:4px 0 13px}
+.workspace-tool main>header>p:not(.eyebrow){font-size:13px;line-height:1.85;max-width:780px;color:var(--muted)}
+.workspace-tool main .hero,.workspace-tool main .intro{border:0;border-radius:0;background:transparent;padding:24px 0 29px;margin:0 0 16px;max-width:900px;box-shadow:none}
+.workspace-tool main h1{font:400 clamp(42px,5.5vw,68px)/1.07 Georgia,"Times New Roman",serif;letter-spacing:-2.7px;color:var(--ink);margin:14px 0 24px;max-width:900px}
+.workspace-tool main h1 em{color:#718b58;font-weight:400}
+.workspace-tool main h2,.workspace-tool dialog h2{font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-weight:550;font-size:23px;line-height:1.35;letter-spacing:-.6px;color:#254a34;margin:0 0 17px}
+.workspace-tool main h3,.workspace-tool dialog h3{font-size:15px;font-weight:600;line-height:1.55;color:#355838;margin:19px 0 12px}
+.workspace-tool main p,.workspace-tool main li,.workspace-tool dialog p{font-size:12px;line-height:1.85;color:var(--muted);overflow-wrap:anywhere}
+.workspace-tool main .hero>p:not(.eyebrow):not(.warning),.workspace-tool main .intro>p:not(.eyebrow):not(.warning){font-size:13px;max-width:790px;line-height:1.85}
+.workspace-tool main .eyebrow{font-size:9px;letter-spacing:1.6px;font-weight:650;color:#61724e;margin:0 0 13px}
+.workspace-tool main>section:not(.hero):not(.intro),.workspace-tool main .panel,.workspace-tool main .card{border:1px solid var(--line);border-radius:12px;padding:27px 29px;background:var(--paper);box-shadow:0 2px 12px #233f2905;margin:0 0 22px;min-width:0;overflow-wrap:anywhere}
+.workspace-tool main .panel>p,.workspace-tool main .card>p,.workspace-tool main>section>p{margin:13px 0 20px}
+.workspace-tool main .panel>.eyebrow,.workspace-tool main .card>.eyebrow,.workspace-tool main>section>.eyebrow{margin:0 0 13px}
+.workspace-tool main section section{padding:20px 0;border-top:1px solid var(--line);margin-top:24px}
+.workspace-tool main section article,.workspace-tool main>article>article{padding:22px 23px;border:1px solid var(--line);background:#f6f8ef;border-radius:9px;margin:17px 0;color:var(--ink);overflow-wrap:anywhere}
+.workspace-tool main article article{background:#fffefa}
+.workspace-tool main section article p{color:var(--muted)}
+.workspace-tool main form,.workspace-tool dialog form{display:grid;gap:18px;justify-items:stretch;margin-top:21px}
+.workspace-tool main form label,.workspace-tool dialog form label{width:100%}
+.workspace-tool main label,.workspace-tool dialog label{font-size:11px;font-weight:550;line-height:1.7;color:#5c704e;display:grid;gap:8px;margin:0}
+.workspace-tool main input:not([type=checkbox]),.workspace-tool main textarea,.workspace-tool main select,.workspace-tool dialog input:not([type=checkbox]),.workspace-tool dialog textarea,.workspace-tool dialog select{display:block;width:100%;max-width:100%;min-width:0;margin:0;padding:12px 13px;border:1px solid #d1dbc6;background:#fffefa;color:var(--ink);font:400 13px/1.65 Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;border-radius:7px;min-height:45px;box-sizing:border-box}
+.workspace-tool main textarea,.workspace-tool dialog textarea{resize:vertical;min-height:110px}
+.workspace-tool main input::placeholder,.workspace-tool main textarea::placeholder{color:#61724e;opacity:1}
+.workspace-tool main input:hover:not(:disabled),.workspace-tool main textarea:hover:not(:disabled),.workspace-tool main select:hover:not(:disabled){border-color:#a8bc94}
+.workspace-tool main input[type=file]{font-size:11px;padding:9px;overflow:hidden}
+.workspace-tool main input[type=file]::file-selector-button{border:1px solid #d2ddc5;border-radius:4px;background:#edf3e2;color:#4a693a;padding:5px 9px;margin-right:12px;font:inherit;cursor:pointer}
+.workspace-tool main input[type=checkbox],.workspace-tool dialog input[type=checkbox]{width:17px;height:17px;min-height:17px;min-width:17px;flex:none;accent-color:#547f3b;margin:4px 0 0}
+.workspace-tool main .check,.workspace-tool main label:has(>input[type=checkbox]),.workspace-tool dialog .check{display:flex;align-items:flex-start;gap:11px;font-size:12px;font-weight:400;line-height:1.85;margin:5px 0}
+.workspace-tool main .check>span{flex:1;min-width:0}
+.workspace-tool main button,.workspace-tool dialog button,.workspace-tool main .button,.workspace-tool main .buttons a{font:600 11px/1.6 Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;min-height:44px;max-width:100%;padding:12px 17px;border:1px solid #c5df94;border-radius:7px;background:#d1f28b;color:#2e4c25;display:inline-flex;justify-content:center;align-items:center;gap:8px;cursor:pointer;text-decoration:none;transition:background .18s,border-color .18s,box-shadow .18s;margin:0}
+.workspace-tool main button:hover:not(:disabled),.workspace-tool dialog button:hover:not(:disabled){background:#c1e67a;border-color:#adc97e;box-shadow:0 3px 12px #34562212}
+.workspace-tool main button.outline,.workspace-tool main button.secondary,.workspace-tool main .buttons a,.workspace-tool dialog button.outline,.workspace-tool dialog button.secondary{background:#fffef9;color:#4c6d39;border-color:#d2ddc6}
+.workspace-tool main button.outline:hover:not(:disabled),.workspace-tool main button.secondary:hover:not(:disabled),.workspace-tool dialog button.outline:hover:not(:disabled),.workspace-tool dialog button.secondary:hover:not(:disabled){background:#f0f5e6;border-color:#b0c399}
+.workspace-tool main button:disabled,.workspace-tool dialog button:disabled{opacity:.46;cursor:not-allowed;box-shadow:none}
+.workspace-tool main .toolbar,.workspace-tool main .buttons{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:19px 0}
+.workspace-tool main .toolbar label{min-width:180px;flex:1;max-width:350px}
+.workspace-tool main .toolbar select{min-height:44px}
+.workspace-tool main .grid,.workspace-tool main .form-grid{gap:18px;min-width:0}
+.workspace-tool main .split{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;margin-bottom:5px}
+.workspace-tool main .split h2{margin:0}
+.workspace-tool main .pill,.workspace-tool main .status,.workspace-tool>header .pill{font-size:9px;font-weight:550;letter-spacing:.7px;color:#5d7748;background:#edf4e2;border:1px solid #dce7cb;border-radius:5px;padding:6px 9px;line-height:1.8;white-space:normal}
+.workspace-tool main .warning,.workspace-tool main .boundary{padding:15px 18px;border:1px solid #e6d6b1;border-left:3px solid #b79551;background:#fbf5e7;border-radius:7px;color:#80683a;font-size:11px;line-height:1.8;margin:19px 0}
+.workspace-tool main .notice,.workspace-tool main p[role=status],.workspace-tool>p[role=status],.workspace-tool>#notice{padding:15px 18px;border:1px solid #d5e2c3;border-radius:8px;background:#eef4e3;color:#5d7548;font-size:11px;line-height:1.85;overflow-wrap:anywhere;margin:17px 0 22px}
+.workspace-tool main .notice.error,.workspace-tool main .error,.workspace-tool>#notice.error{background:#fff0e7;color:#8d5338;border-color:#e0bfaa}
+.workspace-tool main .muted,.workspace-tool main small{color:#61724e;font-size:11px;line-height:1.8}
+.workspace-tool main pre,.workspace-tool dialog pre{padding:17px 18px;border:1px solid #e0e7d5;border-radius:7px;background:#f0f3e8;color:#617351;font:11px/1.9 ui-monospace,SFMono-Regular,Menlo,monospace;white-space:pre-wrap;overflow-wrap:anywhere;word-break:break-word;max-height:330px;overflow:auto;margin:17px 0}
+.workspace-tool main .mono{font:11px/1.9 ui-monospace,SFMono-Regular,Menlo,monospace;color:#61724e;overflow-wrap:anywhere}
+.workspace-tool main details{border-top:1px solid var(--line);padding:14px 0 0;margin:20px 0}
+.workspace-tool main summary{font-size:11px;font-weight:600;line-height:1.7;color:#5c7847;cursor:pointer;min-height:34px;padding:5px 0}
+.workspace-tool main details[open]>summary{margin-bottom:17px}
+.workspace-tool main nav,.workspace-tool main .feed-links{display:flex;align-items:center;gap:8px 13px;flex-wrap:wrap;margin:22px 0 0}
+.workspace-tool main nav a,.workspace-tool main .feed-links a{font-size:10px;color:#5e7d45;text-decoration:none;padding:7px 10px;border:1px solid #dce5cf;background:#f0f4e6;border-radius:5px;min-height:33px;display:inline-flex;align-items:center;line-height:1.7}
+.workspace-tool main nav a:hover,.workspace-tool main .feed-links a:hover{background:#e5edda;border-color:#b8cba1}
+.workspace-tool main .balances{gap:12px;margin-top:22px}
+.workspace-tool main .balances p,.workspace-tool main .metrics>div{padding:17px;background:#f1f5e7;border:1px solid #dce6cd;border-radius:8px;color:#61724e;font-size:10px;line-height:1.8}
+.workspace-tool main .balances strong{color:#3c5a31;font-size:19px;font-weight:500;line-height:1.5;overflow-wrap:anywhere;display:block;margin-top:7px}
+.workspace-tool main .metrics strong{color:#3c5a31;font-size:12px;font-weight:500}
+.workspace-tool main .metrics span{color:#61724e;font-size:10px;font-weight:500}
+.workspace-tool main table{font-size:11px;border-collapse:collapse;width:100%;max-width:100%}
+.workspace-tool main th,.workspace-tool main td{padding:12px 13px;text-align:left;border-bottom:1px solid var(--line);color:#687b57;overflow-wrap:anywhere}
+.workspace-tool main th{color:#536f40;font-weight:600;background:#f2f6e8}
+.workspace-tool main img,.workspace-tool main video,.workspace-tool main iframe{max-width:100%;border-color:#d4dfc5}
+.workspace-tool main a{color:#567940;text-underline-offset:4px}
+.workspace-tool dialog{color:var(--ink);background:#fffef9;border:1px solid #cddabd;border-radius:14px;width:min(680px,calc(100% - 32px));max-width:calc(100% - 32px);max-height:calc(100dvh - 40px);padding:29px;overflow-y:auto;box-shadow:0 30px 100px #11291c33;line-height:1.8}
+.workspace-tool dialog::backdrop{background:#102d23a6;backdrop-filter:blur(4px)}
+.workspace-tool main footer,.workspace-tool>footer{border-top:1px solid var(--line);padding:24px 0 0;margin:37px 0 0;color:#61724e;font-size:8px;font-weight:500;letter-spacing:1px;line-height:1.9}
+.workspace-tool main button:focus-visible,.workspace-tool main a:focus-visible,.workspace-tool .tool-masthead a:focus-visible,.workspace-tool main input:focus-visible,.workspace-tool main textarea:focus-visible,.workspace-tool main select:focus-visible,.workspace-tool main summary:focus-visible,.workspace-tool dialog button:focus-visible,.workspace-tool dialog input:focus-visible,.workspace-tool dialog select:focus-visible,.workspace-tool dialog textarea:focus-visible{outline:3px solid #70a14b;outline-offset:4px}
+.workspace-tool [hidden]{display:none!important}
+@media(max-width:760px){.workspace-tool .tool-masthead{padding:18px 22px;gap:18px;min-height:76px}.workspace-tool .tool-masthead>p{display:none}.workspace-tool .tool-masthead .tool-brand{font-size:16px}.workspace-tool .tool-brand>span{font-size:31px}.workspace-tool .tool-masthead .tool-back{font-size:9px;padding:6px 10px}.workspace-tool>main{padding:23px 22px 50px}.workspace-tool>header{margin:0 22px;padding:14px 0;flex-wrap:wrap}.workspace-tool>header>span{font-size:8px}.workspace-tool>header:has(>h1){padding:30px 0 25px}.workspace-tool main>header{padding:18px 0 26px}.workspace-tool main .hero,.workspace-tool main .intro{padding:18px 0 23px}.workspace-tool main h1,.workspace-tool>header:has(>h1) h1{font-size:52px;letter-spacing:-2.2px;margin:10px 0 24px}.workspace-tool main h2,.workspace-tool dialog h2{font-size:22px}.workspace-tool main>section:not(.hero):not(.intro),.workspace-tool main .panel,.workspace-tool main .card{padding:24px 22px;border-radius:10px;margin-bottom:19px}.workspace-tool main section article{padding:20px}.workspace-tool main .grid,.workspace-tool main .form-grid{grid-template-columns:1fr}.workspace-tool main .balances{grid-template-columns:repeat(2,minmax(0,1fr))}.workspace-tool main .toolbar{align-items:stretch}.workspace-tool main .toolbar label{max-width:none}.workspace-tool main .toolbar>button{width:auto;flex:1 0 auto}.workspace-tool dialog{padding:25px 22px}}
+@media(max-width:420px){.workspace-tool>main{padding:22px 18px 45px}.workspace-tool .tool-masthead{padding:18px}.workspace-tool .tool-masthead .tool-brand{font-size:15px}.workspace-tool .tool-masthead .tool-back{font-size:8px}.workspace-tool>header{margin:0 18px}.workspace-tool main h1,.workspace-tool>header:has(>h1) h1{font-size:45px;letter-spacing:-1.9px}.workspace-tool main .eyebrow{font-size:8px;letter-spacing:1.3px}.workspace-tool main>section:not(.hero):not(.intro),.workspace-tool main .panel,.workspace-tool main .card{padding:23px 18px}.workspace-tool main h2,.workspace-tool dialog h2{font-size:21px}.workspace-tool main .warning,.workspace-tool main .boundary{padding:14px 15px;font-size:10px}.workspace-tool main .buttons{flex-direction:column;align-items:stretch}.workspace-tool main button{font-size:10px}.workspace-tool main .toolbar label{min-width:100%;flex:1}.workspace-tool main .toolbar>button{flex:1 1 100%}.workspace-tool main .balances strong{font-size:16px}.workspace-tool main .balances p{padding:14px}.workspace-tool main pre,.workspace-tool dialog pre{padding:15px;font-size:10px}}
+@media(prefers-reduced-motion:reduce){.workspace-tool *,.workspace-tool *:before,.workspace-tool *:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* Retain the tools' explicit state while using one brand and a readable review surface. */
+.workspace-tool>header>a:first-child{display:none}.workspace-tool>header{justify-content:flex-end;padding-left:30px;padding-right:30px;max-width:1200px}
+.workspace-tool main dt,.workspace-tool dialog dt{color:#61724e;font-size:11px}.workspace-tool main dd,.workspace-tool dialog dd{color:#355333;font-size:12px;overflow-wrap:anywhere}
+.workspace-tool #mail-review-body{background:#f0f3e8;color:#425e38;border:1px solid #dce5cf;border-radius:8px;padding:17px;font-size:13px;line-height:1.85}
+.workspace-tool #subscription-notice,.workspace-tool #retirement-notice{background:#eef4e3;color:#5d7548;border:1px solid #d5e2c3}
+@media(max-width:760px){.workspace-tool>header{padding-left:0;padding-right:0}}
+
+/* Standalone controls outside a form receive the same breathing room as forms. */
+.workspace-tool main section>label{margin-top:18px;margin-bottom:16px}.workspace-tool main section>button{margin:0 8px 9px 0}
+.workspace-tool main p[role=status]:empty,.workspace-tool main pre:empty{display:none}
+.workspace-tool main>header:has(.brand){display:flex;justify-content:space-between;align-items:center;gap:20px;padding:10px 0 24px;border-bottom:1px solid var(--line)}

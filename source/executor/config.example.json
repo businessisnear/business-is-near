@@ -1,0 +1,13 @@
+{
+  "data_dir": "/absolute/private/proofwork",
+  "gateway": {
+    "network": "testnet",
+    "rpc_url": "https://rpc.testnet.near.org",
+    "contract_id": "YOUR-COMPANY.testnet",
+    "operator_id": "YOUR-OPERATOR.testnet",
+    "operator_key_file": "/absolute/private/proofwork/operator.json",
+    "journal": "/absolute/private/proofwork/rpc-journal.json",
+    "expected_code_hash": "VERIFIED-DEPLOYED-COMPANY-CODE-HASH",
+    "worker_key_id": "SHA256-OF-YOUR-EXACT-WORKER-PUBLIC-PEM"
+  }
+}

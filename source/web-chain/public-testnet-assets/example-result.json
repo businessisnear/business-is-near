@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "network": "testnet",
+  "company_id": "proofwork-owner-0052c4ee85f22ac3.testnet",
+  "task_id": "gemma_website_demo_v2",
+  "operation": "website_build",
+  "task_status": "archived",
+  "company_frozen": true,
+  "worker_key_revoked": true,
+  "execution_backend": "local_gemma_mock",
+  "artifact": {
+    "title": "Business is NEAR Prototype Website Draft",
+    "summary": "This document outlines a draft for a concise, one-page website introducing the 'Business is NEAR' prototype. The website content is tailored for founders and focuses on explaining what the prototype is: an AI team for founders where owners approve tasks and limits on NEAR. It explicitly mentions that this demonstration uses a public NEAR testnet and local Gemma, while clarifying that NEAR AI Cloud, TEE execution, and mainnet are unverified. The draft is intended for owner review.",
+    "items": [
+      {
+        "text": "Introduction to Business is NEAR: A working prototype of an AI team designed specifically for founders.",
+        "source_ids": [
+          "website_facts"
+        ]
+      },
+      {
+        "text": "Core Functionality: Founders maintain control by approving tasks and setting limits on NEAR usage.",
+        "source_ids": [
+          "website_facts"
+        ]
+      },
+      {
+        "text": "Technical Context: This synthetic demonstration utilizes the public NEAR testnet and local Gemma models.",
+        "source_ids": [
+          "website_facts"
+        ]
+      },
+      {
+        "text": "Important Disclaimer: NEAR AI Cloud, TEE execution, and mainnet status remain unverified. A draft requires owner review.",
+        "source_ids": [
+          "website_facts"
+        ]
+      }
+    ]
+  },
+  "receipts": [
+    {
+      "label": "Owner approves the website and limits",
+      "tx_hash": "FS8hjrAZFGfiG5yyEKEVusY5V8DDcGiQnzXsUccJbuDE"
+    },
+    {
+      "label": "Task starts on NEAR",
+      "tx_hash": "HSNeEnhbhzDPJYxwmgBErRJXC3LC1SQiASFmCDB3Jo9F"
+    },
+    {
+      "label": "AI reservation approved",
+      "tx_hash": "4SRTLEUF9CprSGQzqf8SYCCZ2DtuUEy19AUBWnkPBKiB"
+    },
+    {
+      "label": "Encrypted output committed",
+      "tx_hash": "Ev1cVijxmswjH4hq47EZFzNhq5ottp8qBfCPoHp3hAQ4"
+    },
+    {
+      "label": "Website result attested",
+      "tx_hash": "5MmihUxoJ8Ss2EGx9aEEAr4eYNgFkQRPeoeTY2L8rt6C"
+    },
+    {
+      "label": "Website result archived",
+      "tx_hash": "8bd39kdXLNPjsjyqCdfm2HRNPyVkTTgKrBE3eWyEn3eY"
+    },
+    {
+      "label": "Completed demonstration frozen",
+      "tx_hash": "7uubXJnbu4WwFnvXydaxWVqwk2jvJH4boH4Ubp61U5i9"
+    },
+    {
+      "label": "Worker key revoked",
+      "tx_hash": "9A9aNLstyAZidUZiJARg5ei9dn5ioA3Egp59q3FXtui1"
+    }
+  ]
+}

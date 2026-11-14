@@ -1,0 +1,27 @@
+{
+  "files": [
+    {
+      "path": "REVIEW-UI.json",
+      "bytes": 2364,
+      "sha256": "1b9fd966718da895407e15093a357670a4e6aac6deea7b1ac0c872487c140e4d"
+    },
+    {
+      "path": "AFTER-CANCEL-UI.json",
+      "bytes": 6545,
+      "sha256": "8578c44322aa213130bf8c2b9017cad4b0c2a4c40502dbb5cf4f5ff0ef7c9fe4"
+    },
+    {
+      "path": "SMOKE-REPORT.json",
+      "bytes": 1947,
+      "sha256": "e292347b1b1778161c1e911cd13fb218fb7aba3d78cdf70c564a94088fc127df"
+    },
+    {
+      "path": "OWNED-CLEANUP.json",
+      "bytes": 201,
+      "sha256": "349753b04d874e69d0d31a7be4c0dfaf4093a89adcd0bc4568ca93916fff0740"
+    }
+  ],
+  "exact_explicit_only": true,
+  "contains_credentials": false,
+  "source_scope": "FreshV2 init/nonfinancialpolicy/reviewcancel,0 app signatures; notfullcycle"
+}

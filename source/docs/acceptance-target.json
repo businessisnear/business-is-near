@@ -1,0 +1,7 @@
+{
+  "schema": 1,
+  "target_scope": "near_native_equivalents_v1",
+  "required_stage": "local_authorized",
+  "inference_mode": "local_gemma_authorized",
+  "catalog_sha256": "683eb2738c448c0bf6a7f3a8b4e1682d75d9742e82eb5b79196770c23bebd18b"
+}
