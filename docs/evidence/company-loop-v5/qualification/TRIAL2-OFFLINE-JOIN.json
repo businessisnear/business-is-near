@@ -1,0 +1,143 @@
+{
+  "passed": true,
+  "source_only_tests_separate": true,
+  "public_export_files": 27,
+  "original_app_FINALs": 11,
+  "receipt_outcomes": 30,
+  "complete_unique_DAGs": 11,
+  "exact_native_principal_actions": 2,
+  "same_FINAL_height": 795,
+  "same_FINAL_hash": "Des48hSPtF12rwXEyhCVBnEAzjN1rR7axemkF6WLHTus",
+  "chain_id": "test-chain-7iSyB",
+  "genesis_hash": "3koJqGF7mCxpkJ5pEB1hUTqps6AoV1MskWSLMJMMsqyN",
+  "registry_keyless": true,
+  "global_backed": true,
+  "business_funded": "400000000000000000000000",
+  "provider_paid": "100000000000000000000000",
+  "owner_returned": "300000000000000000000000",
+  "remaining_principal_liabilities": "0",
+  "retained_storage_collateral": "1064960000000000000000000",
+  "linked_result_exact_replay": true,
+  "assignment_and_encrypted_context_hashes_verified": true,
+  "corrected_plaintext_hash_matches": true,
+  "own_redecryption_performed": false,
+  "UI_reports_both_original_recipient_open": true,
+  "driver_steps": 15,
+  "model_provenance": {
+    "backend": "local_gemma_api_contract",
+    "model_contract": "gemma4:e2b-it-q4_K_M",
+    "attempted_calls": 1,
+    "completed_calls": 1,
+    "actual_model_calls": 1,
+    "original_call_unknown": false,
+    "cloud_verified": false,
+    "max_calls": 1,
+    "max_tokens": 512
+  },
+  "model_weight_attestation_or_Cloud_proved": false,
+  "original_UI_link_anchor": {
+    "hash": "G2C8AsmELxvL3ta9CoypAJBp4vyuT6mV8HWKLoAaiZAt",
+    "height": 550,
+    "observed_at": "1794669689"
+  },
+  "raw_export_later_FINAL_corrobates_same_terminal_ledger": true,
+  "graphs": [
+    {
+      "action": "create",
+      "hash": "2nLaBPkPPHdknzYS2SXULrQqV5stv3Y2yJA9UzEEtQqp",
+      "signer": "507bdccdb48afbcdb727b91a9aba3ad0ec0bcd71e2fe52d96d28eadc2d1d9473",
+      "method": "create_mandate",
+      "receipts": 2
+    },
+    {
+      "action": "post",
+      "hash": "EHQPC8thP7KBX6GpLKbhSiVprS5xVnfTB8LxRxTP5waJ",
+      "signer": "8e1cd05305288968443e75a2f2c974928523a4808a9a337d8ca3dc41fd761113",
+      "method": "post_job",
+      "receipts": 2
+    },
+    {
+      "action": "share",
+      "hash": "cTyGAREg5jaDdu1uAaoJJ4wrq7t3U1GytVcJNNQcv5Q",
+      "signer": "507bdccdb48afbcdb727b91a9aba3ad0ec0bcd71e2fe52d96d28eadc2d1d9473",
+      "method": "publish_assignment",
+      "receipts": 2
+    },
+    {
+      "action": "bid",
+      "hash": "GheXYqZfQ1TMRXkYmX73VAe3KWQqNzVceN75aPVH3Act",
+      "signer": "5323254de6ffcd131361043c8033e20002b1e4f565712ce1e50147ba838baed8",
+      "method": "bid",
+      "receipts": 2
+    },
+    {
+      "action": "award",
+      "hash": "5bFoDiRszgRXS1aXLs5GUmQRxVw7j9X5mHyvdhwcw5YL",
+      "signer": "507bdccdb48afbcdb727b91a9aba3ad0ec0bcd71e2fe52d96d28eadc2d1d9473",
+      "method": "approve_award",
+      "receipts": 2
+    },
+    {
+      "action": "claim",
+      "hash": "FZwcisURTr151YmXWvjcMeLDa33jsmEk9q6KS5mJeEyx",
+      "signer": "5323254de6ffcd131361043c8033e20002b1e4f565712ce1e50147ba838baed8",
+      "method": "claim",
+      "receipts": 2
+    },
+    {
+      "action": "deliver",
+      "hash": "G1yGdnKVPyXKcg1VdRuCUD3XmUTKoFnZhHZJvR9u9Zr",
+      "signer": "5323254de6ffcd131361043c8033e20002b1e4f565712ce1e50147ba838baed8",
+      "method": "deliver_encrypted",
+      "receipts": 2
+    },
+    {
+      "action": "accept",
+      "hash": "3v4CbueaPY3AA8k1QyeawA6u2XRbSJ3Tch4beSpbkhgC",
+      "signer": "507bdccdb48afbcdb727b91a9aba3ad0ec0bcd71e2fe52d96d28eadc2d1d9473",
+      "method": "accept",
+      "receipts": 2
+    },
+    {
+      "action": "pay",
+      "hash": "2pk9ue6UEcWg2HXeBhD3D3o2NYFLgpfvKXf5GzXbYcd1",
+      "signer": "5323254de6ffcd131361043c8033e20002b1e4f565712ce1e50147ba838baed8",
+      "method": "withdraw_provider",
+      "receipts": 6
+    },
+    {
+      "action": "close",
+      "hash": "CWzBzwB7iM192EtWwdG3CYELa9vo1X3SLwfMDetjmie7",
+      "signer": "507bdccdb48afbcdb727b91a9aba3ad0ec0bcd71e2fe52d96d28eadc2d1d9473",
+      "method": "close_mandate",
+      "receipts": 2
+    },
+    {
+      "action": "refund",
+      "hash": "EZXvHznNrSYsesHLgzg8bzL31hnxcG6JLyBpXCCyRZY9",
+      "signer": "507bdccdb48afbcdb727b91a9aba3ad0ec0bcd71e2fe52d96d28eadc2d1d9473",
+      "method": "withdraw_owner",
+      "receipts": 6
+    }
+  ],
+  "principals": [
+    {
+      "action": "pay",
+      "original_hash": "2pk9ue6UEcWg2HXeBhD3D3o2NYFLgpfvKXf5GzXbYcd1",
+      "receipt_id": "DZ1CEEtYorg6BcuQtG12ticit7XniMGhsm5SZUN2xdSd",
+      "recipient": "5323254de6ffcd131361043c8033e20002b1e4f565712ce1e50147ba838baed8",
+      "amount": "100000000000000000000000",
+      "callback_status": "native_transfer_callback_succeeded"
+    },
+    {
+      "action": "refund",
+      "original_hash": "EZXvHznNrSYsesHLgzg8bzL31hnxcG6JLyBpXCCyRZY9",
+      "receipt_id": "FnvyTWbXYXiXY9r62LbRu6nX6gsa358gpYCuztS7s7Qm",
+      "recipient": "507bdccdb48afbcdb727b91a9aba3ad0ec0bcd71e2fe52d96d28eadc2d1d9473",
+      "amount": "300000000000000000000000",
+      "callback_status": "native_transfer_callback_succeeded"
+    }
+  ],
+  "original_transaction_fees_separate_from_principal": "48646141475777100000000",
+  "no_private_keys_wires_runtime_RPC_browser_model_or_signing_access": true
+}

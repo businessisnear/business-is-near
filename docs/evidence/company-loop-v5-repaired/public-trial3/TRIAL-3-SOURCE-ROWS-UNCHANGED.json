@@ -1,0 +1,8 @@
+{
+  "at_utc": "2026-11-14T18:50:27.216107+00:00",
+  "manifest_sha256": "fab51cf3491a57f29da5309dd1954b2b251285d4ba6c91788da18555ee47d3b8",
+  "source_rows_rehashed": 60,
+  "all_exact": true,
+  "recursive_runtime_walk": false,
+  "node_modules_or_key_or_wire_files_read": false
+}

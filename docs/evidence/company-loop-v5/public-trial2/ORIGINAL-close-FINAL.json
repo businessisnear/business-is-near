@@ -1,0 +1,208 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "final_execution_status": "FINAL",
+    "receipts_outcome": [
+      {
+        "block_hash": "2QzhmmWnAt6swWPrMo2MrjJUtrvTcPbProJeW6bhWmjA",
+        "id": "9fmuZKCJ2zNdGMABqZxVzHBbnYUZxLQ3ZMHgbdQv1nW",
+        "outcome": {
+          "executor_id": "registry.project.test.near",
+          "gas_burnt": 30395094763756,
+          "logs": [],
+          "metadata": {
+            "gas_profile": [
+              {
+                "cost": "BASE",
+                "cost_category": "WASM_HOST_COST",
+                "gas_used": "7943043330"
+              },
+              {
+                "cost": "CONTRACT_LOADING_BASE",
+                "cost_category": "WASM_HOST_COST",
+                "gas_used": "35445963"
+              },
+              {
+                "cost": "CONTRACT_LOADING_BYTES",
+                "cost_category": "WASM_HOST_COST",
+                "gas_used": "648324419510"
+              },
+              {
+                "cost": "READ_CACHED_TRIE_NODE",
+                "cost_category": "WASM_HOST_COST",
+                "gas_used": "13680000000"
+              },
+              {
+                "cost": "READ_MEMORY_BASE",
+                "cost_category": "WASM_HOST_COST",
+                "gas_used": "23488768800"
+              },
+              {
+                "cost": "READ_MEMORY_BYTE",
+                "cost_category": "WASM_HOST_COST",
+                "gas_used": "65569192917"
+              },
+              {
+                "cost": "READ_REGISTER_BASE",
+                "cost_category": "WASM_HOST_COST",
+                "gas_used": "17620156302"
+              },
+              {
+                "cost": "READ_REGISTER_BYTE",
+                "cost_category": "WASM_HOST_COST",
+                "gas_used": "1684917390"
+              },
+              {
+                "cost": "STORAGE_LARGE_READ_OVERHEAD_BASE",
+                "cost_category": "WASM_HOST_COST",
+                "gas_used": "2"
+              },
+              {
+                "cost": "STORAGE_LARGE_READ_OVERHEAD_BYTE",
+                "cost_category": "WASM_HOST_COST",
+                "gas_used": "16384"
+              },
+              {
+                "cost": "STORAGE_READ_BASE",
+                "cost_category": "WASM_HOST_COST",
+                "gas_used": "225427382996"
+              },
+              {
+                "cost": "STORAGE_READ_KEY_BYTE",
+                "cost_category": "WASM_HOST_COST",
+                "gas_used": "7211940189"
+              },
+              {
+                "cost": "STORAGE_READ_VALUE_BYTE",
+                "cost_category": "WASM_HOST_COST",
+                "gas_used": "94747413544"
+              },
+              {
+                "cost": "STORAGE_WRITE_BASE",
+                "cost_category": "WASM_HOST_COST",
+                "gas_used": "128393472000"
+              },
+              {
+                "cost": "STORAGE_WRITE_EVICTED_BYTE",
+                "cost_category": "WASM_HOST_COST",
+                "gas_used": "406669341234"
+              },
+              {
+                "cost": "STORAGE_WRITE_KEY_BYTE",
+                "cost_category": "WASM_HOST_COST",
+                "gas_used": "5427180759"
+              },
+              {
+                "cost": "STORAGE_WRITE_VALUE_BYTE",
+                "cost_category": "WASM_HOST_COST",
+                "gas_used": "392756740818"
+              },
+              {
+                "cost": "TOUCHING_TRIE_NODE",
+                "cost_category": "WASM_HOST_COST",
+                "gas_used": "144917603334"
+              },
+              {
+                "cost": "WASM_INSTRUCTION",
+                "cost_category": "WASM_HOST_COST",
+                "gas_used": "27109283636160"
+              },
+              {
+                "cost": "WRITE_MEMORY_BASE",
+                "cost_category": "WASM_HOST_COST",
+                "gas_used": "28037948610"
+              },
+              {
+                "cost": "WRITE_MEMORY_BYTE",
+                "cost_category": "WASM_HOST_COST",
+                "gas_used": "46693623396"
+              },
+              {
+                "cost": "WRITE_REGISTER_BASE",
+                "cost_category": "WASM_HOST_COST",
+                "gas_used": "25789702374"
+              },
+              {
+                "cost": "WRITE_REGISTER_BYTE",
+                "cost_category": "WASM_HOST_COST",
+                "gas_used": "113123139948"
+              }
+            ],
+            "version": 3
+          },
+          "receipt_ids": [
+            "H7E85zJufABRjG8UaTNHEzZWULZmtJZzVoBRMgMNMSFc"
+          ],
+          "status": {
+            "SuccessValue": "eyJpZCI6IjRlOGU3NDNmYTRlMGRhZTFlMjg0NmVmODYyODRkODQwOGFlMWVjMTA0NjZiNzQyODYzM2IyMDBiYmYwNWU2YjYiLCJjbGllbnRfaWQiOiJicm93c2VyX2NvbXBhbnlfdjUiLCJvd25lciI6IjUwN2JkY2NkYjQ4YWZiY2RiNzI3YjkxYTlhYmEzYWQwZWMwYmNkNzFlMmZlNTJkOTZkMjhlYWRjMmQxZDk0NzMiLCJwb2xpY3kiOnsiY29tcGFueV9pZCI6IjUwN2JkY2NkYjQ4YWZiY2RiNzI3YjkxYTlhYmEzYWQwZWMwYmNkNzFlMmZlNTJkOTZkMjhlYWRjMmQxZDk0NzMiLCJnb2FsX2lkIjoiZ29hbF8wZjVlNDE5MGUwMDNlMTNmIiwicGxhbl9zaGEyNTYiOiI2ZWRkMWVkN2Y4MjgzNWQzMzkxN2RkYjM5Y2JmMDlhMzUwMWE4OTUyZTY5YWZhMTQ2ODI0YTc5NzhhN2U5ZDgxIiwib3BlcmF0b3IiOiI4ZTFjZDA1MzA1Mjg4OTY4NDQzZTc1YTJmMmM5NzQ5Mjg1MjNhNDgwOGE5YTMzN2Q4Y2EzZGM0MWZkNzYxMTEzIiwicHJvdmlkZXJzIjpbIjUzMjMyNTRkZTZmZmNkMTMxMzYxMDQzYzgwMzNlMjAwMDJiMWU0ZjU2NTcxMmNlMWU1MDE0N2JhODM4YmFlZDgiXSwic3RlcHMiOlt7ImlkIjoicHJvb2ZyZWFkIiwia2luZCI6Imh1bWFuX3Byb29mcmVhZCIsInNjb3BlX3NoYTI1NiI6IjJhMTgyM2EyOTE3MDA0YmY3ZWNiNzg0ZTdjM2UyYjJjMTllZjAxZmNiNzcwODI3ZTI4MDdlMDRjYzRjN2JhYzAiLCJjcml0ZXJpYV9zaGEyNTYiOiIzNjVjZjE5MTI4ZDdjM2Q4ZmIwNzAyZjJjZmMwMDMzNjdkMjcyNDhjNTAzYjAyNDI5MWRiOWMxNDM1YTU4NGE0In1dLCJtYXhfY3ljbGVzIjoxLCJwZXJfam9iIjoiMTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIiwiZGFpbHkiOiI0MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAiLCJsaWZldGltZSI6IjQwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCIsIm1heF9vcGVuIjoxLCJleHBpcmVzX2F0IjoiMTc5NDY4OTQ1MCIsImJpZF9zZWNvbmRzIjozNjAwLCJkZWxpdmVyeV9zZWNvbmRzIjoxMjAwLCJyZXZpZXdfc2Vjb25kcyI6NjAwLCJhY2NlcHRhbmNlIjoib3duZXJfYXdhcmRfYXNzaWdubWVudF9kZWxpdmVyeV9zaGFyZWRfdjQiLCJvcGVyYXRvcl9zZXJ2aWNlX2ZlZSI6IjAiLCJhc3NpZ25tZW50X21vZGUiOiJvd25lcl9wdWJsaWNfdGV4dF92MSIsIm5ldHdvcmsiOnsiY2hhaW5faWQiOiJ0ZXN0LWNoYWluLTdpU3lCIiwiZ2VuZXNpc19oYXNoIjoiM2tvSnFHRjdtQ3hwa0o1cEVCMWhVVHFwczZBb1YxTXNrV1NMTUpNTXNxeU4iLCJyZWdpc3RyeV9jb2RlX2hhc2giOiJEcnRVZU5OdEF0UHo5c0NMY2I5VWVVZm5BbUxnNm54MnlEZFg4dnJLU0tQciJ9LCJyZWNpcGllbnRfcG9saWN5Ijp7InByb2ZpbGUiOiJuZWFyLXByb2N1cmVtZW50LWRlbGl2ZXJ5LXJlY2lwaWVudHMtdjQiLCJvd25lciI6eyJhY2NvdW50X2lkIjoiNTA3YmRjY2RiNDhhZmJjZGI3MjdiOTFhOWFiYTNhZDBlYzBiY2Q3MWUyZmU1MmQ5NmQyOGVhZGMyZDFkOTQ3MyIsImtleV9pZCI6IjlkZTYxOTBhYzNmOTBkNzA2ZWU5MWNmNGNhZjk3MDllOTI2NjE4OGJiNjZjYWFmNjM1MTkyNmUyODIzNDBlZTMiLCJrZXlfdmVyc2lvbiI6IjEiLCJwdWJsaWNfa2V5X3BlbSI6Ii0tLS0tQkVHSU4gUFVCTElDIEtFWS0tLS0tXG5NSUlDSWpBTkJna3Foa2lHOXcwQkFRRUZBQU9DQWc4QU1JSUNDZ0tDQWdFQTRUdERMLzBZN0dXalZ0QmFPbGlMXG40bFZYYTNMWlBCVWhIMldja01Jdk5kQ2s5d0FHNFQ1QkkzbjBlMFFDRlRFWVIrM0xvcXdOVnBqbWpuVWFCRWg4XG4zRk9GTWZsWlFuNXVvNjN2aktDY3I3Mit6NzRhZVphazJyNDZLTzJNSjJUamF5OVNoS1NVbVlQNDBSellxTWRKXG5rTmpzVXlscWlmNEd4bytwZEhHU3F3OUlLUURGc1M0UTZ0OThFYUVEWGlpdWUxQmdnWWZ1RG56RlZtdDUvU2w5XG5EUU85WVROQkhaZG1VM1JEUVlYY1JKYUhvUmI4Z2tyUEFHaCttemxvRlRPc1IrRlc4UUJZZ3oxTDlHZ1IxNFpSXG40SVgwd2pPbnFFeDVEYzZJOFlJWUR0MG1oazE0MEo3WHowU2h3d2JnVWFHMnZuRU1jNGg3Qmp2RWlMclJhTk8rXG5EUklRZnRHeFFJUkxOYmtSNWdIQzhpTUp6UlFFODZ6K1dJd1FMWElxampmMkNtMHBad2pQaGFQWXVTb3lsVXdrXG55cDJjLytYMExNckp6dk8rOVp2YTl1aHltbXY1QzUrZXhQR2hrNE4xTkVxVXJncEZ5dEtuTm1pSDdvWGk0UW9uXG53cE4vL3dVc0xoUjgrcVJBUm52Umh6dENZb0hldDRkbWFUbktYK2Q1ZG1GR250cit4TjhPVXppdkpIcG9zKzM0XG5wbnBRSzJ3WmU4Q0cza3hvNmJMcDMzU01BaDNpcnhaTFU0VUdTNGtYREJQSnFNSzdYSUtScUdlZUt5YzJNUnBJXG5XMzZNK2t0djc5MjA1SGJVakQ0SlRKYUFZV3I1MkFJSzEwVlJYTDNSYUFtQUJiaG50VE45bUxoNWhBZnlnR1JNXG5OVWd2S2lKT01QV2VJWUpYMUxETlVQOENBd0VBQVE9PVxuLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tXG4ifSwid29ya2VyIjp7ImFjY291bnRfaWQiOiI4ZTFjZDA1MzA1Mjg4OTY4NDQzZTc1YTJmMmM5NzQ5Mjg1MjNhNDgwOGE5YTMzN2Q4Y2EzZGM0MWZkNzYxMTEzIiwia2V5X2lkIjoiNjBjOGI5MmE1YTM4ZjExYWUwNzI0MDMxZjAzNDZmZjU0Y2JlNmY3OWJkNDBiN2U3NTJhYzEyZWFhZGM2YThkMiIsImtleV92ZXJzaW9uIjoiMSIsInB1YmxpY19rZXlfcGVtIjoiLS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS1cbk1JSUNJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBZzhBTUlJQ0NnS0NBZ0VBOG5TOU1qNDdHTk9HRnhRVGVPMlBcbmsyWnkydzdWK01KeEN4akVmQUd4SjlqY3JueW9LZUM1Y282OWZWNjB0WjMrYXR6THJ1d2o4M0t3R0xycjlTZTdcbjZCSlkrVlJ3bEVZbUQxQzVsZDdRSTM0bm1jc2liREZsZU5KeWpRcG5CT2M5UDBscFNrS3liMlFudVpTYTVRYWdcblliTU5MbWt3dWVMQk1oUUMwSXBHc1JuSVhNVGpuaThMbEFPTTZFanpIUG9uZ2pyWmVBeU41RlpWZWxDSGl6OGZcbnRjMTRGN0dqY3JNU3VwOXIrM0twYVYydy8zVU1HMlNCOVdzS0NpSGdQQTRZL3lxb1ovNW01T2ZnUFJqUHp2Ullcbklld1IrSi9NbmxTazBOV2NFblI1aEFDb24yaUpKSGs2cXpSSjFrVWtPcXc5L3BFWS9waWxRcnc2YVVyVHJ4OEtcbkViVW8zRG5hbTVBQW9WY1grUlJMZUs4UlBPdEQ1YlRJMHhUdWcwNEl0czZ0NjJwNDBtQzF5blhLRU93a21rQlpcbjdJcndjU1ZJTnFXS1B6c3FvSTNlNFpEa1IrUEpFWGx2Y2dGN1RkbUQ2eEk1eklXbjZ1S21rT254cUlqbFFBWFVcbno2emxBY2J4N3RBSUVxMm1ObllqanhVOVp3VDIyZ0tTaUVZSDZkWTBMQ0dXcFpxSnZyc0g0OEd5WUE1dUtGQUZcbjJDanhBbWdPZVdjTGdOL1cwV0swQnBYVTdqa0tiUWJPY2lVQzNYQWd0czc5Z1RPZlZGcVhhYTY4MGpZTXVDZWFcbjQzVXlQSER1Ky9KQVE5bFhyRjlQc2p4SFVROFlkdG1JOHpRMjE4R283VDBRMDlOOWhjZlliMzNHdjQvQTgvWkxcbmkwS2VvcW5Oc2NRYlVSenh6anlSdVhzQ0F3RUFBUT09XG4tLS0tLUVORCBQVUJMSUMgS0VZLS0tLS1cbiJ9fX0sInBvbGljeV9zaGEyNTYiOiIzZGE2MWM3ZDNkYmUyNzVhMWI0NjBjODhlYWM0OTY0NjVkNzViMmZmMmI1OTQyOGM0M2YzNWEyNDQ3ZDgwYzFhIiwiZnJvemVuIjpmYWxzZSwiY2xvc2VkIjp0cnVlLCJqb2JfY291bnQiOjEsIm9wZW5fam9icyI6MCwib3duZXJfaW50ZW50cyI6MCwidHJhbnNmZXJfY291bnQiOiIxIiwiZnVuZGVkIjoiNDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIiwiYXZhaWxhYmxlIjoiMCIsImVzY3JvdyI6IjAiLCJvd25lcl9jcmVkaXQiOiIzMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAiLCJwcm92aWRlcl9jcmVkaXQiOiIwIiwidHJhbnNmZXJfcGVuZGluZyI6IjAiLCJvd25lcl9wYWlkIjoiMCIsInByb3ZpZGVyX3BhaWQiOiIxMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAiLCJsaWZldGltZV9hd2FyZGVkIjoiMTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIiwiZGF5IjoiMjA3NzEiLCJkYXlfYXdhcmRlZCI6IjEwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCIsInBlbmRpbmdfdHJhbnNmZXIiOiIiLCJzdG9yYWdlX2NvbGxlY3RlZCI6IjEwNjQ5NjAwMDAwMDAwMDAwMDAwMDAwMDAiLCJzdG9yYWdlX2FsbG9jYXRpb25fYnl0ZXMiOiIxMDY0OTYiLCJzdG9yYWdlX3JlbWFpbmluZ19ieXRlcyI6IjYzNzI3Iiwic2xvdF9jb3VudCI6MSwidW5hc3NpZ25lZF9zbG90cyI6MCwiYmFzZV9hbGxvY2F0aW9uX2J5dGVzIjoiNzM3MjgiLCJiYXNlX3JlbWFpbmluZ19ieXRlcyI6IjU1Nzg3IiwiYXNzaWdubWVudF9hbGxvY2F0aW9uX2J5dGVzIjoiMTIyODgiLCJhc3NpZ25tZW50X3JlbWFpbmluZ19ieXRlcyI6IjM5NjkiLCJkZWxpdmVyeV9hbGxvY2F0aW9uX2J5dGVzIjoiMjA0ODAiLCJkZWxpdmVyeV9yZW1haW5pbmdfYnl0ZXMiOiIzOTcxIn0="
+          },
+          "tokens_burnt": "3039509476375600000000"
+        },
+        "proof": []
+      },
+      {
+        "block_hash": "Ht6X1MaSHvHGEupv5W2N9WDEuXHUtVbqr3XAh1i7wVCJ",
+        "id": "H7E85zJufABRjG8UaTNHEzZWULZmtJZzVoBRMgMNMSFc",
+        "outcome": {
+          "executor_id": "507bdccdb48afbcdb727b91a9aba3ad0ec0bcd71e2fe52d96d28eadc2d1d9473",
+          "gas_burnt": 4174947687500,
+          "logs": [],
+          "metadata": {
+            "gas_profile": [],
+            "version": 3
+          },
+          "receipt_ids": [],
+          "status": {
+            "SuccessValue": ""
+          },
+          "tokens_burnt": "0"
+        },
+        "proof": []
+      }
+    ],
+    "status": {
+      "SuccessValue": "eyJpZCI6IjRlOGU3NDNmYTRlMGRhZTFlMjg0NmVmODYyODRkODQwOGFlMWVjMTA0NjZiNzQyODYzM2IyMDBiYmYwNWU2YjYiLCJjbGllbnRfaWQiOiJicm93c2VyX2NvbXBhbnlfdjUiLCJvd25lciI6IjUwN2JkY2NkYjQ4YWZiY2RiNzI3YjkxYTlhYmEzYWQwZWMwYmNkNzFlMmZlNTJkOTZkMjhlYWRjMmQxZDk0NzMiLCJwb2xpY3kiOnsiY29tcGFueV9pZCI6IjUwN2JkY2NkYjQ4YWZiY2RiNzI3YjkxYTlhYmEzYWQwZWMwYmNkNzFlMmZlNTJkOTZkMjhlYWRjMmQxZDk0NzMiLCJnb2FsX2lkIjoiZ29hbF8wZjVlNDE5MGUwMDNlMTNmIiwicGxhbl9zaGEyNTYiOiI2ZWRkMWVkN2Y4MjgzNWQzMzkxN2RkYjM5Y2JmMDlhMzUwMWE4OTUyZTY5YWZhMTQ2ODI0YTc5NzhhN2U5ZDgxIiwib3BlcmF0b3IiOiI4ZTFjZDA1MzA1Mjg4OTY4NDQzZTc1YTJmMmM5NzQ5Mjg1MjNhNDgwOGE5YTMzN2Q4Y2EzZGM0MWZkNzYxMTEzIiwicHJvdmlkZXJzIjpbIjUzMjMyNTRkZTZmZmNkMTMxMzYxMDQzYzgwMzNlMjAwMDJiMWU0ZjU2NTcxMmNlMWU1MDE0N2JhODM4YmFlZDgiXSwic3RlcHMiOlt7ImlkIjoicHJvb2ZyZWFkIiwia2luZCI6Imh1bWFuX3Byb29mcmVhZCIsInNjb3BlX3NoYTI1NiI6IjJhMTgyM2EyOTE3MDA0YmY3ZWNiNzg0ZTdjM2UyYjJjMTllZjAxZmNiNzcwODI3ZTI4MDdlMDRjYzRjN2JhYzAiLCJjcml0ZXJpYV9zaGEyNTYiOiIzNjVjZjE5MTI4ZDdjM2Q4ZmIwNzAyZjJjZmMwMDMzNjdkMjcyNDhjNTAzYjAyNDI5MWRiOWMxNDM1YTU4NGE0In1dLCJtYXhfY3ljbGVzIjoxLCJwZXJfam9iIjoiMTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIiwiZGFpbHkiOiI0MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAiLCJsaWZldGltZSI6IjQwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCIsIm1heF9vcGVuIjoxLCJleHBpcmVzX2F0IjoiMTc5NDY4OTQ1MCIsImJpZF9zZWNvbmRzIjozNjAwLCJkZWxpdmVyeV9zZWNvbmRzIjoxMjAwLCJyZXZpZXdfc2Vjb25kcyI6NjAwLCJhY2NlcHRhbmNlIjoib3duZXJfYXdhcmRfYXNzaWdubWVudF9kZWxpdmVyeV9zaGFyZWRfdjQiLCJvcGVyYXRvcl9zZXJ2aWNlX2ZlZSI6IjAiLCJhc3NpZ25tZW50X21vZGUiOiJvd25lcl9wdWJsaWNfdGV4dF92MSIsIm5ldHdvcmsiOnsiY2hhaW5faWQiOiJ0ZXN0LWNoYWluLTdpU3lCIiwiZ2VuZXNpc19oYXNoIjoiM2tvSnFHRjdtQ3hwa0o1cEVCMWhVVHFwczZBb1YxTXNrV1NMTUpNTXNxeU4iLCJyZWdpc3RyeV9jb2RlX2hhc2giOiJEcnRVZU5OdEF0UHo5c0NMY2I5VWVVZm5BbUxnNm54MnlEZFg4dnJLU0tQciJ9LCJyZWNpcGllbnRfcG9saWN5Ijp7InByb2ZpbGUiOiJuZWFyLXByb2N1cmVtZW50LWRlbGl2ZXJ5LXJlY2lwaWVudHMtdjQiLCJvd25lciI6eyJhY2NvdW50X2lkIjoiNTA3YmRjY2RiNDhhZmJjZGI3MjdiOTFhOWFiYTNhZDBlYzBiY2Q3MWUyZmU1MmQ5NmQyOGVhZGMyZDFkOTQ3MyIsImtleV9pZCI6IjlkZTYxOTBhYzNmOTBkNzA2ZWU5MWNmNGNhZjk3MDllOTI2NjE4OGJiNjZjYWFmNjM1MTkyNmUyODIzNDBlZTMiLCJrZXlfdmVyc2lvbiI6IjEiLCJwdWJsaWNfa2V5X3BlbSI6Ii0tLS0tQkVHSU4gUFVCTElDIEtFWS0tLS0tXG5NSUlDSWpBTkJna3Foa2lHOXcwQkFRRUZBQU9DQWc4QU1JSUNDZ0tDQWdFQTRUdERMLzBZN0dXalZ0QmFPbGlMXG40bFZYYTNMWlBCVWhIMldja01Jdk5kQ2s5d0FHNFQ1QkkzbjBlMFFDRlRFWVIrM0xvcXdOVnBqbWpuVWFCRWg4XG4zRk9GTWZsWlFuNXVvNjN2aktDY3I3Mit6NzRhZVphazJyNDZLTzJNSjJUamF5OVNoS1NVbVlQNDBSellxTWRKXG5rTmpzVXlscWlmNEd4bytwZEhHU3F3OUlLUURGc1M0UTZ0OThFYUVEWGlpdWUxQmdnWWZ1RG56RlZtdDUvU2w5XG5EUU85WVROQkhaZG1VM1JEUVlYY1JKYUhvUmI4Z2tyUEFHaCttemxvRlRPc1IrRlc4UUJZZ3oxTDlHZ1IxNFpSXG40SVgwd2pPbnFFeDVEYzZJOFlJWUR0MG1oazE0MEo3WHowU2h3d2JnVWFHMnZuRU1jNGg3Qmp2RWlMclJhTk8rXG5EUklRZnRHeFFJUkxOYmtSNWdIQzhpTUp6UlFFODZ6K1dJd1FMWElxampmMkNtMHBad2pQaGFQWXVTb3lsVXdrXG55cDJjLytYMExNckp6dk8rOVp2YTl1aHltbXY1QzUrZXhQR2hrNE4xTkVxVXJncEZ5dEtuTm1pSDdvWGk0UW9uXG53cE4vL3dVc0xoUjgrcVJBUm52Umh6dENZb0hldDRkbWFUbktYK2Q1ZG1GR250cit4TjhPVXppdkpIcG9zKzM0XG5wbnBRSzJ3WmU4Q0cza3hvNmJMcDMzU01BaDNpcnhaTFU0VUdTNGtYREJQSnFNSzdYSUtScUdlZUt5YzJNUnBJXG5XMzZNK2t0djc5MjA1SGJVakQ0SlRKYUFZV3I1MkFJSzEwVlJYTDNSYUFtQUJiaG50VE45bUxoNWhBZnlnR1JNXG5OVWd2S2lKT01QV2VJWUpYMUxETlVQOENBd0VBQVE9PVxuLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tXG4ifSwid29ya2VyIjp7ImFjY291bnRfaWQiOiI4ZTFjZDA1MzA1Mjg4OTY4NDQzZTc1YTJmMmM5NzQ5Mjg1MjNhNDgwOGE5YTMzN2Q4Y2EzZGM0MWZkNzYxMTEzIiwia2V5X2lkIjoiNjBjOGI5MmE1YTM4ZjExYWUwNzI0MDMxZjAzNDZmZjU0Y2JlNmY3OWJkNDBiN2U3NTJhYzEyZWFhZGM2YThkMiIsImtleV92ZXJzaW9uIjoiMSIsInB1YmxpY19rZXlfcGVtIjoiLS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS1cbk1JSUNJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBZzhBTUlJQ0NnS0NBZ0VBOG5TOU1qNDdHTk9HRnhRVGVPMlBcbmsyWnkydzdWK01KeEN4akVmQUd4SjlqY3JueW9LZUM1Y282OWZWNjB0WjMrYXR6THJ1d2o4M0t3R0xycjlTZTdcbjZCSlkrVlJ3bEVZbUQxQzVsZDdRSTM0bm1jc2liREZsZU5KeWpRcG5CT2M5UDBscFNrS3liMlFudVpTYTVRYWdcblliTU5MbWt3dWVMQk1oUUMwSXBHc1JuSVhNVGpuaThMbEFPTTZFanpIUG9uZ2pyWmVBeU41RlpWZWxDSGl6OGZcbnRjMTRGN0dqY3JNU3VwOXIrM0twYVYydy8zVU1HMlNCOVdzS0NpSGdQQTRZL3lxb1ovNW01T2ZnUFJqUHp2Ullcbklld1IrSi9NbmxTazBOV2NFblI1aEFDb24yaUpKSGs2cXpSSjFrVWtPcXc5L3BFWS9waWxRcnc2YVVyVHJ4OEtcbkViVW8zRG5hbTVBQW9WY1grUlJMZUs4UlBPdEQ1YlRJMHhUdWcwNEl0czZ0NjJwNDBtQzF5blhLRU93a21rQlpcbjdJcndjU1ZJTnFXS1B6c3FvSTNlNFpEa1IrUEpFWGx2Y2dGN1RkbUQ2eEk1eklXbjZ1S21rT254cUlqbFFBWFVcbno2emxBY2J4N3RBSUVxMm1ObllqanhVOVp3VDIyZ0tTaUVZSDZkWTBMQ0dXcFpxSnZyc0g0OEd5WUE1dUtGQUZcbjJDanhBbWdPZVdjTGdOL1cwV0swQnBYVTdqa0tiUWJPY2lVQzNYQWd0czc5Z1RPZlZGcVhhYTY4MGpZTXVDZWFcbjQzVXlQSER1Ky9KQVE5bFhyRjlQc2p4SFVROFlkdG1JOHpRMjE4R283VDBRMDlOOWhjZlliMzNHdjQvQTgvWkxcbmkwS2VvcW5Oc2NRYlVSenh6anlSdVhzQ0F3RUFBUT09XG4tLS0tLUVORCBQVUJMSUMgS0VZLS0tLS1cbiJ9fX0sInBvbGljeV9zaGEyNTYiOiIzZGE2MWM3ZDNkYmUyNzVhMWI0NjBjODhlYWM0OTY0NjVkNzViMmZmMmI1OTQyOGM0M2YzNWEyNDQ3ZDgwYzFhIiwiZnJvemVuIjpmYWxzZSwiY2xvc2VkIjp0cnVlLCJqb2JfY291bnQiOjEsIm9wZW5fam9icyI6MCwib3duZXJfaW50ZW50cyI6MCwidHJhbnNmZXJfY291bnQiOiIxIiwiZnVuZGVkIjoiNDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIiwiYXZhaWxhYmxlIjoiMCIsImVzY3JvdyI6IjAiLCJvd25lcl9jcmVkaXQiOiIzMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAiLCJwcm92aWRlcl9jcmVkaXQiOiIwIiwidHJhbnNmZXJfcGVuZGluZyI6IjAiLCJvd25lcl9wYWlkIjoiMCIsInByb3ZpZGVyX3BhaWQiOiIxMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAiLCJsaWZldGltZV9hd2FyZGVkIjoiMTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIiwiZGF5IjoiMjA3NzEiLCJkYXlfYXdhcmRlZCI6IjEwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCIsInBlbmRpbmdfdHJhbnNmZXIiOiIiLCJzdG9yYWdlX2NvbGxlY3RlZCI6IjEwNjQ5NjAwMDAwMDAwMDAwMDAwMDAwMDAiLCJzdG9yYWdlX2FsbG9jYXRpb25fYnl0ZXMiOiIxMDY0OTYiLCJzdG9yYWdlX3JlbWFpbmluZ19ieXRlcyI6IjYzNzI3Iiwic2xvdF9jb3VudCI6MSwidW5hc3NpZ25lZF9zbG90cyI6MCwiYmFzZV9hbGxvY2F0aW9uX2J5dGVzIjoiNzM3MjgiLCJiYXNlX3JlbWFpbmluZ19ieXRlcyI6IjU1Nzg3IiwiYXNzaWdubWVudF9hbGxvY2F0aW9uX2J5dGVzIjoiMTIyODgiLCJhc3NpZ25tZW50X3JlbWFpbmluZ19ieXRlcyI6IjM5NjkiLCJkZWxpdmVyeV9hbGxvY2F0aW9uX2J5dGVzIjoiMjA0ODAiLCJkZWxpdmVyeV9yZW1haW5pbmdfYnl0ZXMiOiIzOTcxIn0="
+    },
+    "transaction": {
+      "actions": [
+        {
+          "FunctionCall": {
+            "args": "eyJtYW5kYXRlX2lkIjoiNGU4ZTc0M2ZhNGUwZGFlMWUyODQ2ZWY4NjI4NGQ4NDA4YWUxZWMxMDQ2NmI3NDI4NjMzYjIwMGJiZjA1ZTZiNiJ9",
+            "deposit": "0",
+            "gas": 150000000000000,
+            "method_name": "close_mandate"
+          }
+        }
+      ],
+      "hash": "CWzBzwB7iM192EtWwdG3CYELa9vo1X3SLwfMDetjmie7",
+      "nonce": 13000005,
+      "priority_fee": 0,
+      "public_key": "ed25519:6RBAJmtw7p2JyzBcYPfRrd2bTG7gLnigFLNqeHYbyfZU",
+      "receiver_id": "registry.project.test.near",
+      "signature": "ed25519:bGyUAJ5EmWaZGB5hCJ5bsdTjiDLEETaMSEKKvCYciTZKfXKewHsVGkNjEHhmNSnrTuKK6figZMgFEdFPHv9osKX",
+      "signer_id": "507bdccdb48afbcdb727b91a9aba3ad0ec0bcd71e2fe52d96d28eadc2d1d9473"
+    },
+    "transaction_outcome": {
+      "block_hash": "BNDUnbyEC3F63z971aijLTRSkmrjndXHDiezQYHFcKwC",
+      "id": "CWzBzwB7iM192EtWwdG3CYELa9vo1X3SLwfMDetjmie7",
+      "outcome": {
+        "executor_id": "507bdccdb48afbcdb727b91a9aba3ad0ec0bcd71e2fe52d96d28eadc2d1d9473",
+        "gas_burnt": 312541769210,
+        "logs": [],
+        "metadata": {
+          "gas_profile": null,
+          "version": 1
+        },
+        "receipt_ids": [
+          "9fmuZKCJ2zNdGMABqZxVzHBbnYUZxLQ3ZMHgbdQv1nW"
+        ],
+        "status": {
+          "SuccessReceiptId": "9fmuZKCJ2zNdGMABqZxVzHBbnYUZxLQ3ZMHgbdQv1nW"
+        },
+        "tokens_burnt": "31254176921000000000"
+      },
+      "proof": []
+    }
+  },
+  "id": "public-proof-read"
+}

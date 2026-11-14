@@ -1,0 +1,13 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "amount": "7728432918711341600000000",
+    "block_hash": "Des48hSPtF12rwXEyhCVBnEAzjN1rR7axemkF6WLHTus",
+    "block_height": 795,
+    "code_hash": "DrtUeNNtAtPz9sCLcb9UeUfnAmLg6nx2yDdX8vrKSKPr",
+    "locked": "0",
+    "storage_paid_at": 0,
+    "storage_usage": 639361
+  },
+  "id": "public-proof-read"
+}

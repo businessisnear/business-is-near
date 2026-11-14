@@ -1,0 +1,90 @@
+{
+  "at_utc": "2026-11-14T18:56:55.802293+00:00",
+  "verdict": "QUALIFIED_REPAIRED_LOCAL_SINGLE_COMPANY_CYCLE",
+  "current_source60_manifest_sha256": "fab51cf3491a57f29da5309dd1954b2b251285d4ba6c91788da18555ee47d3b8",
+  "repair_v3_freeze_sha256": "222015330be86bb436b6659e03fe4d29245f07df22516b71b3173e180460dc84",
+  "repair_independent12_review_sha256": "e02806a01a4d30824d9f451055af5cfb1715b4b45df961a90542d2b48788656b",
+  "composition_independent_review_sha256": "53475b0dac036794c4fd0eabc5e8721f2084ecf5f4a3e250cff17b6332afe887",
+  "financial_WASM_sha256": "bf13e856506ebfd3e2a532d79e9a3a657436ca299ae34e64654465b00633091d",
+  "public_export_manifest_sha256": "1c0147cc4d78e4a71109d9bf975bf6db1ad2d878209a1e2b81a4737f1ed71381",
+  "independent_join_sha256": "b7a562325afdc17d4f3d50cfba87e634eee1c68638841ff3969a6b1f22273db2",
+  "public_RPC_files": 27,
+  "original_app_FINALs": 11,
+  "receipt_outcomes": 30,
+  "complete_unique_original_DAGs": 11,
+  "exact_native_principal_Actions": 2,
+  "chain_id": "test-chain-NEU5i",
+  "genesis_hash": "46jtFiD6TyywaCgtiwSbS2M82FqdvXWiGBRuXU3AwfBs",
+  "fresh_FINAL": {
+    "height": 1298,
+    "hash": "2R2yTLdoaG1J81rkbgitcD8G9xm5Kp42sxFo7GVUrDRY"
+  },
+  "keyless_registry": true,
+  "global_backed": true,
+  "principal_LOCAL": {
+    "funded": "0.4",
+    "provider_paid": "0.1",
+    "original_owner_returned": "0.3",
+    "remaining": "0"
+  },
+  "separate_retained_storage_LOCAL": "1.06496",
+  "separate_original_transaction_fees_LOCAL": "0.0486470794176171",
+  "company_first_link_FINAL_anchor": {
+    "hash": "7taNRGwf7EnMBXtb9tFhvuU2QyTFGeaTUetr5fvbfqYr",
+    "height": 1052,
+    "observed_at": "1794681727"
+  },
+  "later_export_corrobates_same_terminal_ledger": true,
+  "plan_policy_assignment_delivery_plaintext_hash_and_result_bindings": true,
+  "model_in_this_trial": {
+    "backend": "local_gemma_api_contract",
+    "model_contract": "gemma4:e2b-it-q4_K_M",
+    "attempted_calls": 1,
+    "completed_calls": 1,
+    "actual_model_calls": 1,
+    "original_call_unknown": false,
+    "cloud_verified": false,
+    "max_calls": 1,
+    "max_tokens": 512
+  },
+  "model_weight_or_Cloud_attestation": false,
+  "model_total_across_trials": "Root reports3 across3separate trials; this audit verifies saved provenance1 for this same-app trial only.",
+  "initial_harness": {
+    "complete": false,
+    "failure": "UI wait timed out after25000ms before plan display was observed",
+    "initial_stills": 1,
+    "after_wait_model_completed": 1,
+    "after_wait_approved": null,
+    "after_wait_app_requests": 0,
+    "same_plan_pins_in_continuation": true,
+    "new_model_or_transaction_retry_in_continuation": false
+  },
+  "continuation": {
+    "complete": true,
+    "steps_and_stills": 14,
+    "no_continuous_recording": true
+  },
+  "browser_opening_basis": "Captured original owner+worker opening UI joined to exact stored encrypted packet/context/content commitment; no private-key access or independent re-decryption.",
+  "actual_trial_exercises": "Positive path through repaired controller, not live fault injection of every repair branch. Adversarial repair checks remain separate pure/fake-port evidence.",
+  "code_rows_after_run": "All60 direct manifest rows rehashed exactly; no recursive runtime/dependency/key/wire access.",
+  "scope_limits": [
+    "Synthetic new local owner/operator/provider, one job/one cycle, same-live-process company/RSA state.",
+    "Owned prebirth positive reset remains live-commit-only; failed or restarted uncertainty and signed originals stay UNKNOWN/no auto-reset/resign/rebroadcast.",
+    "P3 reviewer input prefill and hidden countdown remain unchanged source-based UX concerns.",
+    "No public production/Nightly, mainnet, actual human hire/customer/revenue, NEAR AI Cloud/TEE, full parity or ten successful complete runs proved.",
+    "A saved owned local RPC export supports offline consistency, not an independently trusted public network/attestation.",
+    "Public repository transition/Nightly human gates and submission/video publication remain outside this review."
+  ],
+  "cleanup": "Root owns cleanup; no stopped-process claim made in this review until separate explicit cleanup receipt.",
+  "review_effects": {
+    "new_RPC": 0,
+    "new_models": 0,
+    "browser_control": false,
+    "new_wallet_requests": 0,
+    "new_signatures": 0,
+    "new_nodes": 0,
+    "private_keys_wires_or_runtime_read": false,
+    "public_mutation": false
+  },
+  "all_prior_generations_and_trial2_proof_unchanged": true
+}

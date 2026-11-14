@@ -903,8 +903,8 @@
     },
     {
       "path": "labs/procurement/candidate-v4-delivery/README.md",
-      "bytes": 6493,
-      "sha256": "6ec1a7fc9a77d80720a4be95080754f57f119ad9f092d8eee05deb233819568a"
+      "bytes": 2643,
+      "sha256": "d075c3fb893e6e276f462b53abd7214ea85b5a97def11c07f2d006f736a8e3c9"
     },
     {
       "path": "labs/procurement/candidate-v4-delivery/delivery-envelope.mjs",
@@ -1048,8 +1048,8 @@
     },
     {
       "path": "labs/procurement/candidate-v4-delivery/local-app-v2/once-dispatcher.mjs",
-      "bytes": 18112,
-      "sha256": "83dfe4342b353962a7028abaf9cd1604ce6492a775bfe5b75b0934d31c6c8b90"
+      "bytes": 21715,
+      "sha256": "6f49306c0177caa89b98a7f5aca1f51449bb23e09e2386bcd24b366b498d2d79"
     },
     {
       "path": "labs/procurement/candidate-v4-delivery/local-app-v2/once-dispatcher.test.mjs",
@@ -1058,13 +1058,18 @@
     },
     {
       "path": "labs/procurement/candidate-v4-delivery/local-app-v2/pending-review.mjs",
-      "bytes": 3227,
-      "sha256": "056e468839ddb287d98f389b7151d9e2a4cfdab8b2fbf8ad828700a960a72d30"
+      "bytes": 3536,
+      "sha256": "ef0e7f6706c7ab3e6811a17d322152799f44fae1a294e8e82af096ff55665763"
     },
     {
       "path": "labs/procurement/candidate-v4-delivery/local-app-v2/policy-preparation.mjs",
       "bytes": 2146,
       "sha256": "f20cbee191511d20d5a1a86879546e25985b406dbce3434b86c628d0394c837c"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v2/prebirth-ownership.mjs",
+      "bytes": 3817,
+      "sha256": "d4f467c9efb6eb93570fb5a3cfb3ec80800ce45f2b801171f407c3608960add0"
     },
     {
       "path": "labs/procurement/candidate-v4-delivery/local-app-v2/public-action-input.mjs",
@@ -1085,6 +1090,86 @@
       "path": "labs/procurement/candidate-v4-delivery/local-app-v2/server.mjs",
       "bytes": 23771,
       "sha256": "20feb7d912b0b06056f928b2cf2c4d72317c0f2bb4ed4ba89cb6d9b1b4c0ea4f"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v5/README.md",
+      "bytes": 9514,
+      "sha256": "fa1e3abaf44791a7a230b4e07ef03ee20f39848be3a4a9d35e6a7d5e36e8b950"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v5/app.css",
+      "bytes": 10465,
+      "sha256": "6071def4a5c705f6f104727600520503db857efae50cb4fb19030fa30c8cb249"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v5/app.mjs",
+      "bytes": 27596,
+      "sha256": "bb365f694bbc495d7a965f6dc98796b50c47cfae22884a1212eb6649759bac95"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v5/approval-flight.mjs",
+      "bytes": 601,
+      "sha256": "9bb828bd0bc58546f1c89153108ec0cdd4e9ea7afb4a1e2270ea499485b38f44"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v5/company-api.mjs",
+      "bytes": 739,
+      "sha256": "d2b441d879596bbc32cdbe46f509384ba20a825f3c3e5f58492fbee478aa1c10"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v5/company-loop.mjs",
+      "bytes": 13240,
+      "sha256": "78db3fb94a15be2e8047beb1f947c47054c04b415ed6cae138c2a9130f5c27a6"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v5/company-loop.test.mjs",
+      "bytes": 12844,
+      "sha256": "c947a16017ffbd58b22c407a735e7a032b4e469787e2315bbbc0927501a7f7ad"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v5/duration.mjs",
+      "bytes": 399,
+      "sha256": "a6c6180281e1f9699866562ccf5bbc521b935d0964b1db3981033cb97c4958d2"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v5/duration.test.mjs",
+      "bytes": 878,
+      "sha256": "b9b08b93d8799468f5b09b3810d209e79b8d7609b5f7d2e495358995d886e299"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v5/index.html",
+      "bytes": 5605,
+      "sha256": "dfa2a0cd69d2f5e0b4a9828695491d64db619eb416f5b4cfc3c84cc663db7b31"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v5/model-proxy.mjs",
+      "bytes": 6294,
+      "sha256": "762a598c4a42963d67d7992d1358d31ae812c68e0ca1ecfdc0325842ce45150f"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v5/model-proxy.test.mjs",
+      "bytes": 5454,
+      "sha256": "1fb6d414a8b58dec865020c9bd7775431f4e677a382b9cb2314a09a2fc0a341c"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v5/package.json",
+      "bytes": 458,
+      "sha256": "447cab3bc73a562c9ff10e90efb726cc7fa56e46c3194b6569162d512b685902"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v5/planner-transport.mjs",
+      "bytes": 2326,
+      "sha256": "c4af69a41d0d178f68031ea7d17716c19d2c6ec055412e2ad9262ab405b900df"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v5/prebirth-repair.test.mjs",
+      "bytes": 22719,
+      "sha256": "d15624e445195d9ae32f24817c8a5f31fe3ba6c6250668115490c482d4b73285"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v5/server.mjs",
+      "bytes": 25228,
+      "sha256": "a86cd0cf0cdd18319a7328fa518385885a90cfbb4cb4e958725521d96fdfe1a1"
     },
     {
       "path": "labs/procurement/candidate-v4-delivery/setup-local-dependencies.mjs",
@@ -1228,8 +1313,8 @@
     },
     {
       "path": "scripts/owner_tools_source.py",
-      "bytes": 18042,
-      "sha256": "4e2724fba8e0236c084c8a7efb13c3a3943bf7def717358d8ca0df0a370e9504"
+      "bytes": 20292,
+      "sha256": "86d9facb80d0258e062ad4236a4e0841969d6bfc19ded99314c2645bf2ed839e"
     },
     {
       "path": "scripts/private-rehearsal-path.mjs",
@@ -2083,8 +2168,8 @@
     },
     {
       "path": "OWNER-TOOLS.md",
-      "bytes": 8569,
-      "sha256": "c9589eb4ec2b2d0a13bb14f7e52daf224bde7b4442ba756a5020c2a1c8904733"
+      "bytes": 9542,
+      "sha256": "d042265600c8c05a29ed17b579241a8437d6844182b581e5030ad29bbc60ac4e"
     }
   ],
   "dependency_installation_required": true,

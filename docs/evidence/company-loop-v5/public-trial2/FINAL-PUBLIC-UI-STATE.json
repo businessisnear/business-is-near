@@ -1,0 +1,682 @@
+{
+  "environment": "ACTUAL_ISOLATED_LOCAL_NEAR",
+  "company_is_fictional": true,
+  "real_human_hire": false,
+  "model_calls": 1,
+  "company": {
+    "proposal": {
+      "schema": "bin-company-plan-v5",
+      "company_name": "Harbor Studio",
+      "company_id": "507bdccdb48afbcdb727b91a9aba3ad0ec0bcd71e2fe52d96d28eadc2d1d9473",
+      "goal": "Prepare a factual offer for owner review",
+      "goal_id": "goal_0f5e4190e003e13f",
+      "facts": "One-hour photography session with five edited images.",
+      "draft": {
+        "title": "One-Hour Photography Session with Five Edited Images",
+        "text": "Offer for a one-hour photography session, including five professionally edited images."
+      },
+      "draft_status": "unverified_owner_factual_review_required",
+      "public_brief": "Harbor Studio\nGoal: Prepare a factual offer for owner review\nOwner-approved facts: One-hour photography session with five edited images.\nUnverified planner draft title: One-Hour Photography Session with Five Edited Images\nUnverified planner draft: Offer for a one-hour photography session, including five professionally edited images.\nTask: review this draft against the owner facts, remove unsupported claims and correct the wording. Do not invent prices, locations, contact details, testimonials or booking methods. Return the corrected offer for owner review.",
+      "tasks": [
+        {
+          "id": "prepare_offer",
+          "kind": "draft_offer",
+          "title": "Prepare Offer Draft",
+          "reason": "Draft the initial offer based on the provided facts.",
+          "execution": "advisory_draft"
+        },
+        {
+          "id": "review_offer",
+          "kind": "human_proofread",
+          "title": "Review Offer for Proofreading",
+          "reason": "A human needs to proofread the draft for accuracy and clarity.",
+          "execution": "native_procurement"
+        },
+        {
+          "id": "review_publication",
+          "kind": "publication_review",
+          "title": "Review Publication Readiness",
+          "reason": "Review the final offer to ensure it is ready for publication.",
+          "execution": "suggestion_only"
+        }
+      ],
+      "limits": {
+        "business_budget": "400000000000000000000000",
+        "per_job": "100000000000000000000000",
+        "max_jobs": 1,
+        "max_cycles": 1,
+        "max_open": 1,
+        "automatic_spending": false
+      },
+      "scope_sha256": "2a1823a2917004bf7ecb784e7c3e2b2c19ef01fcb770827e2807e04cc4c7bac0",
+      "criteria_sha256": "365cf19128d7c3d8fb0702f2cfc003367d27248c503b024291db9c1435a584a4",
+      "operator": "8e1cd05305288968443e75a2f2c974928523a4808a9a337d8ca3dc41fd761113",
+      "provider": "5323254de6ffcd131361043c8033e20002b1e4f565712ce1e50147ba838baed8",
+      "mandate_id": "4e8e743fa4e0dae1e2846ef86284d8408ae1ec10466b7428633b200bbf05e6b6",
+      "job_id": "proofread_0",
+      "plan_sha256": "6edd1ed7f82835d33917ddb39cbf09a3501a8952e69afa146824a7978a7e9d81"
+    },
+    "approved": {
+      "plan_sha256": "6edd1ed7f82835d33917ddb39cbf09a3501a8952e69afa146824a7978a7e9d81",
+      "authority": "local_owner_review_then_separate_native_owner_funding",
+      "financial_authorization": false
+    },
+    "completion": {
+      "schema": "bin-company-task-result-v5",
+      "plan_sha256": "6edd1ed7f82835d33917ddb39cbf09a3501a8952e69afa146824a7978a7e9d81",
+      "company_id": "507bdccdb48afbcdb727b91a9aba3ad0ec0bcd71e2fe52d96d28eadc2d1d9473",
+      "goal_id": "goal_0f5e4190e003e13f",
+      "task_id": "review_offer",
+      "planner_draft_sha256": "52258d96ef6855548205ce9cf2196633a69396a144c451e80b661672f59c0eea",
+      "mandate_id": "4e8e743fa4e0dae1e2846ef86284d8408ae1ec10466b7428633b200bbf05e6b6",
+      "job_id": "proofread_0",
+      "assignment_sha256": "9773e4c9025aecbebabfcae0b3edecd688225e3313f116b62cf108674d9c07ca",
+      "delivery_sha256": "a1bc901df2ebc9461e31a9c0ccec08e072a84fad30380df23f9f7431d7ded998",
+      "output_content_sha256": "81d33b7a10d832f571c06b6ceab300be56b4621c8ab7e074a3971975b8661a2c",
+      "provider": "5323254de6ffcd131361043c8033e20002b1e4f565712ce1e50147ba838baed8",
+      "provider_paid": "100000000000000000000000",
+      "owner": "507bdccdb48afbcdb727b91a9aba3ad0ec0bcd71e2fe52d96d28eadc2d1d9473",
+      "owner_returned": "300000000000000000000000",
+      "final": {
+        "hash": "G2C8AsmELxvL3ta9CoypAJBp4vyuT6mV8HWKLoAaiZAt",
+        "height": 550,
+        "observed_at": "1794669689"
+      },
+      "original_transactions": [
+        {
+          "action": "create",
+          "hash": "2nLaBPkPPHdknzYS2SXULrQqV5stv3Y2yJA9UzEEtQqp"
+        },
+        {
+          "action": "post",
+          "hash": "EHQPC8thP7KBX6GpLKbhSiVprS5xVnfTB8LxRxTP5waJ"
+        },
+        {
+          "action": "share",
+          "hash": "cTyGAREg5jaDdu1uAaoJJ4wrq7t3U1GytVcJNNQcv5Q"
+        },
+        {
+          "action": "bid",
+          "hash": "GheXYqZfQ1TMRXkYmX73VAe3KWQqNzVceN75aPVH3Act"
+        },
+        {
+          "action": "award",
+          "hash": "5bFoDiRszgRXS1aXLs5GUmQRxVw7j9X5mHyvdhwcw5YL"
+        },
+        {
+          "action": "claim",
+          "hash": "FZwcisURTr151YmXWvjcMeLDa33jsmEk9q6KS5mJeEyx"
+        },
+        {
+          "action": "deliver",
+          "hash": "G1yGdnKVPyXKcg1VdRuCUD3XmUTKoFnZhHZJvR9u9Zr"
+        },
+        {
+          "action": "accept",
+          "hash": "3v4CbueaPY3AA8k1QyeawA6u2XRbSJ3Tch4beSpbkhgC"
+        },
+        {
+          "action": "pay",
+          "hash": "2pk9ue6UEcWg2HXeBhD3D3o2NYFLgpfvKXf5GzXbYcd1"
+        },
+        {
+          "action": "close",
+          "hash": "CWzBzwB7iM192EtWwdG3CYELa9vo1X3SLwfMDetjmie7"
+        },
+        {
+          "action": "refund",
+          "hash": "EZXvHznNrSYsesHLgzg8bzL31hnxcG6JLyBpXCCyRZY9"
+        }
+      ],
+      "native_principal_receipts": [
+        {
+          "recipient": "5323254de6ffcd131361043c8033e20002b1e4f565712ce1e50147ba838baed8",
+          "amount": "100000000000000000000000",
+          "receipt_id": "DZ1CEEtYorg6BcuQtG12ticit7XniMGhsm5SZUN2xdSd"
+        },
+        {
+          "recipient": "507bdccdb48afbcdb727b91a9aba3ad0ec0bcd71e2fe52d96d28eadc2d1d9473",
+          "amount": "300000000000000000000000",
+          "receipt_id": "FnvyTWbXYXiXY9r62LbRu6nX6gsa358gpYCuztS7s7Qm"
+        }
+      ],
+      "next_suggestion": "review_publication",
+      "new_work_authorized": false
+    },
+    "native_policy_public_json_sha256": "3ecdd32357df58145aa6b37d75b4f16e27c5d4517cf122aac9d26a6161491612",
+    "planner": {
+      "backend": "local_gemma_api_contract",
+      "model_contract": "gemma4:e2b-it-q4_K_M",
+      "attempted_calls": 1,
+      "completed_calls": 1,
+      "actual_model_calls": 1,
+      "original_call_unknown": false,
+      "cloud_verified": false,
+      "max_calls": 1,
+      "max_tokens": 512
+    },
+    "recurrence": "not_implemented",
+    "queue": [
+      {
+        "id": "prepare_offer",
+        "kind": "draft_offer",
+        "title": "Prepare Offer Draft",
+        "reason": "Draft the initial offer based on the provided facts.",
+        "execution": "advisory_draft",
+        "status": "draft_approved_for_human_review"
+      },
+      {
+        "id": "review_offer",
+        "kind": "human_proofread",
+        "title": "Review Offer for Proofreading",
+        "reason": "A human needs to proofread the draft for accuracy and clarity.",
+        "execution": "native_procurement",
+        "status": "settled_and_linked"
+      },
+      {
+        "id": "review_publication",
+        "kind": "publication_review",
+        "title": "Review Publication Readiness",
+        "reason": "Review the final offer to ensure it is ready for publication.",
+        "execution": "suggestion_only",
+        "status": "suggested_next_requires_new_approval"
+      }
+    ]
+  },
+  "pins": {
+    "chain_id": "test-chain-7iSyB",
+    "genesis_hash": "3koJqGF7mCxpkJ5pEB1hUTqps6AoV1MskWSLMJMMsqyN",
+    "registry_id": "registry.project.test.near",
+    "registry_code_hash": "DrtUeNNtAtPz9sCLcb9UeUfnAmLg6nx2yDdX8vrKSKPr",
+    "storage_byte_cost": "10000000000000000000"
+  },
+  "mandate_id": "4e8e743fa4e0dae1e2846ef86284d8408ae1ec10466b7428633b200bbf05e6b6",
+  "policy_sha256": "3da61c7d3dbe275a1b460c88eac496465d75b2ff2b59428c43f35a2447d80c1a",
+  "job": {
+    "id": "proofread_0",
+    "mandate_id": "4e8e743fa4e0dae1e2846ef86284d8408ae1ec10466b7428633b200bbf05e6b6",
+    "step_id": "proofread",
+    "cycle": 0,
+    "kind": "human_proofread",
+    "scope_sha256": "2a1823a2917004bf7ecb784e7c3e2b2c19ef01fcb770827e2807e04cc4c7bac0",
+    "criteria_sha256": "365cf19128d7c3d8fb0702f2cfc003367d27248c503b024291db9c1435a584a4",
+    "status": "paid",
+    "created_at": "1794669482",
+    "bid_by": "1794673082",
+    "complete_by": "1794670747",
+    "review_by": "1794671347",
+    "bids": [
+      {
+        "provider": "5323254de6ffcd131361043c8033e20002b1e4f565712ce1e50147ba838baed8",
+        "price": "100000000000000000000000",
+        "terms_sha256": "e267835b8e34803d28042d9887b7a403eae1f5a189b62c29368e857371963944",
+        "bid_sha256": "d7bca917ff673ff26b6b86fb3225ef7b6f3c980c9db779d00877d80c0ceed877"
+      }
+    ],
+    "provider": "5323254de6ffcd131361043c8033e20002b1e4f565712ce1e50147ba838baed8",
+    "price": "100000000000000000000000",
+    "bid_sha256": "d7bca917ff673ff26b6b86fb3225ef7b6f3c980c9db779d00877d80c0ceed877",
+    "dependency_sha256": "504340d14f5c4bdf8b1e34b42b2934786bfb666da2082c0b6b37d7e50fde32dd",
+    "award_approval_sha256": "38742c045ff8e64bcfef8d00c714656d8d44b02f5dded6c1cb7b016772518ce1",
+    "delivery_sha256": "a1bc901df2ebc9461e31a9c0ccec08e072a84fad30380df23f9f7431d7ded998",
+    "acceptance_sha256": "4cfcf495f3a38af297cf035a13747013f78e84fec79f50a6c1d0c4d533f1c6da",
+    "credit": "0",
+    "paid": "100000000000000000000000",
+    "transfer_id": "provider_browser",
+    "intents": 1,
+    "assignment_sha256": "9773e4c9025aecbebabfcae0b3edecd688225e3313f116b62cf108674d9c07ca",
+    "assignment_remaining_bytes": "3969",
+    "delivery_remaining_bytes": "3971"
+  },
+  "mandate": {
+    "id": "4e8e743fa4e0dae1e2846ef86284d8408ae1ec10466b7428633b200bbf05e6b6",
+    "client_id": "browser_company_v5",
+    "owner": "507bdccdb48afbcdb727b91a9aba3ad0ec0bcd71e2fe52d96d28eadc2d1d9473",
+    "policy": {
+      "company_id": "507bdccdb48afbcdb727b91a9aba3ad0ec0bcd71e2fe52d96d28eadc2d1d9473",
+      "goal_id": "goal_0f5e4190e003e13f",
+      "plan_sha256": "6edd1ed7f82835d33917ddb39cbf09a3501a8952e69afa146824a7978a7e9d81",
+      "operator": "8e1cd05305288968443e75a2f2c974928523a4808a9a337d8ca3dc41fd761113",
+      "providers": [
+        "5323254de6ffcd131361043c8033e20002b1e4f565712ce1e50147ba838baed8"
+      ],
+      "steps": [
+        {
+          "id": "proofread",
+          "kind": "human_proofread",
+          "scope_sha256": "2a1823a2917004bf7ecb784e7c3e2b2c19ef01fcb770827e2807e04cc4c7bac0",
+          "criteria_sha256": "365cf19128d7c3d8fb0702f2cfc003367d27248c503b024291db9c1435a584a4"
+        }
+      ],
+      "max_cycles": 1,
+      "per_job": "100000000000000000000000",
+      "daily": "400000000000000000000000",
+      "lifetime": "400000000000000000000000",
+      "max_open": 1,
+      "expires_at": "1794689450",
+      "bid_seconds": 3600,
+      "delivery_seconds": 1200,
+      "review_seconds": 600,
+      "acceptance": "owner_award_assignment_delivery_shared_v4",
+      "operator_service_fee": "0",
+      "assignment_mode": "owner_public_text_v1",
+      "network": {
+        "chain_id": "test-chain-7iSyB",
+        "genesis_hash": "3koJqGF7mCxpkJ5pEB1hUTqps6AoV1MskWSLMJMMsqyN",
+        "registry_code_hash": "DrtUeNNtAtPz9sCLcb9UeUfnAmLg6nx2yDdX8vrKSKPr"
+      },
+      "recipient_policy": {
+        "profile": "near-procurement-delivery-recipients-v4",
+        "owner": {
+          "account_id": "507bdccdb48afbcdb727b91a9aba3ad0ec0bcd71e2fe52d96d28eadc2d1d9473",
+          "key_id": "9de6190ac3f90d706ee91cf4caf9709e9266188bb66caaf6351926e282340ee3",
+          "key_version": "1",
+          "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA4TtDL/0Y7GWjVtBaOliL\n4lVXa3LZPBUhH2WckMIvNdCk9wAG4T5BI3n0e0QCFTEYR+3LoqwNVpjmjnUaBEh8\n3FOFMflZQn5uo63vjKCcr72+z74aeZak2r46KO2MJ2Tjay9ShKSUmYP40RzYqMdJ\nkNjsUylqif4Gxo+pdHGSqw9IKQDFsS4Q6t98EaEDXiiue1BggYfuDnzFVmt5/Sl9\nDQO9YTNBHZdmU3RDQYXcRJaHoRb8gkrPAGh+mzloFTOsR+FW8QBYgz1L9GgR14ZR\n4IX0wjOnqEx5Dc6I8YIYDt0mhk140J7Xz0ShwwbgUaG2vnEMc4h7BjvEiLrRaNO+\nDRIQftGxQIRLNbkR5gHC8iMJzRQE86z+WIwQLXIqjjf2Cm0pZwjPhaPYuSoylUwk\nyp2c/+X0LMrJzvO+9Zva9uhymmv5C5+exPGhk4N1NEqUrgpFytKnNmiH7oXi4Qon\nwpN//wUsLhR8+qRARnvRhztCYoHet4dmaTnKX+d5dmFGntr+xN8OUzivJHpos+34\npnpQK2wZe8CG3kxo6bLp33SMAh3irxZLU4UGS4kXDBPJqMK7XIKRqGeeKyc2MRpI\nW36M+ktv79205HbUjD4JTJaAYWr52AIK10VRXL3RaAmABbhntTN9mLh5hAfygGRM\nNUgvKiJOMPWeIYJX1LDNUP8CAwEAAQ==\n-----END PUBLIC KEY-----\n"
+        },
+        "worker": {
+          "account_id": "8e1cd05305288968443e75a2f2c974928523a4808a9a337d8ca3dc41fd761113",
+          "key_id": "60c8b92a5a38f11ae0724031f0346ff54cbe6f79bd40b7e752ac12eaadc6a8d2",
+          "key_version": "1",
+          "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA8nS9Mj47GNOGFxQTeO2P\nk2Zy2w7V+MJxCxjEfAGxJ9jcrnyoKeC5co69fV60tZ3+atzLruwj83KwGLrr9Se7\n6BJY+VRwlEYmD1C5ld7QI34nmcsibDFleNJyjQpnBOc9P0lpSkKyb2QnuZSa5Qag\nYbMNLmkwueLBMhQC0IpGsRnIXMTjni8LlAOM6EjzHPongjrZeAyN5FZVelCHiz8f\ntc14F7GjcrMSup9r+3KpaV2w/3UMG2SB9WsKCiHgPA4Y/yqoZ/5m5OfgPRjPzvRY\nIewR+J/MnlSk0NWcEnR5hACon2iJJHk6qzRJ1kUkOqw9/pEY/pilQrw6aUrTrx8K\nEbUo3Dnam5AAoVcX+RRLeK8RPOtD5bTI0xTug04Its6t62p40mC1ynXKEOwkmkBZ\n7IrwcSVINqWKPzsqoI3e4ZDkR+PJEXlvcgF7TdmD6xI5zIWn6uKmkOnxqIjlQAXU\nz6zlAcbx7tAIEq2mNnYjjxU9ZwT22gKSiEYH6dY0LCGWpZqJvrsH48GyYA5uKFAF\n2CjxAmgOeWcLgN/W0WK0BpXU7jkKbQbOciUC3XAgts79gTOfVFqXaa680jYMuCea\n43UyPHDu+/JAQ9lXrF9PsjxHUQ8YdtmI8zQ218Go7T0Q09N9hcfYb33Gv4/A8/ZL\ni0KeoqnNscQbURzxzjyRuXsCAwEAAQ==\n-----END PUBLIC KEY-----\n"
+        }
+      }
+    },
+    "policy_sha256": "3da61c7d3dbe275a1b460c88eac496465d75b2ff2b59428c43f35a2447d80c1a",
+    "frozen": false,
+    "closed": true,
+    "job_count": 1,
+    "open_jobs": 0,
+    "owner_intents": 1,
+    "transfer_count": "2",
+    "funded": "400000000000000000000000",
+    "available": "0",
+    "escrow": "0",
+    "owner_credit": "0",
+    "provider_credit": "0",
+    "transfer_pending": "0",
+    "owner_paid": "300000000000000000000000",
+    "provider_paid": "100000000000000000000000",
+    "lifetime_awarded": "100000000000000000000000",
+    "day": "20771",
+    "day_awarded": "100000000000000000000000",
+    "pending_transfer": "",
+    "storage_collected": "1064960000000000000000000",
+    "storage_allocation_bytes": "106496",
+    "storage_remaining_bytes": "62832",
+    "slot_count": 1,
+    "unassigned_slots": 0,
+    "base_allocation_bytes": "73728",
+    "base_remaining_bytes": "54892",
+    "assignment_allocation_bytes": "12288",
+    "assignment_remaining_bytes": "3969",
+    "delivery_allocation_bytes": "20480",
+    "delivery_remaining_bytes": "3971"
+  },
+  "requests": [
+    {
+      "request_id": "6e84f795-47fc-479f-96f0-f6966d9f7a40",
+      "action": "create",
+      "status": "final",
+      "inspection_conflict": false,
+      "hash": "2nLaBPkPPHdknzYS2SXULrQqV5stv3Y2yJA9UzEEtQqp",
+      "checked": {
+        "status": "final",
+        "tx": {
+          "method": "create_mandate",
+          "job_id": null,
+          "hash": "2nLaBPkPPHdknzYS2SXULrQqV5stv3Y2yJA9UzEEtQqp",
+          "signer": "507bdccdb48afbcdb727b91a9aba3ad0ec0bcd71e2fe52d96d28eadc2d1d9473",
+          "receiver": "registry.project.test.near",
+          "gas_burnt": "50935656219483",
+          "tokens_burnt": "4676070853198300000000",
+          "receipts": [
+            "2ppbcPq17nCN5vM5hQVifgcA7wgFGg8vfuia2s7mAgRE",
+            "738qNcxR7yxBcRBLVJWobBwh274gMDQqy3YSy9SpYZrz"
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "e7dab754-8580-4764-ace7-a5c75a4acbf2",
+      "action": "post",
+      "status": "final",
+      "inspection_conflict": false,
+      "hash": "EHQPC8thP7KBX6GpLKbhSiVprS5xVnfTB8LxRxTP5waJ",
+      "checked": {
+        "status": "final",
+        "tx": {
+          "method": "post_job",
+          "job_id": null,
+          "hash": "EHQPC8thP7KBX6GpLKbhSiVprS5xVnfTB8LxRxTP5waJ",
+          "signer": "8e1cd05305288968443e75a2f2c974928523a4808a9a337d8ca3dc41fd761113",
+          "receiver": "registry.project.test.near",
+          "gas_burnt": "35977896944076",
+          "tokens_burnt": "3180294925657600000000",
+          "receipts": [
+            "6Sx8yhphgSVKkyDtTxuJyGwrQ23WiZerGWAtsZUfuv3o",
+            "A3xUaJF8quVYtGd3GBvg66a6mc3ieUS5wS67mBmaYGoP"
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "3aacf96c-008b-47bd-92b2-83567a11243c",
+      "action": "share",
+      "status": "final",
+      "inspection_conflict": false,
+      "hash": "cTyGAREg5jaDdu1uAaoJJ4wrq7t3U1GytVcJNNQcv5Q",
+      "checked": {
+        "status": "final",
+        "tx": {
+          "method": "publish_assignment",
+          "job_id": "proofread_0",
+          "hash": "cTyGAREg5jaDdu1uAaoJJ4wrq7t3U1GytVcJNNQcv5Q",
+          "signer": "507bdccdb48afbcdb727b91a9aba3ad0ec0bcd71e2fe52d96d28eadc2d1d9473",
+          "receiver": "registry.project.test.near",
+          "gas_burnt": "46126182889011",
+          "tokens_burnt": "4195123520151100000000",
+          "receipts": [
+            "Cpyi4ehuBTHmTojEjTKGycKALqDPUSSwQfLoCKLvmBU",
+            "eZ8UhfkJcLdjvRqGLAR4AJxmdGJRYKSz19mHeTR1kuD"
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "89df9c0c-23ae-4fa0-8d16-a3729481a795",
+      "action": "bid",
+      "status": "final",
+      "inspection_conflict": false,
+      "hash": "GheXYqZfQ1TMRXkYmX73VAe3KWQqNzVceN75aPVH3Act",
+      "checked": {
+        "status": "final",
+        "tx": {
+          "method": "bid",
+          "job_id": "proofread_0",
+          "hash": "GheXYqZfQ1TMRXkYmX73VAe3KWQqNzVceN75aPVH3Act",
+          "signer": "5323254de6ffcd131361043c8033e20002b1e4f565712ce1e50147ba838baed8",
+          "receiver": "registry.project.test.near",
+          "gas_burnt": "36841136089993",
+          "tokens_burnt": "3266618840249300000000",
+          "receipts": [
+            "6FNhEcqYKT3X3eud8E6s7cfbTUg1Ks8Zzm4H4mF91BiS",
+            "Dy586UoFtUjVvPZx8XDCPJba5FRECvLCamEFrFTZX7TL"
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "0bdd2211-221a-4c92-bc1a-01dd05a23fd0",
+      "action": "award",
+      "status": "final",
+      "inspection_conflict": false,
+      "hash": "5bFoDiRszgRXS1aXLs5GUmQRxVw7j9X5mHyvdhwcw5YL",
+      "checked": {
+        "status": "final",
+        "tx": {
+          "method": "approve_award",
+          "job_id": "proofread_0",
+          "hash": "5bFoDiRszgRXS1aXLs5GUmQRxVw7j9X5mHyvdhwcw5YL",
+          "signer": "507bdccdb48afbcdb727b91a9aba3ad0ec0bcd71e2fe52d96d28eadc2d1d9473",
+          "receiver": "registry.project.test.near",
+          "gas_burnt": "41508485381656",
+          "tokens_burnt": "3733353769415600000000",
+          "receipts": [
+            "331uLN6PVmyLKWakRvhQJu7jwyrVYfdkCfZR4YSePfAy",
+            "AakKGR4gvLRWQAVejHiVF8GZozg5XnD7EjHiGtXoP67C"
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "03cca898-ca57-48aa-8af7-06fb26bedeb9",
+      "action": "claim",
+      "status": "final",
+      "inspection_conflict": false,
+      "hash": "FZwcisURTr151YmXWvjcMeLDa33jsmEk9q6KS5mJeEyx",
+      "checked": {
+        "status": "final",
+        "tx": {
+          "method": "claim",
+          "job_id": "proofread_0",
+          "hash": "FZwcisURTr151YmXWvjcMeLDa33jsmEk9q6KS5mJeEyx",
+          "signer": "5323254de6ffcd131361043c8033e20002b1e4f565712ce1e50147ba838baed8",
+          "receiver": "registry.project.test.near",
+          "gas_burnt": "35497774737671",
+          "tokens_burnt": "3132282705017100000000",
+          "receipts": [
+            "64GJDTY7Z6NQhsLk6y1PAEpJ9YDUke8FxzptpnWahKCB",
+            "FU8PW6eTs221tn44xma8cNNTaF86YFwsEDMEYt6WJ6ZB"
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "87836d7a-690e-4266-a6b4-84e478807c43",
+      "action": "deliver",
+      "status": "final",
+      "inspection_conflict": false,
+      "hash": "G1yGdnKVPyXKcg1VdRuCUD3XmUTKoFnZhHZJvR9u9Zr",
+      "checked": {
+        "status": "final",
+        "tx": {
+          "method": "deliver_encrypted",
+          "job_id": "proofread_0",
+          "hash": "G1yGdnKVPyXKcg1VdRuCUD3XmUTKoFnZhHZJvR9u9Zr",
+          "signer": "5323254de6ffcd131361043c8033e20002b1e4f565712ce1e50147ba838baed8",
+          "receiver": "registry.project.test.near",
+          "gas_burnt": "50290598476480",
+          "tokens_burnt": "4611565078898000000000",
+          "receipts": [
+            "BTKM4SSouEDeWmu8sz4HYRPtbTGng3jGV5bzEQiFSj2J",
+            "EBmbPd8dUBtx87xU7hG4mvE241RYPcaAgrXXAgTpgnA7"
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "86a24af7-89c1-45aa-bbbb-a2dd6469b635",
+      "action": "accept",
+      "status": "final",
+      "inspection_conflict": false,
+      "hash": "3v4CbueaPY3AA8k1QyeawA6u2XRbSJ3Tch4beSpbkhgC",
+      "checked": {
+        "status": "final",
+        "tx": {
+          "method": "accept",
+          "job_id": "proofread_0",
+          "hash": "3v4CbueaPY3AA8k1QyeawA6u2XRbSJ3Tch4beSpbkhgC",
+          "signer": "507bdccdb48afbcdb727b91a9aba3ad0ec0bcd71e2fe52d96d28eadc2d1d9473",
+          "receiver": "registry.project.test.near",
+          "gas_burnt": "39217864473614",
+          "tokens_burnt": "3504291678611400000000",
+          "receipts": [
+            "BzMKUhxoGKVNrPcuX7QjasJXqMPFjpQMGzKuuYFLygsC",
+            "GubiEfHubecvMkRqukYrGFcwiLVQ8ko3GzmpiWn4MYMw"
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "352a0e3d-aa35-4f9f-b8b3-01680532e7de",
+      "action": "pay",
+      "status": "final",
+      "inspection_conflict": false,
+      "hash": "2pk9ue6UEcWg2HXeBhD3D3o2NYFLgpfvKXf5GzXbYcd1",
+      "checked": {
+        "status": "final",
+        "tx": {
+          "method": "withdraw_provider",
+          "job_id": "proofread_0",
+          "hash": "2pk9ue6UEcWg2HXeBhD3D3o2NYFLgpfvKXf5GzXbYcd1",
+          "signer": "5323254de6ffcd131361043c8033e20002b1e4f565712ce1e50147ba838baed8",
+          "receiver": "registry.project.test.near",
+          "gas_burnt": "92017595404245",
+          "tokens_burnt": "7949275234174500000000",
+          "receipts": [
+            "44ygCcNQFazjJ474TbepnFY9DuXQfG6TbXPawxTzjLHP",
+            "5CjjkgoSoXBjYZBCKURXPZg2P6GC542AWsYCEtVV7YHG",
+            "8RhaiJmG7rBvhAJDhe5JqEFZFDSN2pa2wx1DKvVN3ia9",
+            "DZ1CEEtYorg6BcuQtG12ticit7XniMGhsm5SZUN2xdSd",
+            "EJZePdfDAoSTFx7sycWHTzdEJsbCsKP9PMVD1NCCJ19D",
+            "ErBKZn4CUYVrFtnyMguiBLKGfKYmBfbnqmRV8f8jHM64"
+          ]
+        }
+      },
+      "principal": {
+        "recipient": "5323254de6ffcd131361043c8033e20002b1e4f565712ce1e50147ba838baed8",
+        "amount": "100000000000000000000000",
+        "receipt_id": "DZ1CEEtYorg6BcuQtG12ticit7XniMGhsm5SZUN2xdSd"
+      }
+    },
+    {
+      "request_id": "ecf9d426-65e2-4fbb-9c4e-415722085e4f",
+      "action": "close",
+      "status": "final",
+      "inspection_conflict": false,
+      "hash": "CWzBzwB7iM192EtWwdG3CYELa9vo1X3SLwfMDetjmie7",
+      "checked": {
+        "status": "final",
+        "tx": {
+          "method": "close_mandate",
+          "job_id": null,
+          "hash": "CWzBzwB7iM192EtWwdG3CYELa9vo1X3SLwfMDetjmie7",
+          "signer": "507bdccdb48afbcdb727b91a9aba3ad0ec0bcd71e2fe52d96d28eadc2d1d9473",
+          "receiver": "registry.project.test.near",
+          "gas_burnt": "34882584220466",
+          "tokens_burnt": "3070763653296600000000",
+          "receipts": [
+            "9fmuZKCJ2zNdGMABqZxVzHBbnYUZxLQ3ZMHgbdQv1nW",
+            "H7E85zJufABRjG8UaTNHEzZWULZmtJZzVoBRMgMNMSFc"
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "c16dd0a5-e8ad-400f-90fd-19a332ebc649",
+      "action": "refund",
+      "status": "final",
+      "inspection_conflict": false,
+      "hash": "EZXvHznNrSYsesHLgzg8bzL31hnxcG6JLyBpXCCyRZY9",
+      "checked": {
+        "status": "final",
+        "tx": {
+          "method": "withdraw_owner",
+          "job_id": null,
+          "hash": "EZXvHznNrSYsesHLgzg8bzL31hnxcG6JLyBpXCCyRZY9",
+          "signer": "507bdccdb48afbcdb727b91a9aba3ad0ec0bcd71e2fe52d96d28eadc2d1d9473",
+          "receiver": "registry.project.test.near",
+          "gas_burnt": "85789855233576",
+          "tokens_burnt": "7326501217107600000000",
+          "receipts": [
+            "9QkvorLTtpdbypksSnhLGKvvdYfuWc4W1xuAmarEBzyn",
+            "AqX4ntkgbVtgChDQC2kCu6qtqHPNjYtkK1ewiGuCac3e",
+            "C2wywVBkXW8kUmp6n1KScp1iqHDRPaNTQqjCkDueBNkY",
+            "EU4AygKTNVqZKJNY4Q9MmFeiY5PaTvsezujS2ar9taw1",
+            "FnvyTWbXYXiXY9r62LbRu6nX6gsa358gpYCuztS7s7Qm",
+            "HizVSDc4FuvmSkSraAX2t3QQjRAfpbzxMhgpnZDZpqq3"
+          ]
+        }
+      },
+      "principal": {
+        "recipient": "507bdccdb48afbcdb727b91a9aba3ad0ec0bcd71e2fe52d96d28eadc2d1d9473",
+        "amount": "300000000000000000000000",
+        "receipt_id": "FnvyTWbXYXiXY9r62LbRu6nX6gsa358gpYCuztS7s7Qm"
+      }
+    }
+  ],
+  "final": {
+    "hash": "FHBScQk2YUTS6zDC3YMCPGXo45AoZwRucoNiVvPpKJfk",
+    "height": 552,
+    "observed_at": "1794669690"
+  },
+  "project_deployment_subsidy": {
+    "profile": "near-shared-procurement-v4",
+    "kind": "ONE_TIME_PROJECT_DEPLOYMENT",
+    "registry_id": "registry.project.test.near",
+    "admin": "project.test.near",
+    "project_subsidy_funder": "project.test.near",
+    "named_parent_signing_authority_verified": false,
+    "wasm_sha256": "bf13e856506ebfd3e2a532d79e9a3a657436ca299ae34e64654465b00633091d",
+    "code_hash": "DrtUeNNtAtPz9sCLcb9UeUfnAmLg6nx2yDdX8vrKSKPr",
+    "code_bytes": "595178",
+    "account_base_bytes": "100",
+    "root_reserve_bytes": "4096",
+    "root_cushion_bytes": "65536",
+    "code_storage_collateral": "5951780000000000000000000",
+    "account_base_collateral": "1000000000000000000000",
+    "root_reserve_collateral": "40960000000000000000000",
+    "root_cushion_collateral": "655360000000000000000000",
+    "required_project_backing": "6649100000000000000000000",
+    "gas": {
+      "fixed_action_receipt_gas": "76310687040560",
+      "attached_execution_gas": "150000000000000",
+      "gas_price": "100000000",
+      "inflation_ratio": [
+        "103",
+        "100"
+      ],
+      "fixed_action_receipt_cost": "7631068704056000000000",
+      "execution_authorization": "15450000000000000000000",
+      "total_authorization": "23081068704056000000000",
+      "rows": [
+        {
+          "type": "CreateAccount",
+          "observed_fixed_gas": "7700000000000",
+          "attached_execution_gas": "0"
+        },
+        {
+          "type": "Transfer",
+          "observed_fixed_gas": "230246125000",
+          "attached_execution_gas": "0"
+        },
+        {
+          "type": "DeployContract",
+          "observed_fixed_gas": "67182225290302",
+          "attached_execution_gas": "0"
+        },
+        {
+          "type": "FunctionCall",
+          "observed_fixed_gas": "982096625258",
+          "attached_execution_gas": "150000000000000"
+        }
+      ],
+      "scope": "Observed send_not_sir+execution fees and attached execution gas authorization; future protocol/price changes require a fresh quote. Actual fees use original complete FINAL graphs."
+    },
+    "wallet": {
+      "spendable_balance": "999998180000000000000000000",
+      "requirement": "6672181068704056000000000",
+      "shortfall": "0"
+    },
+    "keyless_atomic_create_deploy_init_required": true,
+    "access_key_list_must_be_verified_empty": true,
+    "operator_fee": "0",
+    "collateral_is_not_gas_or_compute_invoice": true,
+    "per_mandate_code_charge": "0",
+    "provenance": {
+      "chain_id": "test-chain-7iSyB",
+      "genesis_hash": "3koJqGF7mCxpkJ5pEB1hUTqps6AoV1MskWSLMJMMsqyN",
+      "block_hash": "AGh1Y6DAneiFuBeA8oEXPyx8oJwpzFMD8EFg7zdsyqYj",
+      "height": 1,
+      "observed_at": "1794669347",
+      "environment": "ACTUAL_ISOLATED_LOCAL_NEAR",
+      "mainnet_price_claim": false,
+      "observation_is_state_proof": false
+    },
+    "notice": "A prepared quote, not deployment, custody verification or funding approval. Named project parent funds/signs the one atomic batch; its signing capability is a separate gate. Project pays backing once; actual deployed storage/root bounds must be checked."
+  },
+  "maintenance": {
+    "schema": "bin-local-maintenance-v2",
+    "mutations_available": true,
+    "reasons": [],
+    "storage_price_supported": true,
+    "backed": true,
+    "original_records_readable": true
+  },
+  "limitations": [
+    "New isolated node and synthetic local role wallets.",
+    "Company goal and queue are local RAM state; the approved goal/plan/scope hashes bind this one native task. No production company runner or real hire.",
+    "Private delivery keys live in page RAM only. Reload after review/settlement to retain read-only receipts.",
+    "The server persists original signed wires before one broadcast. Real Nightly behavior is a separate unproved integration."
+  ]
+}

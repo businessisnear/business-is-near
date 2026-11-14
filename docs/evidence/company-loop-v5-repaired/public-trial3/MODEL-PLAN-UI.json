@@ -1,0 +1,206 @@
+{
+  "environment": "ACTUAL_ISOLATED_LOCAL_NEAR",
+  "company_is_fictional": true,
+  "real_human_hire": false,
+  "model_calls": 1,
+  "company": {
+    "proposal": {
+      "schema": "bin-company-plan-v5",
+      "company_name": "Harbor Studio",
+      "company_id": "6739e3ea1fbb424ca2df2a92f2056c6901e5a08958c401b6570df7fe09987d04",
+      "goal": "Prepare a factual offer for owner review",
+      "goal_id": "goal_0f5e4190e003e13f",
+      "facts": "One-hour photography session with five edited images.",
+      "draft": {
+        "title": "One-Hour Photography Session with Five Edited Images",
+        "text": "Offer for a one-hour photography session, including five professionally edited images."
+      },
+      "draft_status": "unverified_owner_factual_review_required",
+      "public_brief": "Harbor Studio\nGoal: Prepare a factual offer for owner review\nOwner-approved facts: One-hour photography session with five edited images.\nUnverified planner draft title: One-Hour Photography Session with Five Edited Images\nUnverified planner draft: Offer for a one-hour photography session, including five professionally edited images.\nTask: review this draft against the owner facts, remove unsupported claims and correct the wording. Do not invent prices, locations, contact details, testimonials or booking methods. Return the corrected offer for owner review.",
+      "tasks": [
+        {
+          "id": "prepare_offer",
+          "kind": "draft_offer",
+          "title": "Prepare Offer Draft",
+          "reason": "Draft the initial offer based on the provided facts.",
+          "execution": "advisory_draft"
+        },
+        {
+          "id": "review_offer",
+          "kind": "human_proofread",
+          "title": "Review Offer for Proofreading",
+          "reason": "A human needs to proofread the draft for accuracy and clarity.",
+          "execution": "native_procurement"
+        },
+        {
+          "id": "review_publication",
+          "kind": "publication_review",
+          "title": "Review Publication Readiness",
+          "reason": "Review the final offer to ensure it is ready for publication.",
+          "execution": "suggestion_only"
+        }
+      ],
+      "limits": {
+        "business_budget": "400000000000000000000000",
+        "per_job": "100000000000000000000000",
+        "max_jobs": 1,
+        "max_cycles": 1,
+        "max_open": 1,
+        "automatic_spending": false
+      },
+      "scope_sha256": "2a1823a2917004bf7ecb784e7c3e2b2c19ef01fcb770827e2807e04cc4c7bac0",
+      "criteria_sha256": "365cf19128d7c3d8fb0702f2cfc003367d27248c503b024291db9c1435a584a4",
+      "operator": "d62727d62071057bf30ffda5e8eaf46a19db8fe2598a1ec0b0d7a66f1115724a",
+      "provider": "59fe5e753fcc4dd0a52005590441ced5d3077831bad7bdd6da9cf767a0ab5973",
+      "mandate_id": "d8a456d00a64cbc3d1613f96d9d52c27e6d296114dcf29972285c3f29fd88d27",
+      "job_id": "proofread_0",
+      "plan_sha256": "ef5bfccb36430f4779f488699efdcf813804f23216cddd8c9bfa785d409c35fc"
+    },
+    "approved": null,
+    "completion": null,
+    "native_policy_public_json_sha256": null,
+    "planner": {
+      "backend": "local_gemma_api_contract",
+      "model_contract": "gemma4:e2b-it-q4_K_M",
+      "attempted_calls": 1,
+      "completed_calls": 1,
+      "actual_model_calls": 1,
+      "original_call_unknown": false,
+      "cloud_verified": false,
+      "max_calls": 1,
+      "max_tokens": 512
+    },
+    "recurrence": "not_implemented",
+    "queue": [
+      {
+        "id": "prepare_offer",
+        "kind": "draft_offer",
+        "title": "Prepare Offer Draft",
+        "reason": "Draft the initial offer based on the provided facts.",
+        "execution": "advisory_draft",
+        "status": "draft_unverified_needs_owner_review"
+      },
+      {
+        "id": "review_offer",
+        "kind": "human_proofread",
+        "title": "Review Offer for Proofreading",
+        "reason": "A human needs to proofread the draft for accuracy and clarity.",
+        "execution": "native_procurement",
+        "status": "needs_owner_plan_approval"
+      },
+      {
+        "id": "review_publication",
+        "kind": "publication_review",
+        "title": "Review Publication Readiness",
+        "reason": "Review the final offer to ensure it is ready for publication.",
+        "execution": "suggestion_only",
+        "status": "blocked_by_review_settlement"
+      }
+    ]
+  },
+  "pins": {
+    "chain_id": "test-chain-NEU5i",
+    "genesis_hash": "46jtFiD6TyywaCgtiwSbS2M82FqdvXWiGBRuXU3AwfBs",
+    "registry_id": "registry.project.test.near",
+    "registry_code_hash": "DrtUeNNtAtPz9sCLcb9UeUfnAmLg6nx2yDdX8vrKSKPr",
+    "storage_byte_cost": "10000000000000000000"
+  },
+  "mandate_id": "d8a456d00a64cbc3d1613f96d9d52c27e6d296114dcf29972285c3f29fd88d27",
+  "job": null,
+  "mandate": null,
+  "requests": [],
+  "final": {
+    "hash": "CXMLX3ZAwGvm1gYRD1qTS8fzmLwE5Hn1DpDhR2XFuKz",
+    "height": 345,
+    "observed_at": "1794681286"
+  },
+  "project_deployment_subsidy": {
+    "profile": "near-shared-procurement-v4",
+    "kind": "ONE_TIME_PROJECT_DEPLOYMENT",
+    "registry_id": "registry.project.test.near",
+    "admin": "project.test.near",
+    "project_subsidy_funder": "project.test.near",
+    "named_parent_signing_authority_verified": false,
+    "wasm_sha256": "bf13e856506ebfd3e2a532d79e9a3a657436ca299ae34e64654465b00633091d",
+    "code_hash": "DrtUeNNtAtPz9sCLcb9UeUfnAmLg6nx2yDdX8vrKSKPr",
+    "code_bytes": "595178",
+    "account_base_bytes": "100",
+    "root_reserve_bytes": "4096",
+    "root_cushion_bytes": "65536",
+    "code_storage_collateral": "5951780000000000000000000",
+    "account_base_collateral": "1000000000000000000000",
+    "root_reserve_collateral": "40960000000000000000000",
+    "root_cushion_collateral": "655360000000000000000000",
+    "required_project_backing": "6649100000000000000000000",
+    "gas": {
+      "fixed_action_receipt_gas": "76310687040560",
+      "attached_execution_gas": "150000000000000",
+      "gas_price": "100000000",
+      "inflation_ratio": [
+        "103",
+        "100"
+      ],
+      "fixed_action_receipt_cost": "7631068704056000000000",
+      "execution_authorization": "15450000000000000000000",
+      "total_authorization": "23081068704056000000000",
+      "rows": [
+        {
+          "type": "CreateAccount",
+          "observed_fixed_gas": "7700000000000",
+          "attached_execution_gas": "0"
+        },
+        {
+          "type": "Transfer",
+          "observed_fixed_gas": "230246125000",
+          "attached_execution_gas": "0"
+        },
+        {
+          "type": "DeployContract",
+          "observed_fixed_gas": "67182225290302",
+          "attached_execution_gas": "0"
+        },
+        {
+          "type": "FunctionCall",
+          "observed_fixed_gas": "982096625258",
+          "attached_execution_gas": "150000000000000"
+        }
+      ],
+      "scope": "Observed send_not_sir+execution fees and attached execution gas authorization; future protocol/price changes require a fresh quote. Actual fees use original complete FINAL graphs."
+    },
+    "wallet": {
+      "spendable_balance": "999998180000000000000000000",
+      "requirement": "6672181068704056000000000",
+      "shortfall": "0"
+    },
+    "keyless_atomic_create_deploy_init_required": true,
+    "access_key_list_must_be_verified_empty": true,
+    "operator_fee": "0",
+    "collateral_is_not_gas_or_compute_invoice": true,
+    "per_mandate_code_charge": "0",
+    "provenance": {
+      "chain_id": "test-chain-NEU5i",
+      "genesis_hash": "46jtFiD6TyywaCgtiwSbS2M82FqdvXWiGBRuXU3AwfBs",
+      "block_hash": "23g5XTRqb6PNoU4qSYwCjmqWZRYCPts2BKhiq4dg7h7j",
+      "height": 1,
+      "observed_at": "1794681072",
+      "environment": "ACTUAL_ISOLATED_LOCAL_NEAR",
+      "mainnet_price_claim": false,
+      "observation_is_state_proof": false
+    },
+    "notice": "A prepared quote, not deployment, custody verification or funding approval. Named project parent funds/signs the one atomic batch; its signing capability is a separate gate. Project pays backing once; actual deployed storage/root bounds must be checked."
+  },
+  "maintenance": {
+    "schema": "bin-local-maintenance-v2",
+    "mutations_available": true,
+    "reasons": [],
+    "storage_price_supported": true,
+    "backed": true,
+    "original_records_readable": true
+  },
+  "limitations": [
+    "New isolated node and synthetic local role wallets.",
+    "Company goal and queue are local RAM state; the approved goal/plan/scope hashes bind this one native task. No production company runner or real hire.",
+    "Private delivery keys live in page RAM only. Reload after review/settlement to retain read-only receipts.",
+    "The server persists original signed wires before one broadcast. Real Nightly behavior is a separate unproved integration."
+  ]
+}

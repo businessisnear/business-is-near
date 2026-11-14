@@ -1,0 +1,9 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "block_hash": "Des48hSPtF12rwXEyhCVBnEAzjN1rR7axemkF6WLHTus",
+    "block_height": 795,
+    "keys": []
+  },
+  "id": "same-final-public-proof"
+}

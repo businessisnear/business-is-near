@@ -1,0 +1,14 @@
+{
+  "complete": false,
+  "failure": "AssertionError: {\n  \"id\": \"4e79d2a4-5104-4f63-a31d-2276e6f3963e\",\n  \"ok\": false,\n  \"error\": {\n    \"code\": \"browser_error\",\n    \"message\": \"Wait timed out after 25000ms\"\n  },\n  \"_meta\": {\n    \"runtimeId\": \"15d8dec1-6462-46ff-8f24-619f916085fa\"\n  }\n}\n",
+  "events": [
+    {
+      "stage": "initial",
+      "elapsed_seconds": 6.576,
+      "screenshot": "00-initial.png",
+      "sha256": "cb222fd751c4d9517f0ef07f8aff01ccf9984c115081dc8b0072b06483ac8015"
+    }
+  ],
+  "scope": "Actual UI with generated local roles, not human hiring or Nightly; no automatic retries",
+  "continuous_recording": false
+}

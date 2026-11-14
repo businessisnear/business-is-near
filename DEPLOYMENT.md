@@ -23,13 +23,24 @@ The original nested source delivery and two historical evidence JSONs are also w
 
 ```sh
 node source/scripts/verify_owner_tools_source.mjs
-node source/labs/procurement/candidate-v4-delivery/verify-source.mjs
+npm --prefix source/labs/procurement/candidate-v4-delivery/local-app-v5 test
+npm --prefix source/labs/procurement/candidate-v4-delivery/local-app-v5 run test:proxy
 node --test source/web-chain/tests/founder-next-actions.test.mjs
 node --test source/web-chain/tests/founder-service-policy.test.mjs
 node --test source/web-chain/tests/public-tool-links.test.mjs
 ```
 
-The module README documents its 83 offline checks, pinned contract build and optional explicit local sandbox/browser run. Those checks do not authorize a transaction, activate a worker, prove Nightly authentication or establish a full browser cycle for the repaired local controller. The broader historical catalogue audit requires missing historical reports and is not a current-source pass.
+The preserved `MODULE-SOURCE-MANIFEST.json` has 40 historical module rows. Its
+`verify-source.mjs` checks those older bytes and is not the current verification
+command. The current unchanged owner-source verifier checks the entire 434-file
+closure, including all 58 current module files and their shared imports. Current
+company tests are 30 repair + 28 company/duration + 25 base guard checks (83 total,
+a different suite from the historical financial/V2 83); seven proxy checks are
+separate. Follow the [current V5 guide](source/labs/procurement/candidate-v4-delivery/local-app-v5/README.md)
+for the bounded local run and the generation-specific proof limits.
+
+
+The current V5 guide documents its focused offline test profile, unchanged pinned contract build and optional explicit local sandbox/browser run. Those offline checks do not authorize a transaction, activate a worker or prove Nightly authentication. Separate qualified trial3 evidence records one repaired seeded-role local company cycle; its positive path is not production recovery or live fault-injection coverage. The broader historical catalogue audit requires missing historical reports and is not a current-source pass.
 
 Refresh source and publication manifests only after source, assets, documents, notices and the source ZIP are final. The publication manifest binds every intended payload file except itself; exclude `.git`, private artifacts, dependencies, generated build directories, signing material and runtime reports. Source ZIPs use an explicit file allowlist and contain no nested archives or restored authority.
 

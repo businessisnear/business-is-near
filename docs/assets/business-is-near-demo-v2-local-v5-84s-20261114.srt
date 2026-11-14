@@ -1,0 +1,124 @@
+1
+00:00:01,000 --> 00:00:02,463
+An idea should lead to work you can
+
+2
+00:00:02,509 --> 00:00:05,447
+review. Business is NEAR is building a business
+
+3
+00:00:05,505 --> 00:00:08,814
+operating system: set a goal, delegate approved work
+
+4
+00:00:08,883 --> 00:00:10,845
+to AI, and bring in a person when
+
+5
+00:00:10,892 --> 00:00:12,192
+human judgment is needed.
+
+6
+00:00:12,633 --> 00:00:14,769
+The owner sets permissions and budgets.
+
+7
+00:00:15,013 --> 00:00:18,589
+Authority, task state, encrypted records and settlement live
+
+8
+00:00:18,624 --> 00:00:21,387
+on NEAR. AI inference runs off chain.
+
+9
+00:00:21,561 --> 00:00:23,918
+Here is the recorded Nightly testnet journey.
+
+10
+00:00:24,301 --> 00:00:25,845
+Harbor Studio is fictional.
+
+11
+00:00:26,089 --> 00:00:29,085
+The owner enters its facts, reviews company creation,
+
+12
+00:00:29,119 --> 00:00:31,070
+and approves a bounded task.
+
+13
+00:00:31,511 --> 00:00:33,531
+Local Gemma stands in for the NEAR AI
+
+14
+00:00:33,624 --> 00:00:37,107
+API. The original result is encrypted and recoverable
+
+15
+00:00:37,142 --> 00:00:38,744
+with a separate recovery file.
+
+16
+00:00:39,127 --> 00:00:41,217
+This is the already-opened draft.
+
+17
+00:00:41,600 --> 00:00:43,887
+A revision is prepared, but no revised result
+
+18
+00:00:43,957 --> 00:00:45,629
+or publication is claimed.
+
+19
+00:00:46,070 --> 00:00:49,634
+Next, a separate local prototype demonstrates native human-work
+
+20
+00:00:49,715 --> 00:00:52,966
+settlement. These stills come from an actual sandbox
+
+21
+00:00:53,047 --> 00:00:54,615
+run with seeded roles.
+
+22
+00:00:54,998 --> 00:00:57,552
+The flow covers a readable brief, a bid,
+
+23
+00:00:57,831 --> 00:01:01,140
+owner approval, encrypted delivery and acceptance.
+
+24
+00:01:01,523 --> 00:01:04,263
+The original reviewer received zero point one local
+
+25
+00:01:04,321 --> 00:01:07,235
+NEAR. Zero point three returned to the owner.
+
+26
+00:01:07,618 --> 00:01:09,232
+This was not a real human hire.
+
+27
+00:01:09,557 --> 00:01:12,285
+Connecting these pieces into a durable, recurring public
+
+28
+00:01:12,331 --> 00:01:14,386
+business loop is still unfinished.
+
+29
+00:01:14,828 --> 00:01:17,173
+So are production wallet recovery and live NEAR
+
+30
+00:01:17,242 --> 00:01:19,088
+AI Cloud. The vision:
+
+31
+00:01:19,530 --> 00:01:22,641
+your idea, accountable work, and authority on NEAR.
+

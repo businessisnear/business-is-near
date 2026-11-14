@@ -1,0 +1,148 @@
+{
+  "passed": true,
+  "source_only_tests_separate": true,
+  "current_source60_profile": "bin-v5-prebirth-controller-source-v3",
+  "source_manifest_sha256": "fab51cf3491a57f29da5309dd1954b2b251285d4ba6c91788da18555ee47d3b8",
+  "initial_UI_wait_timeout_preserved": true,
+  "same_plan_no_model_or_transaction_retry_in_continuation": true,
+  "source60_exact_direct_rows_reverified": true,
+  "public_export_files": 27,
+  "original_app_FINALs": 11,
+  "receipt_outcomes": 30,
+  "complete_unique_DAGs": 11,
+  "exact_native_principal_actions": 2,
+  "same_FINAL_height": 1298,
+  "same_FINAL_hash": "2R2yTLdoaG1J81rkbgitcD8G9xm5Kp42sxFo7GVUrDRY",
+  "chain_id": "test-chain-NEU5i",
+  "genesis_hash": "46jtFiD6TyywaCgtiwSbS2M82FqdvXWiGBRuXU3AwfBs",
+  "registry_keyless": true,
+  "global_backed": true,
+  "business_funded": "400000000000000000000000",
+  "provider_paid": "100000000000000000000000",
+  "owner_returned": "300000000000000000000000",
+  "remaining_principal_liabilities": "0",
+  "retained_storage_collateral": "1064960000000000000000000",
+  "linked_result_exact_replay": true,
+  "assignment_and_encrypted_context_hashes_verified": true,
+  "corrected_plaintext_hash_matches": true,
+  "own_redecryption_performed": false,
+  "UI_reports_both_original_recipient_open": true,
+  "driver_steps": 14,
+  "model_provenance": {
+    "backend": "local_gemma_api_contract",
+    "model_contract": "gemma4:e2b-it-q4_K_M",
+    "attempted_calls": 1,
+    "completed_calls": 1,
+    "actual_model_calls": 1,
+    "original_call_unknown": false,
+    "cloud_verified": false,
+    "max_calls": 1,
+    "max_tokens": 512
+  },
+  "model_weight_attestation_or_Cloud_proved": false,
+  "original_UI_link_anchor": {
+    "hash": "7taNRGwf7EnMBXtb9tFhvuU2QyTFGeaTUetr5fvbfqYr",
+    "height": 1052,
+    "observed_at": "1794681727"
+  },
+  "raw_export_later_FINAL_corrobates_same_terminal_ledger": true,
+  "graphs": [
+    {
+      "action": "create",
+      "hash": "2k4j3fwaEp1WzebwgZH51NMQWpnKmJMLxFB8DxfwvfZZ",
+      "signer": "6739e3ea1fbb424ca2df2a92f2056c6901e5a08958c401b6570df7fe09987d04",
+      "method": "create_mandate",
+      "receipts": 2
+    },
+    {
+      "action": "post",
+      "hash": "GZLBRcSGnrxoWwPrHJdWrNhqH5Bpi5yVRDbK4Zn7Fsjp",
+      "signer": "d62727d62071057bf30ffda5e8eaf46a19db8fe2598a1ec0b0d7a66f1115724a",
+      "method": "post_job",
+      "receipts": 2
+    },
+    {
+      "action": "share",
+      "hash": "4XpDBUr1eQrJQ2N8WpKWAkcUp7YkybwYtYaKij81gEhm",
+      "signer": "6739e3ea1fbb424ca2df2a92f2056c6901e5a08958c401b6570df7fe09987d04",
+      "method": "publish_assignment",
+      "receipts": 2
+    },
+    {
+      "action": "bid",
+      "hash": "8jJ1KKXzyznXhq2N9hibHQi7FkXVQkMvzfActu9LpbMV",
+      "signer": "59fe5e753fcc4dd0a52005590441ced5d3077831bad7bdd6da9cf767a0ab5973",
+      "method": "bid",
+      "receipts": 2
+    },
+    {
+      "action": "award",
+      "hash": "GVC5BGVWu7WWetp5hixiqBqwog6XzEHgN3tsaJfA98w9",
+      "signer": "6739e3ea1fbb424ca2df2a92f2056c6901e5a08958c401b6570df7fe09987d04",
+      "method": "approve_award",
+      "receipts": 2
+    },
+    {
+      "action": "claim",
+      "hash": "5a5qwvSUpXLH5yvw2FGztmMJKfzebYRjiam2jZpKQiWb",
+      "signer": "59fe5e753fcc4dd0a52005590441ced5d3077831bad7bdd6da9cf767a0ab5973",
+      "method": "claim",
+      "receipts": 2
+    },
+    {
+      "action": "deliver",
+      "hash": "CaXEFraKQ8Q9EqbKZByv8a2gb798heLrsaCXmY2DpLm1",
+      "signer": "59fe5e753fcc4dd0a52005590441ced5d3077831bad7bdd6da9cf767a0ab5973",
+      "method": "deliver_encrypted",
+      "receipts": 2
+    },
+    {
+      "action": "accept",
+      "hash": "5VrLV2LMLmvKU3SaC9sdWfESEN6AdopB9kbtcYTceGFP",
+      "signer": "6739e3ea1fbb424ca2df2a92f2056c6901e5a08958c401b6570df7fe09987d04",
+      "method": "accept",
+      "receipts": 2
+    },
+    {
+      "action": "pay",
+      "hash": "GKbZQNhyujXLS3YqH7XExJeMgw1G61WLsqkuXDKiC5Nh",
+      "signer": "59fe5e753fcc4dd0a52005590441ced5d3077831bad7bdd6da9cf767a0ab5973",
+      "method": "withdraw_provider",
+      "receipts": 6
+    },
+    {
+      "action": "close",
+      "hash": "CU5v7nxqzky86d2TYcABBBwvvykhisBgX6LdfAvYUA49",
+      "signer": "6739e3ea1fbb424ca2df2a92f2056c6901e5a08958c401b6570df7fe09987d04",
+      "method": "close_mandate",
+      "receipts": 2
+    },
+    {
+      "action": "refund",
+      "hash": "4V2W4CzbrXKLEg2jwjPS4qXB4VkLU4chgBehSw8pSfAi",
+      "signer": "6739e3ea1fbb424ca2df2a92f2056c6901e5a08958c401b6570df7fe09987d04",
+      "method": "withdraw_owner",
+      "receipts": 6
+    }
+  ],
+  "principals": [
+    {
+      "action": "pay",
+      "original_hash": "GKbZQNhyujXLS3YqH7XExJeMgw1G61WLsqkuXDKiC5Nh",
+      "receipt_id": "C76vaDfsmA5YdQJyjsSPzfnSrUWkytuxeTiXwXK8J6Zr",
+      "recipient": "59fe5e753fcc4dd0a52005590441ced5d3077831bad7bdd6da9cf767a0ab5973",
+      "amount": "100000000000000000000000",
+      "callback_status": "native_transfer_callback_succeeded"
+    },
+    {
+      "action": "refund",
+      "original_hash": "4V2W4CzbrXKLEg2jwjPS4qXB4VkLU4chgBehSw8pSfAi",
+      "receipt_id": "9gV8CEQMtHj795741U7q7PEV5Fvb4oXUZM83CArGAEsw",
+      "recipient": "6739e3ea1fbb424ca2df2a92f2056c6901e5a08958c401b6570df7fe09987d04",
+      "amount": "300000000000000000000000",
+      "callback_status": "native_transfer_callback_succeeded"
+    }
+  ],
+  "original_transaction_fees_separate_from_principal": "48647079417617100000000",
+  "no_private_keys_wires_runtime_RPC_browser_model_or_signing_access": true
+}

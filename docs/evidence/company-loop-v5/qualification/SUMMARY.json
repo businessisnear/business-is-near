@@ -1,0 +1,97 @@
+{
+  "at_utc": "2026-11-14T15:40:50.767569+00:00",
+  "verdict": "QUALIFIED_LOCAL_SINGLE_COMPANY_CYCLE",
+  "independent_source_review": "No new financial-authority or model-tool-execution P1 identified in the scoped current58-file candidate. This is not a full production security guarantee.",
+  "current_source_manifest_sha256": "53680d9938a4d457f3bda7a7a51131d4b5bb1720222bbd905470028375c071ef",
+  "current_source_files": 58,
+  "current_duration_handoff_sha256": "d91adbbd8ba6b0428052b89c6b62d081901757192f157ccf61e8efb4b82e9f51",
+  "current_additive_metadata_sha256": "666f91d31483e7ba00fa2e7ad89eaf573d5e4958957e80ac4458e56c89d3e2b7",
+  "server_sha256": "98a37d66e58cfc1028a9a78f654bbadbe8fc1cc1788cead3b583a142c80c0634",
+  "financial_core_sha256": "c109b51cceb47fd1c628041bcf8f6df667d9e55816b51db97116764d1dd5941d",
+  "wasm_sha256": "bf13e856506ebfd3e2a532d79e9a3a657436ca299ae34e64654465b00633091d",
+  "focused_tests": {
+    "pass": 28,
+    "fail": 0,
+    "inherited_83_rerun": false,
+    "command": "node --test source/labs/procurement/candidate-v4-delivery/local-app-v5/company-loop.test.mjs source/labs/procurement/candidate-v4-delivery/local-app-v5/duration.test.mjs",
+    "cwd": "scratch"
+  },
+  "public_rpc_export_manifest_sha256": "2e0e705f540f06ea7a582376a9319da555248f1710a086f87d5fc69ffb4364ea",
+  "independent_join_sha256": "927d38e9b9145605d0cb81e82c04897570b5f71428fa8333506469f595597212",
+  "original_app_FINALs": 11,
+  "complete_original_receipt_DAGs": 11,
+  "receipt_outcomes": 30,
+  "exact_native_principal_actions": 2,
+  "funding_LOCAL": "0.4",
+  "provider_pay_LOCAL": "0.1",
+  "owner_refund_LOCAL": "0.3",
+  "remaining_principal_liabilities": "0",
+  "retained_owner_storage_collateral_LOCAL": "1.06496",
+  "original_transaction_fees_LOCAL": "0.0486461414757771",
+  "native_principal_conservation": true,
+  "same_FINAL_global_backing": true,
+  "keyless_registry": true,
+  "same_FINAL": {
+    "height": 795,
+    "hash": "Des48hSPtF12rwXEyhCVBnEAzjN1rR7axemkF6WLHTus"
+  },
+  "company_completion_first_link_anchor": {
+    "hash": "G2C8AsmELxvL3ta9CoypAJBp4vyuT6mV8HWKLoAaiZAt",
+    "height": 550,
+    "observed_at": "1794669689"
+  },
+  "first_link_anchor_immutable_and_later_terminal_views_corroborate": true,
+  "plan_policy_assignment_delivery_result_exactly_joined": true,
+  "corrected_plaintext_sha256": "81d33b7a10d832f571c06b6ceab300be56b4621c8ab7e074a3971975b8661a2c",
+  "browser_opening_basis": "Captured owner+worker UI and original stored encrypted packet/context joined; no independent private-key access or re-decryption by reviewer.",
+  "model_evidence_basis": "Saved planner provenance and exact original plan replay; one completed API-contract call in this trial. No new inference in review and no model-weight or Cloud attestation.",
+  "trial2_model_provenance": {
+    "backend": "local_gemma_api_contract",
+    "model_contract": "gemma4:e2b-it-q4_K_M",
+    "attempted_calls": 1,
+    "completed_calls": 1,
+    "actual_model_calls": 1,
+    "original_call_unknown": false,
+    "cloud_verified": false,
+    "max_calls": 1,
+    "max_tokens": 512
+  },
+  "UI_captures": 15,
+  "continuous_recording": false,
+  "video_stills": [
+    {
+      "path": "01-actual-gemma-plan.png",
+      "bytes": 187790,
+      "sha256": "5defd8ba06947c3bebac3ffeef9a6fbf6c5b23922d030876a71063984f98eca1"
+    },
+    {
+      "path": "14-company-result-linked.png",
+      "bytes": 188769,
+      "sha256": "4c1e59e3518e8dbe03695ffa61108b63ba8dc4e7b5e3f1341ddfc3a4a84c71f6"
+    }
+  ],
+  "P2_limits": [
+    "LOCAL synthetic owner/operator/provider only; no real human procurement, customer, revenue or general autonomous company runner.",
+    "Company/goal/queue/planner/RSA state depends on the same live process. This trial proves no process-restart recovery.",
+    "Verified state reader and original-FINAL validator remain trusted integration boundaries. Pure reconciliation flags are not self-authenticating RPC evidence.",
+    "Fixed single-job/one-cycle happy path. No V5 full-capacity, fault-recovery, recurrence or automatic human-market routing proof.",
+    "Top V5-READY is immutable prior56/pre-duration metadata. New CURRENT-V5-HANDOFF points to58 manifest and duration delta; its trial text predates this independent report.",
+    "Root public checkout and frozen clean495 package are not this integrated local service. No public Nightly byte-preserving signing/recovery, Cloud/TEE, mainnet, ten full passes, parity, final video or submission is established by this report."
+  ],
+  "preserved_lineage": [
+    "Trial1 timed out after6 original FINAL actions before delivery; not counted as complete and never resumed.",
+    "Initial independent verifier Buffer hashing harness failure retained; underlying source/export unchanged.",
+    "Historical V3/V4 reports and earlier original-unknown journals are separate; no status reset or evidence promotion."
+  ],
+  "review_actions": {
+    "new_RPC": 0,
+    "new_models": 0,
+    "new_wallet_requests": 0,
+    "new_signatures": 0,
+    "new_nodes": 0,
+    "browser_control": false,
+    "private_keys_or_wires_read": false,
+    "public_mutation": false
+  },
+  "public_export_is_saved_local_RPC_evidence": "Offline consistency check of the Root-exported local chain, not a separately trusted public network or attestation."
+}

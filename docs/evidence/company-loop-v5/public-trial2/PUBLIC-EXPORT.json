@@ -1,0 +1,146 @@
+{
+  "at_utc": "2026-11-14T15:24:01.726206+00:00",
+  "scope": "Public RPC reads from owned fresh isolatedlocalnode only; no signing/wire/privatekey read",
+  "chain_id": "test-chain-7iSyB",
+  "registry": "registry.project.test.near",
+  "final_block": "Des48hSPtF12rwXEyhCVBnEAzjN1rR7axemkF6WLHTus",
+  "final_height": 795,
+  "original_app_transactions": 11,
+  "files": [
+    {
+      "path": "STATUS.json",
+      "bytes": 1407,
+      "sha256": "ea71ca109dd8ee8561585a5ed4307d9d08576f40358b00bb80f5e779a7082a32"
+    },
+    {
+      "path": "SAME-FINAL-BLOCK.json",
+      "bytes": 3333,
+      "sha256": "fd896e81a783d24aa81a01647dd8dea50daadeebbefef69870d0967894f66b5b"
+    },
+    {
+      "path": "REGISTRY-ACCOUNT.json",
+      "bytes": 343,
+      "sha256": "787097104af726a8b776ddf7d329571d39f07c42dbc540dd6679d88e91ed32e3"
+    },
+    {
+      "path": "ORIGINAL-create-FINAL.json",
+      "bytes": 22561,
+      "sha256": "6f5b84bda2ce4cddf2933dc6d4e436de6e3a8aa5ee2fd9f2a50cd5142b8fa50c"
+    },
+    {
+      "path": "ORIGINAL-post-FINAL.json",
+      "bytes": 8987,
+      "sha256": "4c79da4f63da77f467db3a032e3c615aaaeba2602d3496a1ea9b3e1d3cdb3623"
+    },
+    {
+      "path": "ORIGINAL-share-FINAL.json",
+      "bytes": 14515,
+      "sha256": "941f426a845ebaee0840e8ba60ce8836943462cab2feeff6b322094e413273c9"
+    },
+    {
+      "path": "ORIGINAL-bid-FINAL.json",
+      "bytes": 8346,
+      "sha256": "1a5924a99d69f3693de21ec40b44b597c9567d055c2bcf7c55b9cc4ae5009b2d"
+    },
+    {
+      "path": "ORIGINAL-award-FINAL.json",
+      "bytes": 11318,
+      "sha256": "4e28a75a85c89c8b07a49eb932bc7d9c6bde24a962b0e54555986b223a67017e"
+    },
+    {
+      "path": "ORIGINAL-claim-FINAL.json",
+      "bytes": 10533,
+      "sha256": "0190523eaa8498c52f6ce84bf160082a9b17344d9ff27a5c50e9d05c3d88224b"
+    },
+    {
+      "path": "ORIGINAL-deliver-FINAL.json",
+      "bytes": 30761,
+      "sha256": "94a8bcb6eb3735135f00314e2db9d7a19a369120cc87ec083106321b316ee526"
+    },
+    {
+      "path": "ORIGINAL-accept-FINAL.json",
+      "bytes": 11485,
+      "sha256": "9dd6cff7d2f54ee2796d1cfffa0e9bb9f10a11287b78b495302e28142d451da5"
+    },
+    {
+      "path": "ORIGINAL-pay-FINAL.json",
+      "bytes": 16274,
+      "sha256": "133d2b31f05987d5819d9c79d7bb5928505e2ebb3b34de0055ff02e20e3d639d"
+    },
+    {
+      "path": "ORIGINAL-close-FINAL.json",
+      "bytes": 18279,
+      "sha256": "22e571fcdbc2c32acab88e4957df22d142254adf4fb0319f969c1ca05ec08ea7"
+    },
+    {
+      "path": "ORIGINAL-refund-FINAL.json",
+      "bytes": 16191,
+      "sha256": "bc7be3c0736e9169961ad7777e8688111e1d8ef7a72b3abea4e8213413337026"
+    },
+    {
+      "path": "VIEW-registry_state.json",
+      "bytes": 17350,
+      "sha256": "a74430a885ccfdfec4901c310af8724a23a2ad6e73c1f2785e5ce807478b92cb"
+    },
+    {
+      "path": "VIEW-list_mandates.json",
+      "bytes": 58889,
+      "sha256": "a1870beb7fc35597be5a05af66e0052d3a45249582ace4c3eb39877094034bad"
+    },
+    {
+      "path": "VIEW-mandate.json",
+      "bytes": 58202,
+      "sha256": "d3f6ffcd3b1533047ead7e85185fe02986dee97006bc06465e465e451b2c365e"
+    },
+    {
+      "path": "VIEW-list_jobs.json",
+      "bytes": 21414,
+      "sha256": "9d2af101a86144c1048b6c262e1426dd0eceb09fabe63e3c51a61bb425aad563"
+    },
+    {
+      "path": "VIEW-job.json",
+      "bytes": 20860,
+      "sha256": "04a603587578e8df71b23c45dc8c8570a620049f6ea50679f386ec06debbc7fc"
+    },
+    {
+      "path": "VIEW-assignment.json",
+      "bytes": 24527,
+      "sha256": "2e939fe84cd581892dc8c045b11a032450cdd7691b51b67cf09b9f653839f357"
+    },
+    {
+      "path": "VIEW-delivery_record.json",
+      "bytes": 78980,
+      "sha256": "8f316d6cac68e5540f4bce3eab0893df6355a290cc1a660d21f301ca51b85cca"
+    },
+    {
+      "path": "EXACT-NATIVE-pay.json",
+      "bytes": 1731,
+      "sha256": "e41aa742efa17c803fadfb013c317b2a46168250ad535bc686a1ce799d2a9e57"
+    },
+    {
+      "path": "EXACT-NATIVE-refund.json",
+      "bytes": 1732,
+      "sha256": "010ff35d80e77b489b04092b3da983612c77f14dba68e6100c6c863f413f34bb"
+    },
+    {
+      "path": "PROTOCOL-CONFIG.json",
+      "bytes": 11960,
+      "sha256": "4b90a963362ccf5c335953e0c8bc4a76026aa9f63a6f378af5c0618575bafe02"
+    },
+    {
+      "path": "REGISTRY-KEYS.json",
+      "bytes": 183,
+      "sha256": "9e32175b50f55f8969a328308948ad86e66b9350d13084c1bc7efc313c4c973a"
+    },
+    {
+      "path": "PROVIDER-TRANSFER.json",
+      "bytes": 3758,
+      "sha256": "c98ca3a31873651f304ffc42e84c730094160b8064a947b10850daf5ebc40813"
+    },
+    {
+      "path": "OWNER-TRANSFER.json",
+      "bytes": 3602,
+      "sha256": "74d61650d976c709c94acdf1a452ed777d927389dfe796fb0d9e6d5ff76d8a1f"
+    }
+  ]
+}

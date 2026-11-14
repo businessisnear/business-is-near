@@ -4,7 +4,7 @@ const check=(v,m)=>{if(!v)throw Error(m);};
 const uuid=v=>typeof v==='string'&&/^[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$/.test(v);
 const hash=v=>typeof v==='string'&&/^[a-f0-9]{64}$/.test(v);
 export function positiveUnsignedRefusal(result,pending){
- return Boolean(pending&&uuid(pending.request_id)&&hash(pending.intent_sha256)&&result&&['refused_before_birth','refused_before_sign'].includes(result.status)&&result.request_id===pending.request_id&&result.intent_sha256===pending.intent_sha256&&result.new_signature===false&&result.no_retry===true&&result.review_reset_allowed===true&&!Object.hasOwn(result,'hash')&&['review_expired','maintenance'].includes(result.reason));
+ return Boolean(pending&&uuid(pending.request_id)&&hash(pending.intent_sha256)&&result&&['refused_before_birth','refused_before_sign'].includes(result.status)&&result.request_id===pending.request_id&&result.intent_sha256===pending.intent_sha256&&result.new_signature===false&&result.no_retry===true&&result.review_reset_allowed===true&&!Object.hasOwn(result,'hash')&&(['review_expired','maintenance'].includes(result.reason)||(result.reason==='owned_prebirth_aborted'&&result.status==='refused_before_birth'&&result.ownership_schema==='bin-local-owned-prebirth-proof-v3'&&hash(result.ownership_sha256))));
 }
 export function discardAcknowledgedUnsignedReview({storage,key,pending,result}){
  check(positiveUnsignedRefusal(result,pending)&&result.review_reset_acknowledged===true,'Exact positively unsigned review acknowledgement required');
@@ -17,11 +17,11 @@ export const financialActionsAvailable=state=>state?.maintenance?.schema==='bin-
 // Keep the original UUID/digest/reason/stage; conflicting signing evidence fails.
 export function mergeOriginalObservation(previous,next,pending){
  if(!positiveUnsignedRefusal(previous,pending)||previous.review_reset_acknowledged!==true)return structuredClone(next);
- check(next?.request_id===pending.request_id&&(!Object.hasOwn(next,'intent_sha256')||next.intent_sha256===pending.intent_sha256)&&!Object.hasOwn(next,'hash')&&!Object.hasOwn(next,'checked'),'Acknowledged unsigned original identity conflicted');
+ check(next?.request_id===pending.request_id&&(!Object.hasOwn(next,'intent_sha256')||next.intent_sha256===pending.intent_sha256)&&!Object.hasOwn(next,'hash')&&!Object.hasOwn(next,'checked')&&(!Object.hasOwn(next,'new_signature')||next.new_signature===false),'Acknowledged unsigned original identity conflicted');
  if(positiveUnsignedRefusal(next,pending)){
   check(next.status===previous.status&&next.reason===previous.reason,'Acknowledged unsigned original refusal changed');return {...structuredClone(next),review_reset_acknowledged:true};
  }
- check(['unknown_missing_original_record','unknown_before_signature_record','unknown'].includes(next.status)&&next.no_retry===true,'Acknowledged unsigned terminal record changed');
+ check(['unknown_missing_original_record','unknown_before_signature_record','unknown','unknown_owned_prebirth_commit','unknown_owned_prebirth_ack'].includes(next.status)&&next.no_retry===true,'Acknowledged unsigned terminal record changed');
  return structuredClone(previous);
 }
 export function cacheOriginalObservation(row,next,pending){

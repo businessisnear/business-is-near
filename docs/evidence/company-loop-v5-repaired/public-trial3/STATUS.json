@@ -1,0 +1,40 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "chain_id": "test-chain-NEU5i",
+    "genesis_hash": "46jtFiD6TyywaCgtiwSbS2M82FqdvXWiGBRuXU3AwfBs",
+    "latest_protocol_version": 77,
+    "node_key": "ed25519:Fm8iB9pageJn3xcUMKkD9xNaU6ra8W19w4yi8evi4zYm",
+    "node_public_key": "ed25519:AsSMbP1SgmgUNE6X7GK2nZqp4xwkq9U76Jvu7Vdehrfa",
+    "protocol_version": 77,
+    "rpc_addr": "0.0.0.0:3030",
+    "sync_info": {
+      "earliest_block_hash": "46jtFiD6TyywaCgtiwSbS2M82FqdvXWiGBRuXU3AwfBs",
+      "earliest_block_height": 0,
+      "earliest_block_time": "2026-11-14T18:31:10.753015000Z",
+      "epoch_id": "74w71quc6dsTc7Qty28wckzQztgqBb9obitNkQL3aKxq",
+      "epoch_start_height": 1001,
+      "latest_block_hash": "CMJXNfqibPisqafSvJccHYzSYNQWgoz99rH4uhGNV3fw",
+      "latest_block_height": 1300,
+      "latest_block_time": "2026-11-14T18:44:40.067662000Z",
+      "latest_state_root": "7trkpL4A7GRgA1P8er3AWDpdzhA2bQJ4PiyJrK6JkizR",
+      "syncing": false
+    },
+    "uptime_sec": 808,
+    "validator_account_id": "test.near",
+    "validator_public_key": "ed25519:Fm8iB9pageJn3xcUMKkD9xNaU6ra8W19w4yi8evi4zYm",
+    "validators": [
+      {
+        "account_id": "test.near",
+        "is_slashed": false
+      }
+    ],
+    "version": {
+      "build": "2.6.2",
+      "commit": "2f9ddb711ebd94a306eaec06030d87ef8dfc51fa",
+      "rustc_version": "1.85.0",
+      "version": "2.6.2"
+    }
+  },
+  "id": "public-repaired-trial-proof"
+}

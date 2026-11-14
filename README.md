@@ -20,12 +20,23 @@ The broader 44-area catalogue records historical module coverage and limitations
 
 ## Build and inspect
 
-Read [`SETUP.md`](SETUP.md) for the source download and local workflow. The source and module verifiers require no dependency installation, account or network access:
+Read [`SETUP.md`](SETUP.md) for the source download and local workflow. The current owner-source verifier checks all 434 source files and their relative imports without dependency installation, an account or network access. The current company and proxy test profiles are separate offline checks:
 
 ```sh
 node source/scripts/verify_owner_tools_source.mjs
-node source/labs/procurement/candidate-v4-delivery/verify-source.mjs
+npm --prefix source/labs/procurement/candidate-v4-delivery/local-app-v5 test
+npm --prefix source/labs/procurement/candidate-v4-delivery/local-app-v5 run test:proxy
 ```
+
+The preserved `MODULE-SOURCE-MANIFEST.json` has 40 historical module rows. Its
+`verify-source.mjs` checks those older bytes and is not the current verification
+command. The current unchanged owner-source verifier checks the entire 434-file
+closure, including all 58 current module files and their shared imports. Current
+company tests are 30 repair + 28 company/duration + 25 base guard checks (83 total,
+a different suite from the historical financial/V2 83); seven proxy checks are
+separate. Follow the [current V5 guide](source/labs/procurement/candidate-v4-delivery/local-app-v5/README.md)
+for the bounded local run and the generation-specific proof limits.
+
 
 To build the public static frontend from the existing lockfile:
 

@@ -1,0 +1,147 @@
+{
+  "at_utc": "2026-11-14T18:44:42.790951+00:00",
+  "scope": "Public RPC read-only proof from fresh repaired-controller local test; no private key/config/wire read",
+  "source_manifest": "fab51cf3491a57f29da5309dd1954b2b251285d4ba6c91788da18555ee47d3b8",
+  "chain_id": "test-chain-NEU5i",
+  "registry": "registry.project.test.near",
+  "final_block": "2R2yTLdoaG1J81rkbgitcD8G9xm5Kp42sxFo7GVUrDRY",
+  "final_height": 1298,
+  "original_app_transactions": 11,
+  "files": [
+    {
+      "path": "STATUS.json",
+      "bytes": 1419,
+      "sha256": "94cb1b631a6ecd92249c05807003248055bdde4afc44e415b10b4c67312e16c1"
+    },
+    {
+      "path": "SAME-FINAL-BLOCK.json",
+      "bytes": 3347,
+      "sha256": "db0b9e2a1bb1f8d652a437238342eace2261d453a2f399e5b0e2a924a46bf0f3"
+    },
+    {
+      "path": "REGISTRY-ACCOUNT.json",
+      "bytes": 354,
+      "sha256": "77a7b7ba6d0aa0d59ed0e3b6ecfc1b73fdea13a2e2c342f14462f9a185186af5"
+    },
+    {
+      "path": "ORIGINAL-create-FINAL.json",
+      "bytes": 22571,
+      "sha256": "1d5a11021e5d9b4de27c79cd851c4095fb48e9a06e43f159da8d669f5623f831"
+    },
+    {
+      "path": "ORIGINAL-post-FINAL.json",
+      "bytes": 8996,
+      "sha256": "60b0d3a0c23bbe1993e3ddb4aee7a5b52e7c31999f2d69d07821fa119b86ae2b"
+    },
+    {
+      "path": "ORIGINAL-share-FINAL.json",
+      "bytes": 14532,
+      "sha256": "680eeb1a28b87745a9b19c7ddd917c4f3287f89d949545682e717199f2b976a1"
+    },
+    {
+      "path": "ORIGINAL-bid-FINAL.json",
+      "bytes": 8356,
+      "sha256": "1dfeca4cb4296298775ea6cd6bdc98396ccb924ff99ef55a1d197d056c1fda9a"
+    },
+    {
+      "path": "ORIGINAL-award-FINAL.json",
+      "bytes": 11329,
+      "sha256": "0a90f1a79656aa4c3dedd6fb6cbf160ea3ebfefbc5b57a58f3dc02af7c58d007"
+    },
+    {
+      "path": "ORIGINAL-claim-FINAL.json",
+      "bytes": 10543,
+      "sha256": "8ca39ea7a8f272cefc447473f5d40ca8531389194b3e6174b5e47afca4ff9afb"
+    },
+    {
+      "path": "ORIGINAL-deliver-FINAL.json",
+      "bytes": 30774,
+      "sha256": "afdb6042ee74d32f147dfb4cbcf14f336940efeafa23e2b5b7141e8e546c259d"
+    },
+    {
+      "path": "ORIGINAL-accept-FINAL.json",
+      "bytes": 11496,
+      "sha256": "c6de27252bf3e4613c2b9bca6339ffd00b3d45a065114f534d20907906971c3e"
+    },
+    {
+      "path": "ORIGINAL-pay-FINAL.json",
+      "bytes": 16287,
+      "sha256": "c98b261f7647e96ad6ce0d64f5ac87b2d1672293fe0281f4f596c3ea31a79532"
+    },
+    {
+      "path": "ORIGINAL-close-FINAL.json",
+      "bytes": 18293,
+      "sha256": "89d7e5819cd235ff510cec28ec760549a8a26f03ebd0cf072e1f9af3c76572d2"
+    },
+    {
+      "path": "ORIGINAL-refund-FINAL.json",
+      "bytes": 16203,
+      "sha256": "8395b254d97a1c0249a9b4c75e578fa31bd2ff4f41f4fd46a154a530114169c4"
+    },
+    {
+      "path": "VIEW-registry_state.json",
+      "bytes": 17363,
+      "sha256": "1a59c45828a74de25bd89b16357b9c62fd859784172ea66169ae482f7defffc5"
+    },
+    {
+      "path": "VIEW-list_mandates.json",
+      "bytes": 58917,
+      "sha256": "d40cf2257bba85525ee4c4b7cc853afdde33b9af80d6a3e1fbcda6d3d80a125e"
+    },
+    {
+      "path": "VIEW-mandate.json",
+      "bytes": 58230,
+      "sha256": "8a187abc899fa3ce9a2a80acf51f76d9fc457b4e7a8cf3af769fdcc682820119"
+    },
+    {
+      "path": "VIEW-list_jobs.json",
+      "bytes": 21412,
+      "sha256": "6750bfdf1739a76ddba7cc76d69121b7b82893d934803338d3c597505ec90fb9"
+    },
+    {
+      "path": "VIEW-job.json",
+      "bytes": 20858,
+      "sha256": "53c2dae8d7f6c2d8174816c39c9a546433d3341c98e619981a68e7a4a7a67558"
+    },
+    {
+      "path": "VIEW-assignment.json",
+      "bytes": 24532,
+      "sha256": "f4d7a59ed09b483adc12f2be7b28fb712b6f001f7576e6aaa8cea3d7e4489662"
+    },
+    {
+      "path": "VIEW-delivery_record.json",
+      "bytes": 79036,
+      "sha256": "68311c45fdf2345e35291b4bb0393585ebf5a96c0bbfa54a090c9cf83ec91c29"
+    },
+    {
+      "path": "PROTOCOL-CONFIG.json",
+      "bytes": 11964,
+      "sha256": "b2d72b3504160245ebd0fa0ed1ed4839a59100dc00be912b2ef1e41d2af4c33b"
+    },
+    {
+      "path": "REGISTRY-KEYS.json",
+      "bytes": 188,
+      "sha256": "bc2c7f105faf2daa670bd3448aab30a863e80320255b038a5f8c4f28c10c1d86"
+    },
+    {
+      "path": "PROVIDER-TRANSFER.json",
+      "bytes": 3765,
+      "sha256": "64acd2c45b0ad65b9922b8513c5968390b7a396dbb1cc2a232fab74033c9722d"
+    },
+    {
+      "path": "OWNER-TRANSFER.json",
+      "bytes": 3603,
+      "sha256": "497f3bcffa0e764401dd8843c232ec31e2a048a1efd4d2f2856e1c49bb00f0e9"
+    },
+    {
+      "path": "EXACT-NATIVE-pay.json",
+      "bytes": 1732,
+      "sha256": "2c55a8f198b2773bf049f2f8d6d637116a82806a776a341eafa04ceb25158b70"
+    },
+    {
+      "path": "EXACT-NATIVE-refund.json",
+      "bytes": 1732,
+      "sha256": "18ddddf9438197ef0cf1e5ee248792b8c88f40f336bd1d0693836fb84f52d103"
+    }
+  ]
+}

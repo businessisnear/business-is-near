@@ -1,0 +1,98 @@
+{
+  "complete": true,
+  "failure": null,
+  "events": [
+    {
+      "stage": "initial",
+      "elapsed_seconds": 2.061,
+      "screenshot": "00-initial.png",
+      "sha256": "cb222fd751c4d9517f0ef07f8aff01ccf9984c115081dc8b0072b06483ac8015"
+    },
+    {
+      "stage": "actual-gemma-plan",
+      "elapsed_seconds": 26.337,
+      "screenshot": "01-actual-gemma-plan.png",
+      "sha256": "5defd8ba06947c3bebac3ffeef9a6fbf6c5b23922d030876a71063984f98eca1"
+    },
+    {
+      "stage": "create_mandate",
+      "elapsed_seconds": 48.543,
+      "screenshot": "02-create_mandate.png",
+      "sha256": "e44b3fd4d98b5ce12c5dfbe4467762ac06acd839ca77ff33cb16e4a23ec01ab6"
+    },
+    {
+      "stage": "post_job",
+      "elapsed_seconds": 67.865,
+      "screenshot": "03-post_job.png",
+      "sha256": "67a62054e4b33eb19cc1174b4a8534d578db310d08b2adef340eeb9391a527a5"
+    },
+    {
+      "stage": "publish_assignment",
+      "elapsed_seconds": 89.48,
+      "screenshot": "04-publish_assignment.png",
+      "sha256": "f122a50d5f2885cbaf311b1d0da93486e92743006cd4edcf46c669d33aaa9ef0"
+    },
+    {
+      "stage": "bid",
+      "elapsed_seconds": 110.514,
+      "screenshot": "05-bid.png",
+      "sha256": "b9b10391c51e3c82352a38a118e8b89d25eaebe91aed43cb35124672719621dc"
+    },
+    {
+      "stage": "approve_award",
+      "elapsed_seconds": 133.343,
+      "screenshot": "06-approve_award.png",
+      "sha256": "b9e31192a3bbdc460e2e0dd162a24c6d4ddfea4f80211d1e1a2aa7b3df3cec2f"
+    },
+    {
+      "stage": "claim",
+      "elapsed_seconds": 155.131,
+      "screenshot": "07-claim.png",
+      "sha256": "7ef26ce2c95d34a14035e33bdae0a24f5fa206eac3e164b4833de235f90e4498"
+    },
+    {
+      "stage": "deliver_encrypted",
+      "elapsed_seconds": 176.044,
+      "screenshot": "08-deliver_encrypted.png",
+      "sha256": "7c0317a153e53b1ab3dba0707fee30d6212624c7cd43455fc2e20a1b30137b39"
+    },
+    {
+      "stage": "opened-both-original-recipients",
+      "elapsed_seconds": 181.966,
+      "screenshot": "09-opened-both-original-recipients.png",
+      "sha256": "c3201d9529c728963df5fc7b743817ece5062cf75059d73ad448d6635f418924"
+    },
+    {
+      "stage": "accept",
+      "elapsed_seconds": 201.428,
+      "screenshot": "10-accept.png",
+      "sha256": "af52a2af24893731c6432fcf94222e03e305452e4959cda8f437d6fa36a5837b"
+    },
+    {
+      "stage": "withdraw_provider",
+      "elapsed_seconds": 225.576,
+      "screenshot": "11-withdraw_provider.png",
+      "sha256": "ac53871af2b1ea7b2a34f23cf5f4579d966f8258a1f357b7c2b17eec7a435608"
+    },
+    {
+      "stage": "close_mandate",
+      "elapsed_seconds": 246.874,
+      "screenshot": "12-close_mandate.png",
+      "sha256": "cce5011ce5d164d90baed8ab5d3706dc0de84eed1f19197402c4a562b45cc147"
+    },
+    {
+      "stage": "withdraw_owner",
+      "elapsed_seconds": 269.903,
+      "screenshot": "13-withdraw_owner.png",
+      "sha256": "a2767b23a2b584e3ea9fb4c41ffb23a8c9f62e491069a90021a341859c053a9a"
+    },
+    {
+      "stage": "company-result-linked",
+      "elapsed_seconds": 275.322,
+      "screenshot": "14-company-result-linked.png",
+      "sha256": "4c1e59e3518e8dbe03695ffa61108b63ba8dc4e7b5e3f1341ddfc3a4a84c71f6"
+    }
+  ],
+  "scope": "Actual UI with generated local roles, not human hiring or Nightly; no automatic retries",
+  "continuous_recording": false
+}

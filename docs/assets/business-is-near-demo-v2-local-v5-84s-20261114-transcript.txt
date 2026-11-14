@@ -1,0 +1,15 @@
+An idea should lead to work you can review.
+
+Business is NEAR is building a business operating system: set a goal, delegate approved work to AI, and bring in a person when human judgment is needed.
+
+The owner sets permissions and budgets. Authority, task state, encrypted records and settlement live on NEAR. AI inference runs off chain.
+
+Here is the recorded Nightly testnet journey. Harbor Studio is fictional. The owner enters its facts, reviews company creation, and approves a bounded task. Local Gemma stands in for the NEAR AI API.
+
+The original result is encrypted and recoverable with a separate recovery file. This is the already-opened draft. A revision is prepared, but no revised result or publication is claimed.
+
+Next, a separate local prototype demonstrates native human-work settlement. These stills come from an actual sandbox run with seeded roles. The flow covers a readable brief, a bid, owner approval, encrypted delivery and acceptance. The original reviewer received zero point one local NEAR. Zero point three returned to the owner. This was not a real human hire.
+
+Connecting these pieces into a durable, recurring public business loop is still unfinished. So are production wallet recovery and live NEAR AI Cloud.
+
+The vision: your idea, accountable work, and authority on NEAR.

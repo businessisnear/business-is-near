@@ -1,0 +1,168 @@
+{
+  "schema": "bin-repaired-local-public-subset-v1",
+  "files": {
+    "docs/evidence/company-loop-v5-repaired/public-trial3/DRIVER-RESULT.json": {
+      "bytes": 3104,
+      "sha256": "5e38fcccb90ca9518117b71aff7eeb399813d6702c033394a497b2515d681537"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/EXACT-NATIVE-pay.json": {
+      "bytes": 1732,
+      "sha256": "2c55a8f198b2773bf049f2f8d6d637116a82806a776a341eafa04ceb25158b70"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/EXACT-NATIVE-refund.json": {
+      "bytes": 1732,
+      "sha256": "18ddddf9438197ef0cf1e5ee248792b8c88f40f336bd1d0693836fb84f52d103"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/FINAL-PUBLIC-UI-STATE.json": {
+      "bytes": 28879,
+      "sha256": "d54c6e1380f7eda943af75ee81bd8038d862058e49c91a00390d4cd5b19eeab5"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/INITIAL-HARNESS-RESULT.json": {
+      "bytes": 668,
+      "sha256": "055886d554c82b27e8ddc5c097b5a29afa1d853cf53ebcf3d5d20d45cb51e65c"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/MODEL-PLAN-UI.json": {
+      "bytes": 8746,
+      "sha256": "99c7e27f0ff5100031bb7e5c30174ab6049cd6dfe982e5c056bbf663dc7a00a2"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/OPENED-CORRECTED-UI.json": {
+      "bytes": 264,
+      "sha256": "985988c46d06ac6c586863f1616f1227151faf0f05e1d7e60e7fd6175ff6ff19"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/ORIGINAL-accept-FINAL.json": {
+      "bytes": 11496,
+      "sha256": "c6de27252bf3e4613c2b9bca6339ffd00b3d45a065114f534d20907906971c3e"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/ORIGINAL-award-FINAL.json": {
+      "bytes": 11329,
+      "sha256": "0a90f1a79656aa4c3dedd6fb6cbf160ea3ebfefbc5b57a58f3dc02af7c58d007"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/ORIGINAL-bid-FINAL.json": {
+      "bytes": 8356,
+      "sha256": "1dfeca4cb4296298775ea6cd6bdc98396ccb924ff99ef55a1d197d056c1fda9a"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/ORIGINAL-claim-FINAL.json": {
+      "bytes": 10543,
+      "sha256": "8ca39ea7a8f272cefc447473f5d40ca8531389194b3e6174b5e47afca4ff9afb"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/ORIGINAL-close-FINAL.json": {
+      "bytes": 18293,
+      "sha256": "89d7e5819cd235ff510cec28ec760549a8a26f03ebd0cf072e1f9af3c76572d2"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/ORIGINAL-create-FINAL.json": {
+      "bytes": 22571,
+      "sha256": "1d5a11021e5d9b4de27c79cd851c4095fb48e9a06e43f159da8d669f5623f831"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/ORIGINAL-deliver-FINAL.json": {
+      "bytes": 30774,
+      "sha256": "afdb6042ee74d32f147dfb4cbcf14f336940efeafa23e2b5b7141e8e546c259d"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/ORIGINAL-pay-FINAL.json": {
+      "bytes": 16287,
+      "sha256": "c98b261f7647e96ad6ce0d64f5ac87b2d1672293fe0281f4f596c3ea31a79532"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/ORIGINAL-post-FINAL.json": {
+      "bytes": 8996,
+      "sha256": "60b0d3a0c23bbe1993e3ddb4aee7a5b52e7c31999f2d69d07821fa119b86ae2b"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/ORIGINAL-refund-FINAL.json": {
+      "bytes": 16203,
+      "sha256": "8395b254d97a1c0249a9b4c75e578fa31bd2ff4f41f4fd46a154a530114169c4"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/ORIGINAL-share-FINAL.json": {
+      "bytes": 14532,
+      "sha256": "680eeb1a28b87745a9b19c7ddd917c4f3287f89d949545682e717199f2b976a1"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/OWNER-TRANSFER.json": {
+      "bytes": 3603,
+      "sha256": "497f3bcffa0e764401dd8843c232ec31e2a048a1efd4d2f2856e1c49bb00f0e9"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/PROTOCOL-CONFIG.json": {
+      "bytes": 11964,
+      "sha256": "b2d72b3504160245ebd0fa0ed1ed4839a59100dc00be912b2ef1e41d2af4c33b"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/PROVIDER-TRANSFER.json": {
+      "bytes": 3765,
+      "sha256": "64acd2c45b0ad65b9922b8513c5968390b7a396dbb1cc2a232fab74033c9722d"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/PUBLIC-EXPORT.json": {
+      "bytes": 4728,
+      "sha256": "1c0147cc4d78e4a71109d9bf975bf6db1ad2d878209a1e2b81a4737f1ed71381"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/REGISTRY-ACCOUNT.json": {
+      "bytes": 354,
+      "sha256": "77a7b7ba6d0aa0d59ed0e3b6ecfc1b73fdea13a2e2c342f14462f9a185186af5"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/REGISTRY-KEYS.json": {
+      "bytes": 188,
+      "sha256": "bc2c7f105faf2daa670bd3448aab30a863e80320255b038a5f8c4f28c10c1d86"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/SAME-FINAL-BLOCK.json": {
+      "bytes": 3347,
+      "sha256": "db0b9e2a1bb1f8d652a437238342eace2261d453a2f399e5b0e2a924a46bf0f3"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/STATUS.json": {
+      "bytes": 1419,
+      "sha256": "94cb1b631a6ecd92249c05807003248055bdde4afc44e415b10b4c67312e16c1"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/TRIAL-3-AFTER-WAIT.json": {
+      "bytes": 9312,
+      "sha256": "39ad50f201e62984e1f0698aa87b7058d20322d77c6104225d106c2052462bd6"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/TRIAL-3-SOURCE-ROWS-UNCHANGED.json": {
+      "bytes": 277,
+      "sha256": "3dd37679b6fdbcf100c7504e5e5555ebbdad9488989c7e65963ffca55956514b"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/VIEW-assignment.json": {
+      "bytes": 24532,
+      "sha256": "f4d7a59ed09b483adc12f2be7b28fb712b6f001f7576e6aaa8cea3d7e4489662"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/VIEW-delivery_record.json": {
+      "bytes": 79036,
+      "sha256": "68311c45fdf2345e35291b4bb0393585ebf5a96c0bbfa54a090c9cf83ec91c29"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/VIEW-job.json": {
+      "bytes": 20858,
+      "sha256": "53c2dae8d7f6c2d8174816c39c9a546433d3341c98e619981a68e7a4a7a67558"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/VIEW-list_jobs.json": {
+      "bytes": 21412,
+      "sha256": "6750bfdf1739a76ddba7cc76d69121b7b82893d934803338d3c597505ec90fb9"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/VIEW-list_mandates.json": {
+      "bytes": 58917,
+      "sha256": "d40cf2257bba85525ee4c4b7cc853afdde33b9af80d6a3e1fbcda6d3d80a125e"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/VIEW-mandate.json": {
+      "bytes": 58230,
+      "sha256": "8a187abc899fa3ce9a2a80acf51f76d9fc457b4e7a8cf3af769fdcc682820119"
+    },
+    "docs/evidence/company-loop-v5-repaired/public-trial3/VIEW-registry_state.json": {
+      "bytes": 17363,
+      "sha256": "1a59c45828a74de25bd89b16357b9c62fd859784172ea66169ae482f7defffc5"
+    },
+    "docs/evidence/company-loop-v5-repaired/qualification/REPORT.md": {
+      "bytes": 4571,
+      "sha256": "334a5b27058828b01a5f89000643b2f58ad010b39d01a64803244edcd16fc840"
+    },
+    "docs/evidence/company-loop-v5-repaired/qualification/SOURCE60-MANIFEST.json": {
+      "bytes": 12251,
+      "sha256": "fab51cf3491a57f29da5309dd1954b2b251285d4ba6c91788da18555ee47d3b8"
+    },
+    "docs/evidence/company-loop-v5-repaired/qualification/SUMMARY.json": {
+      "bytes": 4480,
+      "sha256": "6223c0c35904d928cc861464832bb67becf7e9d5eb050bd2a056bb2ed692cbc1"
+    },
+    "docs/evidence/company-loop-v5-repaired/qualification/TRIAL3-OFFLINE-JOIN.json": {
+      "bytes": 5395,
+      "sha256": "b7a562325afdc17d4f3d50cfba87e634eee1c68638841ff3969a6b1f22273db2"
+    },
+    "docs/evidence/company-loop-v5-repaired/verification.json": {
+      "bytes": 3921,
+      "sha256": "d97b2848fca3106193e8cb539db48d2338a10e02071f916deba690dad5a3a41f"
+    }
+  },
+  "manifest_excludes_itself": true,
+  "qualified103_allowlist_sha256": "652566be83c4b577c02a0eefc4e27a96434029788e2c645b20b45bc3e7c5cd31",
+  "no_private_runtime_or_duplicate_source_copied": true
+}

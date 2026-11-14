@@ -1,0 +1,11 @@
+{
+  "name": "business-is-near-local-company-controller",
+  "private": true,
+  "type": "module",
+  "license": "UNLICENSED",
+  "scripts": {
+    "test": "node --test prebirth-repair.test.mjs company-loop.test.mjs duration.test.mjs ../local-app-v2/maintenance-and-input.test.mjs ../local-app-v2/availability-regressions.test.mjs",
+    "test:proxy": "node --test model-proxy.test.mjs",
+    "verify": "node ../../../../scripts/verify_owner_tools_source.mjs"
+  }
+}

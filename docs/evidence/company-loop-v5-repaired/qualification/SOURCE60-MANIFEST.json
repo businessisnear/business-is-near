@@ -1,0 +1,307 @@
+{
+  "profile": "bin-v5-prebirth-controller-source-v3",
+  "scope": "New minimal future-only LOCAL source composition; current58 and qualified trial remain immutable. Historical old40-module inventory is retained verbatim, not active acceptance.",
+  "runtime_material_included": false,
+  "files": [
+    {
+      "path": "THIRD-PARTY-NOTICES.md",
+      "bytes": 311316,
+      "sha256": "268e76e4cf954b69d275cf02e7960b20f4ad0d6b716b8649bfdf37c13f1f09a6"
+    },
+    {
+      "path": "contract/package-lock.json",
+      "bytes": 171716,
+      "sha256": "4ca72f86d07f485e25f82ec7667da5d0f3a1f28e80ce33db334581f56d1c4135"
+    },
+    {
+      "path": "contract/package.json",
+      "bytes": 1048,
+      "sha256": "ae5058b4810e04ca66abcbf74ced37dbb783245e65ec2ad3e49be59752b3746d"
+    },
+    {
+      "path": "contract/persistent/sandbox.mjs",
+      "bytes": 8092,
+      "sha256": "fc4b0db830ff4f7b607efdc154a389822c3fe9a1110729df86c8e3536973b516"
+    },
+    {
+      "path": "executor/outcome.mjs",
+      "bytes": 4873,
+      "sha256": "e567f612ace84620386a61cba8036f894ce9d58074043cb121a542a6763b04cd"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/.gitignore",
+      "bytes": 232,
+      "sha256": "0d49a04423b1ab1daa7a90eec8f23b339b7c7fe06b23fff8254623433385e0b0"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/MODULE-SOURCE-MANIFEST.json",
+      "bytes": 7363,
+      "sha256": "46e1630c49ef0df8b0cf0459f9e235c954356738e961cef621d803d014bad0c1"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/README.md",
+      "bytes": 6493,
+      "sha256": "6ec1a7fc9a77d80720a4be95080754f57f119ad9f092d8eee05deb233819568a"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/delivery-envelope.mjs",
+      "bytes": 13165,
+      "sha256": "c7bc80c4752e9d51b8772b20bd628243634f3745502fec031f70edeaa611134e"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/delivery-envelope.test.mjs",
+      "bytes": 13914,
+      "sha256": "010ff6aafd50cfed81506f9fd25fc0f6faed2b29b8a3cf2a63ab353b266f1da1"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/financial-fork/assignment-client.mjs",
+      "bytes": 5696,
+      "sha256": "31e0bdfdbf584252d60829609ada13b82fe20e6001a66ab0eff05d55c4ff57b2"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/financial-fork/assignment-client.test.mjs",
+      "bytes": 4244,
+      "sha256": "339113a9dee3beac637949bac74f15a5d244093e47df55760585f3f71d3890e3"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/financial-fork/build.mjs",
+      "bytes": 1594,
+      "sha256": "39ee15cce8e4dc4fa2a99abdccb0bc30b011d7265c19346df8de206ad5537cc1"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/financial-fork/build/shared_procurement_v4.js",
+      "bytes": 167656,
+      "sha256": "ae277c28cfb179d30308f0dc92ae0a3fb67fc5195de802c80cf3151ea1127ed7"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/financial-fork/build/shared_procurement_v4.wasm",
+      "bytes": 595178,
+      "sha256": "bf13e856506ebfd3e2a532d79e9a3a657436ca299ae34e64654465b00633091d"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/financial-fork/fixtures/quote-input.json",
+      "bytes": 14372,
+      "sha256": "e982b6189e731dbe9fcf79e7c991af33ff51b126d64d8adc10f519f392345475"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/financial-fork/package.json",
+      "bytes": 507,
+      "sha256": "147e58f064703f924cc084b9d426af332a6ac76d916a340c267c68b253bf5a12"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/financial-fork/protocol-readable-work-v4.mjs",
+      "bytes": 12670,
+      "sha256": "9e01342940eb63f78aeef4d2f0b28d0d9d71631e6167995ec5b61c5554959c5f"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/financial-fork/sdk-v4.test.mjs",
+      "bytes": 2364,
+      "sha256": "c236b49da54d5e6fe125a8461151275916ed7aadee78019024be6862c40a4bf7"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/financial-fork/shared_procurement_v4.ts",
+      "bytes": 34819,
+      "sha256": "c109b51cceb47fd1c628041bcf8f6df667d9e55816b51db97116764d1dd5941d"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/financial-fork/transport.ts",
+      "bytes": 9306,
+      "sha256": "5eb6a28411d4574f4a300ad16c3d0434b22b7a4df5f3740d82164be4b83f5818"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/financial-fork/typecheck.mjs",
+      "bytes": 814,
+      "sha256": "163224333b1f41f173d73dc853b87e6d0f25a1fc36eef5e9b7f0374278c14bd7"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/financial-fork/v4-financial.test.mjs",
+      "bytes": 10627,
+      "sha256": "92088be5a5af16fb9cddf1070a6237033692f9c9e4a1d59b2c902cc5c8cceed5"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/financial-fork/v4-host.mjs",
+      "bytes": 12608,
+      "sha256": "173436533c1b11e5ef2893c6321679c8bdcfb8f37c871e66e2f4b7cc13470400"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/financial-fork/v4-id.mjs",
+      "bytes": 903,
+      "sha256": "6ca0bbf79a49c3ac40e2a7b876f103839185966c9d854d01852d60f86ff01dc7"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/financial-fork/v4-local-fixture.mjs",
+      "bytes": 11172,
+      "sha256": "4b7b57e79037fe47f78a5033e9092587677e62b29a0a502c05653825b7c2f68c"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/financial-fork/v4-quote.mjs",
+      "bytes": 25344,
+      "sha256": "56f87f742a7f9e60b54371e2321a11c81514a30f27b4f2dccaca502c6be71224"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/financial-fork/v4-quote.test.mjs",
+      "bytes": 6998,
+      "sha256": "ec700ff7bcd88f01da7e3ede12cf56a2ec0d38a89967c5928a0208a5168a7583"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/financial-fork/v4-real-crypto.test.mjs",
+      "bytes": 16893,
+      "sha256": "929f2d2b3adf16cf111066faf363d60d0c452d654bf3d2833ed54c0f7670de7e"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v2/app.css",
+      "bytes": 10465,
+      "sha256": "6071def4a5c705f6f104727600520503db857efae50cb4fb19030fa30c8cb249"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v2/app.mjs",
+      "bytes": 22404,
+      "sha256": "143261b2e41a84bbe79a7a7f3a5786602b0889d314a5b44f3e84295ce4716d9e"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v2/availability-regressions.test.mjs",
+      "bytes": 6720,
+      "sha256": "28ef19844b691c240ce8de889e9ace9247dc703bd21c386209c0cb4bfd88c9ea"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v2/fixtures/final-public-state.json",
+      "bytes": 18372,
+      "sha256": "a95e6c33ef05004ea5944685d39d9c87f798cddb5d56d6e20c20faa16b297d42"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v2/index.html",
+      "bytes": 5111,
+      "sha256": "7645bcd48b7de327d608514c998371f63c52d7bbb1ecc8919539124187256f2c"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v2/maintenance-and-input.test.mjs",
+      "bytes": 10757,
+      "sha256": "e1ab137f3dd9dc91276de6bce23efb3ae428a4a61aea8527d2767d717cf8e5e0"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v2/maintenance.mjs",
+      "bytes": 1837,
+      "sha256": "1a23e01b8d5486ef9826d25f77912422ae6407b1471225327e92e526cc85de04"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v2/once-dispatcher.mjs",
+      "bytes": 21715,
+      "sha256": "6f49306c0177caa89b98a7f5aca1f51449bb23e09e2386bcd24b366b498d2d79"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v2/once-dispatcher.test.mjs",
+      "bytes": 14949,
+      "sha256": "f44d422ed568db46c10ba5bad9b7024c0fdb3ed1f0fff4817ab5e7c94b19e678"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v2/pending-review.mjs",
+      "bytes": 3536,
+      "sha256": "ef0e7f6706c7ab3e6811a17d322152799f44fae1a294e8e82af096ff55665763"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v2/policy-preparation.mjs",
+      "bytes": 2146,
+      "sha256": "f20cbee191511d20d5a1a86879546e25985b406dbce3434b86c628d0394c837c"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v2/prebirth-ownership.mjs",
+      "bytes": 3817,
+      "sha256": "d4f467c9efb6eb93570fb5a3cfb3ec80800ce45f2b801171f407c3608960add0"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v2/public-action-input.mjs",
+      "bytes": 1477,
+      "sha256": "221a3a83eeaa479716ab44c3c4f4f28e01560c88891adde063ae14b528189fd4"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v2/read-invariants.mjs",
+      "bytes": 6562,
+      "sha256": "d0373a6c3c5b25048dc4d3f6ab2fee8a4cbd7ece6392d519cc8df9c9c20d79df"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v2/read-model.mjs",
+      "bytes": 4313,
+      "sha256": "a940644a19606d2256be324820f3b7bf7b35e6401aba1d30e6ae73f4586b2b2c"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v2/server.mjs",
+      "bytes": 23771,
+      "sha256": "20feb7d912b0b06056f928b2cf2c4d72317c0f2bb4ed4ba89cb6d9b1b4c0ea4f"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v5/app.css",
+      "bytes": 10465,
+      "sha256": "6071def4a5c705f6f104727600520503db857efae50cb4fb19030fa30c8cb249"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v5/app.mjs",
+      "bytes": 27596,
+      "sha256": "bb365f694bbc495d7a965f6dc98796b50c47cfae22884a1212eb6649759bac95"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v5/approval-flight.mjs",
+      "bytes": 601,
+      "sha256": "9bb828bd0bc58546f1c89153108ec0cdd4e9ea7afb4a1e2270ea499485b38f44"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v5/company-api.mjs",
+      "bytes": 739,
+      "sha256": "d2b441d879596bbc32cdbe46f509384ba20a825f3c3e5f58492fbee478aa1c10"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v5/company-loop.mjs",
+      "bytes": 13240,
+      "sha256": "78db3fb94a15be2e8047beb1f947c47054c04b415ed6cae138c2a9130f5c27a6"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v5/company-loop.test.mjs",
+      "bytes": 12844,
+      "sha256": "c947a16017ffbd58b22c407a735e7a032b4e469787e2315bbbc0927501a7f7ad"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v5/duration.mjs",
+      "bytes": 399,
+      "sha256": "a6c6180281e1f9699866562ccf5bbc521b935d0964b1db3981033cb97c4958d2"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v5/duration.test.mjs",
+      "bytes": 878,
+      "sha256": "b9b08b93d8799468f5b09b3810d209e79b8d7609b5f7d2e495358995d886e299"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v5/index.html",
+      "bytes": 5605,
+      "sha256": "dfa2a0cd69d2f5e0b4a9828695491d64db619eb416f5b4cfc3c84cc663db7b31"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v5/planner-transport.mjs",
+      "bytes": 2326,
+      "sha256": "c4af69a41d0d178f68031ea7d17716c19d2c6ec055412e2ad9262ab405b900df"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/local-app-v5/server.mjs",
+      "bytes": 25228,
+      "sha256": "a86cd0cf0cdd18319a7328fa518385885a90cfbb4cb4e958725521d96fdfe1a1"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/setup-local-dependencies.mjs",
+      "bytes": 1608,
+      "sha256": "61eef16e13ea8f65e71f01f6543ee97ee7e6ad43f9a0344a3e7776989d139394"
+    },
+    {
+      "path": "labs/procurement/candidate-v4-delivery/verify-source.mjs",
+      "bytes": 3197,
+      "sha256": "28e70fb088da354ce23778b06b895fd9507afba076b5c3c61c0795f808d3b2eb"
+    },
+    {
+      "path": "web-chain/package.json",
+      "bytes": 1026,
+      "sha256": "f712b702cb12430cb799fa52296a9fe591c0efd1b2db1c2b5343f1a7c0ff76eb"
+    },
+    {
+      "path": "web-chain/src/crypto.js",
+      "bytes": 3734,
+      "sha256": "2259ef8ce67de2f4c7200bc5b0fa21cb051185e9ebb10b79799af67ca0a8c48e"
+    }
+  ]
+}

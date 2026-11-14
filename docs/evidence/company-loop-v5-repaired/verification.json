@@ -1,0 +1,79 @@
+{
+  "schema": "bin-qualified-repaired-local-cycle-v1",
+  "prepared_utc": "2026-11-14T19:10:47.602113+00:00",
+  "scope": "Fresh repaired60-source single-company local positive path; not live fault-injection coverage or production/public Nightly.",
+  "qualified_source60_sha256": "fab51cf3491a57f29da5309dd1954b2b251285d4ba6c91788da18555ee47d3b8",
+  "repair_v3_freeze_sha256": "222015330be86bb436b6659e03fe4d29245f07df22516b71b3173e180460dc84",
+  "qualification_report_sha256": "334a5b27058828b01a5f89000643b2f58ad010b39d01a64803244edcd16fc840",
+  "public_export_manifest_sha256": "1c0147cc4d78e4a71109d9bf975bf6db1ad2d878209a1e2b81a4737f1ed71381",
+  "independent_join_sha256": "b7a562325afdc17d4f3d50cfba87e634eee1c68638841ff3969a6b1f22273db2",
+  "original_FINALs": 11,
+  "receipt_outcomes": 30,
+  "native_principal_actions": 2,
+  "principal_LOCAL": {
+    "funded": "0.4",
+    "provider_paid": "0.1",
+    "original_owner_returned": "0.3",
+    "remaining": "0"
+  },
+  "separate_storage_LOCAL": "1.06496",
+  "separate_fees_LOCAL": "0.0486470794176171",
+  "FINAL": {
+    "height": 1298,
+    "hash": "2R2yTLdoaG1J81rkbgitcD8G9xm5Kp42sxFo7GVUrDRY"
+  },
+  "first_link_anchor": {
+    "hash": "7taNRGwf7EnMBXtb9tFhvuU2QyTFGeaTUetr5fvbfqYr",
+    "height": 1052,
+    "observed_at": "1794681727"
+  },
+  "model_in_this_trial": {
+    "backend": "local_gemma_api_contract",
+    "model_contract": "gemma4:e2b-it-q4_K_M",
+    "attempted_calls": 1,
+    "completed_calls": 1,
+    "actual_model_calls": 1,
+    "original_call_unknown": false,
+    "cloud_verified": false,
+    "max_calls": 1,
+    "max_tokens": 512
+  },
+  "model_or_Cloud_attestation": false,
+  "initial_harness": {
+    "complete": false,
+    "failure": "UI wait timed out after25000ms before plan display was observed",
+    "initial_stills": 1,
+    "after_wait_model_completed": 1,
+    "after_wait_approved": null,
+    "after_wait_app_requests": 0,
+    "same_plan_pins_in_continuation": true,
+    "new_model_or_transaction_retry_in_continuation": false
+  },
+  "continuation": {
+    "complete": true,
+    "steps_and_stills": 14,
+    "no_continuous_recording": true
+  },
+  "browser_opening_basis": "Captured original owner+worker opening UI joined to exact stored encrypted packet/context/content commitment; no private-key access or independent re-decryption.",
+  "actual_trial_exercises": "Positive path through repaired controller, not live fault injection of every repair branch. Adversarial repair checks remain separate pure/fake-port evidence.",
+  "current_test_profile": {
+    "repair": 30,
+    "company_duration": 28,
+    "affected_base_guards": 25,
+    "total": 83,
+    "different_from_historical83": true,
+    "proxy_tests_separate": 7
+  },
+  "independent_repair_probes": 12,
+  "limits": [
+    "Synthetic new local owner/operator/provider, one job/one cycle, same-live-process company/RSA state.",
+    "Owned prebirth positive reset remains live-commit-only; failed or restarted uncertainty and signed originals stay UNKNOWN/no auto-reset/resign/rebroadcast.",
+    "P3 reviewer input prefill and hidden countdown remain unchanged source-based UX concerns.",
+    "No public production/Nightly, mainnet, actual human hire/customer/revenue, NEAR AI Cloud/TEE, full parity or ten successful complete runs proved.",
+    "A saved owned local RPC export supports offline consistency, not an independently trusted public network/attestation.",
+    "Public repository transition/Nightly human gates and submission/video publication remain outside this review."
+  ],
+  "old_proofs": "Prior trial2/source58 and strictUTF8 packet remain unchanged historical generations. No prior proof is promoted to repaired-source acceptance.",
+  "cleanup": "Root separately reports owned app/model/page cleanup; reviewer financial summary does not itself attest process cleanup.",
+  "separate_Root_cleanup_receipt_sha256": "0ac8465915dd5df6bbbb04d09c9ae7538611eb92462fd22bd8a2df9ed72d32c4"
+}

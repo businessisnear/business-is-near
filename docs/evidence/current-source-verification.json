@@ -1,14 +1,15 @@
 {
   "schema": "business-is-near-current-source-checks-v1",
-  "prepared_utc": "2026-11-14T13:55:11.580050+00:00",
-  "scope": "New clean source package and static frontend build. This is a new summary, not an edited historical receipt or a full autonomous-business acceptance.",
+  "prepared_utc": "2026-11-14T19:32:04.299039+00:00",
+  "scope": "Current source composition with separately qualified repaired local V5 positive path; old proofs/test profiles remain generation-specific.",
   "current_source": {
     "manifest": "source/OWNER-TOOLS-SOURCE.json",
-    "bytes": 70776,
-    "sha256": "a67b663899add8e72a662d8dca0f04a135d48eda17d6cfd24bcc771d5467a3d9",
-    "files": 417,
-    "relative_imports_verified": 482,
-    "vite_input_declarations_verified": 27
+    "bytes": 74213,
+    "sha256": "33da27d3d6c1a05ebdb94d33b136ef72d6823c20eaaf2fc220c7fed7369c4c59",
+    "files": 434,
+    "relative_imports_verified": 514,
+    "vite_input_declarations_verified": 27,
+    "verification_basis": "Official unchanged owner-source verifier executed on assembled release:434 exact source rows,514 local imports,27 Vite entry declarations; output log pinned below."
   },
   "local_module": {
     "path": "source/labs/procurement/candidate-v4-delivery",
@@ -24,9 +25,51 @@
     "compiled_js": {
       "bytes": 167656,
       "sha256": "ae277c28cfb179d30308f0dc92ae0a3fb67fc5195de802c80cf3151ea1127ed7"
-    }
+    },
+    "scope": "Historical 40-row module inventory and unchanged financial build pins; not current repaired controller coverage"
   },
-  "fresh_offline_checks": {
+  "separate_repaired_controller_qualification": {
+    "offline_tests": 43,
+    "independent_focused_probes": 16,
+    "narrow_review": "CLEAN after isolated read-invariant/availability repairs",
+    "browser_smoke": "Initial page, nonfinancial key preparation, open transaction review and Go Back; zero application requests/signatures. Separate operator observation, not a full cycle.",
+    "browser_smoke_report": "docs/evidence/local-initial-smoke/SMOKE-REPORT.json",
+    "browser_smoke_report_sha256": "e292347b1b1778161c1e911cd13fb218fb7aba3d78cdf70c564a94088fc127df",
+    "full_current_controller_browser_cycle_verified": false,
+    "nightly_signing_verified": false,
+    "scope": "Earlier V2-only offline repair/initial browser smoke; not the current V5 cycle qualification"
+  },
+  "historical_proof_boundaries": [
+    "Earlier one-slot and two-record local protocol evidence uses the same financial WASM; neither is a fresh execution of this source package.",
+    "An older browser generation completed eleven original FINAL transactions and two native transfers; it does not establish the repaired current controller full cycle.",
+    "The preserved 103-second local video/transcript describe an earlier release, including synthetic Cloud fixtures and held frames.",
+    "The broader 44-area catalogue is historical. Exactly two immutable original component reports are included as bounded test fixtures; the complete historical corpus is absent.",
+    "Metadata cleanup changes source hashes. Historical source commitments and checks remain attached to their original runs and are not promoted to current-source acceptance."
+  ],
+  "notices": {
+    "original_project_license": "All rights reserved; no project-wide license grant",
+    "upstream_body_bytes_and_line_endings_preserved": true,
+    "upstream_body_sha256": "52381062c6fb9004f25d14799a663ff7ff0e666b2b89a165e3a9d03cdc4f54e6",
+    "nightly_addendum": "docs/NIGHTLY-NOTICES-ADDENDUM.md"
+  },
+  "download": {
+    "path": "docs/downloads/business-is-near-reproducible-source.zip",
+    "inventory": "SOURCE-DOWNLOAD-MANIFEST.json inside the archive",
+    "hash_binding": "PUBLICATION-MANIFEST.json binds the completed download; no circular self-hash claim",
+    "nested_archives": false,
+    "installed_dependencies_or_runtime_configuration_included": false
+  },
+  "unverified": [
+    "Real human hiring or a public marketplace",
+    "Maximum 8 by 8 capacity",
+    "Real Nightly full-cycle approval and production recovery",
+    "Live NEAR AI Cloud billing or hosted TEE execution",
+    "Mainnet or continuously hosted service",
+    "Commercial demand and human usability validation",
+    "Recurring/general production company loop; V5 establishes only one bounded isolated local task"
+  ],
+  "publication": "Local preparation does not establish a public deployment or decide the public history transition.",
+  "inherited_offline_checks_from_clean_generation": {
     "local_module": {
       "passed": 83,
       "failed": 0,
@@ -69,44 +112,91 @@
     "near_nodes_started": 0,
     "application_transactions": 0
   },
-  "separate_repaired_controller_qualification": {
-    "offline_tests": 43,
-    "independent_focused_probes": 16,
-    "narrow_review": "CLEAN after isolated read-invariant/availability repairs",
-    "browser_smoke": "Initial page, nonfinancial key preparation, open transaction review and Go Back; zero application requests/signatures. Separate operator observation, not a full cycle.",
-    "browser_smoke_report": "docs/evidence/local-initial-smoke/SMOKE-REPORT.json",
-    "browser_smoke_report_sha256": "e292347b1b1778161c1e911cd13fb218fb7aba3d78cdf70c564a94088fc127df",
-    "full_current_controller_browser_cycle_verified": false,
-    "nightly_signing_verified": false
+  "fresh_focused_v5_checks": {
+    "company_duration_passed": 28,
+    "portable_proxy_mock_tests_passed": 7,
+    "failed": 0,
+    "qualification_source_manifest_sha256": "53680d9938a4d457f3bda7a7a51131d4b5bb1720222bbd905470028375c071ef",
+    "unchanged_inherited83_not_rerun_by_qualifier": true,
+    "portable_proxy_not_part_of_recorded_model_run": true,
+    "scope": "Prior source58 and strictUTF8 helper qualification; current repaired controller profile is below"
   },
-  "historical_proof_boundaries": [
-    "Earlier one-slot and two-record local protocol evidence uses the same financial WASM; neither is a fresh execution of this source package.",
-    "An older browser generation completed eleven original FINAL transactions and two native transfers; it does not establish the repaired current controller full cycle.",
-    "The preserved 103-second local video/transcript describe an earlier release, including synthetic Cloud fixtures and held frames.",
-    "The broader 44-area catalogue is historical. Exactly two immutable original component reports are included as bounded test fixtures; the complete historical corpus is absent.",
-    "Metadata cleanup changes source hashes. Historical source commitments and checks remain attached to their original runs and are not promoted to current-source acceptance."
-  ],
-  "notices": {
-    "original_project_license": "All rights reserved; no project-wide license grant",
-    "upstream_body_bytes_and_line_endings_preserved": true,
-    "upstream_body_sha256": "52381062c6fb9004f25d14799a663ff7ff0e666b2b89a165e3a9d03cdc4f54e6",
-    "nightly_addendum": "docs/NIGHTLY-NOTICES-ADDENDUM.md"
+  "prior_V5_trial2_generation": {
+    "source_guide": "source/labs/procurement/candidate-v4-delivery/local-app-v5/README.md",
+    "proof": "docs/evidence/company-loop-v5/verification.json",
+    "public_proof_manifest_sha256": "d84ffb19b56b8a22373ed7769d75724f3ad085c3e15888305d78a6af1216ce1d",
+    "qualified": "One fresh isolated local company task, one actual local Gemma response,11originalFINALs,two exact native principal actions,company result linked",
+    "known_recovery_P2": "Some prebirth errors can wedge the local inspection cache, and stale/multiple prepared approvals need stronger serialization. No unauthorized-spend path was identified in the scoped review.",
+    "claimed_repaired": false,
+    "unverified": [
+      "Actual human hire",
+      "Recurrence",
+      "Public Nightly full company workflow",
+      "Cloud/TEE/mainnet",
+      "Production recovery"
+    ],
+    "current_code_acceptance": false
   },
-  "download": {
-    "path": "docs/downloads/business-is-near-reproducible-source.zip",
-    "inventory": "SOURCE-DOWNLOAD-MANIFEST.json inside the archive",
-    "hash_binding": "PUBLICATION-MANIFEST.json binds the completed download; no circular self-hash claim",
-    "nested_archives": false,
-    "installed_dependencies_or_runtime_configuration_included": false
+  "company_loop_v5": {
+    "source_guide": "source/labs/procurement/candidate-v4-delivery/local-app-v5/README.md",
+    "proof": "docs/evidence/company-loop-v5-repaired/verification.json",
+    "qualified_controller60_sha256": "fab51cf3491a57f29da5309dd1954b2b251285d4ba6c91788da18555ee47d3b8",
+    "qualified": "One repaired local positive-path cycle, one observed local Gemma response,11FINAL,two principal actions; not live fault-injection or production proof",
+    "current_profile_tests": {
+      "repair": 30,
+      "company_duration": 28,
+      "affected_base_guards": 25,
+      "total": 83,
+      "different_from_historical83": true,
+      "proxy_tests_separate": 7
+    },
+    "specific_prebirth_and_ACK_P2": "Separate v3 source/fake-port repair qualified; ambiguous/restarted/signed states stay UNKNOWN, not a general recovery solution",
+    "limits": [
+      "Synthetic new local owner/operator/provider, one job/one cycle, same-live-process company/RSA state.",
+      "Owned prebirth positive reset remains live-commit-only; failed or restarted uncertainty and signed originals stay UNKNOWN/no auto-reset/resign/rebroadcast.",
+      "P3 reviewer input prefill and hidden countdown remain unchanged source-based UX concerns.",
+      "No public production/Nightly, mainnet, actual human hire/customer/revenue, NEAR AI Cloud/TEE, full parity or ten successful complete runs proved.",
+      "A saved owned local RPC export supports offline consistency, not an independently trusted public network/attestation.",
+      "Public repository transition/Nightly human gates and submission/video publication remain outside this review."
+    ]
   },
-  "unverified": [
-    "Real human hiring or a public marketplace",
-    "Integrated planner/recurring operations/procurement loop",
-    "Maximum 8 by 8 capacity",
-    "Real Nightly full-cycle approval and production recovery",
-    "Live NEAR AI Cloud billing or hosted TEE execution",
-    "Mainnet or continuously hosted service",
-    "Commercial demand and human usability validation"
-  ],
-  "publication": "Local preparation does not establish a public deployment or decide the public history transition."
+  "historical40_old83_current_claimed": false,
+  "current_verification_route": {
+    "command": "node source/scripts/verify_owner_tools_source.mjs",
+    "authoritative": "Current OWNER-TOOLS-SOURCE exact-byte/shared-import closure",
+    "current_source_files": 434,
+    "current_module_files_in_owner_closure": 58,
+    "local_imports": 514,
+    "current_company_tests": {
+      "repair": 30,
+      "company_duration": 28,
+      "affected_guards": 25,
+      "total": 83,
+      "different_from_historical83": true,
+      "proxy7_separate": true
+    },
+    "observed_assembled_release_logs": {
+      "09-current83.log": {
+        "bytes": 20870,
+        "sha256": "e2930e402dd8c39c9c4f8eafc30d3fc3923268b4663c91635f1893f3376a7c4c"
+      },
+      "10-proxy7.log": {
+        "bytes": 1795,
+        "sha256": "6eead006f5a9b3c5229e384630b63e4cd68e18d70492a238cc9dffcaed5de077"
+      },
+      "08-owner-verifier.log": {
+        "bytes": 187,
+        "sha256": "fc6ef8319563e6caf0db0fb52a2828631882087b13d77886c648bb4835057f13"
+      }
+    },
+    "logs_basis": "Root ran the assembled bytes; packager read and hashed terminal results. No checks were rerun by packager.",
+    "historical_inner_verifier": {
+      "manifest_rows": 40,
+      "manifest_sha256": "46e1630c49ef0df8b0cf0459f9e235c954356738e961cef621d803d014bad0c1",
+      "verifier": "source/labs/procurement/candidate-v4-delivery/verify-source.mjs",
+      "active_current_command": false,
+      "reason": "Preserved old manifest/verifier describe historical bytes. Changed controller/README bytes are intentionally checked by current owner inventory, not relabelled into old receipt."
+    },
+    "documentation_successor": "README/SETUP/DEPLOYMENT now prescribe this current route; source434 unchanged."
+  }
 }

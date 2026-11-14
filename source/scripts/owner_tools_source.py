@@ -9,6 +9,23 @@ from executor.portability import safe_relative
 
 ROOT=Path(__file__).resolve().parents[1]
 EXTRA_SOURCE_FILES=(
+    'labs/procurement/candidate-v4-delivery/local-app-v2/prebirth-ownership.mjs',
+    'labs/procurement/candidate-v4-delivery/local-app-v5/approval-flight.mjs',
+    'labs/procurement/candidate-v4-delivery/local-app-v5/prebirth-repair.test.mjs',
+    'labs/procurement/candidate-v4-delivery/local-app-v5/package.json',
+    'labs/procurement/candidate-v4-delivery/local-app-v5/README.md',
+    'labs/procurement/candidate-v4-delivery/local-app-v5/app.css',
+    'labs/procurement/candidate-v4-delivery/local-app-v5/app.mjs',
+    'labs/procurement/candidate-v4-delivery/local-app-v5/company-api.mjs',
+    'labs/procurement/candidate-v4-delivery/local-app-v5/company-loop.mjs',
+    'labs/procurement/candidate-v4-delivery/local-app-v5/company-loop.test.mjs',
+    'labs/procurement/candidate-v4-delivery/local-app-v5/duration.mjs',
+    'labs/procurement/candidate-v4-delivery/local-app-v5/duration.test.mjs',
+    'labs/procurement/candidate-v4-delivery/local-app-v5/index.html',
+    'labs/procurement/candidate-v4-delivery/local-app-v5/model-proxy.mjs',
+    'labs/procurement/candidate-v4-delivery/local-app-v5/model-proxy.test.mjs',
+    'labs/procurement/candidate-v4-delivery/local-app-v5/planner-transport.mjs',
+    'labs/procurement/candidate-v4-delivery/local-app-v5/server.mjs',
     'web-chain/public-tool-links.mjs',
     'web-chain/tests/public-tool-links.test.mjs',
     'labs/procurement/candidate-v4-delivery/.gitignore',
@@ -238,6 +255,21 @@ real human hiring, production recovery or an integrated recurring company loop.
 The current source download is one reproducible source package, not the old nested
 component delivery. Earlier broad catalogue receipts describe historical runs;
 missing original fixtures are not evidence for current-source acceptance.
+
+The separate [bounded company workflow](labs/procurement/candidate-v4-delivery/local-app-v5/README.md)
+adds an
+advisory offer draft and typed queue, explicit owner limits and a company result
+linked to the original native review/delivery/settlement records. It uses either
+an explicitly labelled deterministic mock or one capped local Gemma API call.
+A portable strict-schema proxy is included for a separately user-started local
+model. The guide states the separately qualified repaired local proof, seeded
+roles and same-live-process recovery limits. The current company test profile is
+30 repair + 28 company/duration + 25 base guards (83 total, different from the
+historical financial/V2 83); seven proxy checks are separate. Old40 module
+inventory and old83 commands are retained only as historical lineage. This is a local Node workflow, not an available
+static Nightly company service. Recurrence, real hiring, Cloud and mainnet remain
+outside its verified scope.
+
 
 '''
 
